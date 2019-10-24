@@ -5,7 +5,7 @@ import PrimaryText from '../../../components/text/primary'
 import SubtitleBar from '../../../components/subtitle-bar'
 import FalaMarianaSVG from '../../../images/content/micromundo-i/fala-mariana.svg'
 
-class SlideTwo extends React.Component {
+class Two extends React.Component {
   constructor(props){
     super(props)
     this.props.setHeader()
@@ -23,4 +23,4 @@ class SlideTwo extends React.Component {
   }
 }
 
-export default SlideTwo
+export default Two

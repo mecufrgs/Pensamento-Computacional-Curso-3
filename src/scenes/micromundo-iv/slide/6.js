@@ -12,7 +12,7 @@ import CaminhosSVG from '../../../images/content/micromundo-i/caminhos.svg'
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
 .*/
-class Six extends React.Component {
+class SlideSix extends React.Component {
 
   constructor(props) {
     super(props)
@@ -34,4 +34,4 @@ class Six extends React.Component {
   }
 }
 
-export default Six
+export default SlideSix

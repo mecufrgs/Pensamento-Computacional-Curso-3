@@ -12,7 +12,7 @@ import CaminhosSVG from '../../../images/content/micromundo-i/caminhos.svg'
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
 .*/
-class SlideEight extends React.Component {
+class SlideSeven extends React.Component {
 
   constructor(props) {
     super(props)
@@ -23,16 +23,15 @@ class SlideEight extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <p>Nos itens a seguir apresentamos algumas atividades relacionadas com o desenvolvimento da coleção de jogos supertrunfo de nossa escola.</p>
-          
-          <IntegralActivity activity={Activities.getMicromundoIVActiviryFive(this.props.unitId)} />
-          
-          <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em:  Língua Portuguesa, Ciências, Arte e Educação Física..</TextBNCC>
-          <p>Considerando os itens acima, identifique a alternativa que <b>não se aplica</b> à produção do super trunfo de uma modalidade esportiva específica.</p>
+          <SubtitleBar type={3} title='Questão Avaliativa - 4' subtitle='Música típica'/>
+          <p>Um grupo com interesses musicais, que possui uma banda com um repertório variado, ficou responsável por apresentar músicas típicas dos diferentes lugares em que D. Veridiana viveu ou visitou.</p>
+          <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: Arte, História e Geografia.</TextBNCC>
+          <p>Qual o pilar do Pensamento Computacional que será <b>exercitado com mais ênfase</b> na concepção e realização desta parte da apresentação?</p>
+          <IntegralActivity activity={Activities.getMicromundoIActiviryFour(this.props.unitId)} />
         </PrimaryText>
       </ContentBox>
     )
   }
 }
 
-export default SlideEight
+export default SlideSeven

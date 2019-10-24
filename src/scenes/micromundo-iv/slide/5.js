@@ -12,7 +12,7 @@ import CasasSVG from '../../../images/content/micromundo-i/casas.svg'
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
 .*/
-class Five extends React.Component {
+class SlideFive extends React.Component {
 
   constructor(props) {
     super(props)
@@ -39,4 +39,4 @@ class Five extends React.Component {
   }
 }
 
-export default Five
+export default SlideFive

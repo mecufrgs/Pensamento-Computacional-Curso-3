@@ -7,7 +7,7 @@ import EmptySpace from '../../../components/empty-space'
 import Subtitle from '../../../components/text/subtitle'
 
 
-class SlideThree extends React.Component {
+class Three extends React.Component {
   constructor(props){
     super(props)
     this.props.setHeader()
@@ -30,4 +30,4 @@ class SlideThree extends React.Component {
   }
 }
 
-export default SlideThree
+export default Three

@@ -23,12 +23,11 @@ class SlideEight extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <p>Nos itens a seguir apresentamos algumas atividades relacionadas com o desenvolvimento da coleção de jogos supertrunfo de nossa escola.</p>
-          
-          <IntegralActivity activity={Activities.getMicromundoIVActiviryFive(this.props.unitId)} />
-          
-          <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em:  Língua Portuguesa, Ciências, Arte e Educação Física..</TextBNCC>
-          <p>Considerando os itens acima, identifique a alternativa que <b>não se aplica</b> à produção do super trunfo de uma modalidade esportiva específica.</p>
+          <SubtitleBar type={3} title='Questão Avaliativa - 5' subtitle='Os caminhos de D. Veridiana'/>
+          <p>Um grupo será responsável por descrever os caminhos usualmente percorridos por D. Veridiana no seu dia a dia,  em três etapas diferentes da sua vida: quando morava com os pais, depois de casada e no momento atual. Os trajetos possíveis em cada uma dessas etapas de sua vida serão sequenciados segundo horas, dias ou eventos.</p>
+          <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: Geografia, Matemática e Língua Portuguesa.</TextBNCC>
+          <p>Qual o pilar do Pensamento Computacional que será <b>exercitado com mais ênfase</b> na concepção e realização desta parte da apresentação?</p>
+          <IntegralActivity activity={Activities.getMicromundoIActiviryFive(this.props.unitId)} />
         </PrimaryText>
       </ContentBox>
     )

@@ -1,4 +1,194 @@
 class Activities {
+    getMicromundoIActiviryOne = (unitId) => {
+        return {
+            unitId: unitId,
+            id: "atividade_1_micromundo_i",
+            questions: [
+                {
+                    id: "q1_a1_micromundo_i",
+                    options: [
+                        {
+                            value: "0",
+                            key: "1",
+                            text: "Abstração",
+                            tip: "<b>Abstração</b>: embora o pilar Abstração possa ter tido alguma participação no planejamento da apresentação, por exemplo na definição dos atos que iriam compô-la, certamente não foi o central à realização da tarefa."
+                        },
+                        {
+                            value: "1",
+                            key: "2",
+                            text: "Decomposição",
+                            tip: "<b>Decomposição</b>: o planejamento constituía-se em um problema, que necessitava ser decomposto em suas partes para ser resolvido, no caso a apresentação foi decomposta em atos bem definidos, o que corresponde tipicamente à aplicação do pilar Decomposição."
+                        },
+                        {
+                            value: "0",
+                            key: "3",
+                            text: "Reconhecimento de Padrões",
+                            tip: "<b>Reconhecimento de Padrões</b>: embora o pilar Reconhecimento de Padrões possa ter sido aplicado a questões relativas ao planejamento da apresentação, certamente não foi central à realização dessa tarefa."
+                        },
+                        {
+                            value: "0",
+                            key: "4",
+                            text: "Algoritmos",
+                            tip: "<b>Algoritmos</b>: todo planejamento tende a envolver de alguma forma procedimentos apoiados pelo pilar Algoritmos, mas no caso em pauta esse pilar não foi central à realização da tarefa."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+    
+    getMicromundoIActiviryTwo = (unitId) => {
+        return {
+            unitId: unitId,
+            id: "atividade_2_micromundo_i",
+            questions: [
+                {
+                    id: "q1_a2_micromundo_i",
+                    options: [
+                        {
+                            value: "1",
+                            key: "1",
+                            text: "Abstração",
+                            tip: "<b>Abstração</b>: o pilar  Abstração possibilitará identificar propriedades relevantes para descrição das fotos e o agrupamento das mesmas, segundo determinadas categorias. É o pilar adequado para definir o elenco de categorias."
+                        },
+                        {
+                            value: "0",
+                            key: "2",
+                            text: "Decomposição",
+                            tip: "<b>Decomposição</b>: mesmo que a organização do álbum seja desmembrada em etapas menores, segundo algum critério pré-definido ou assumido, a aplicação do pilar Decomposição não necessariamente resultará em uma definição adequada de categorias."
+                        },
+                        {
+                            value: "0",
+                            key: "3",
+                            text: "Reconhecimento de Padrões",
+                            tip: "<b>Reconhecimento de Padrões</b>: a aplicação do pilar Reconhecimento de Padrões pressupõe a existência das categorias e não necessariamente induz a definição das mesmas."
+                        },
+                        {
+                            value: "0",
+                            key: "4",
+                            text: "Algoritmos",
+                            tip: "<b>Algoritmos</b>: embora seja interessante a definição de um algoritmo para a construção do álbum, o ideal é que as categorias já estejam definidas previamente ao aplicar este pilar."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+    
+    getMicromundoIActiviryThree = (unitId) => {
+        return {
+            unitId: unitId,
+            id: "atividade_3_micromundo_i",
+            questions: [
+                {
+                    id: "q1_a3_micromundo_i",
+                    options: [
+                        {
+                            value: "0",
+                            key: "1",
+                            text: "Abstração",
+                            tip: "<b>Abstração</b>: o pilar Abstração é central para a definição do elenco de categorias, mas não seria o mais indicado para o processo de seleção das fotos das categorias que deverão compor o álbum."
+                        },
+                        {
+                            value: "0",
+                            key: "2",
+                            text: "Decomposição",
+                            tip: "<b>Decomposição</b>: Embora a composição do álbum possa ser desmembrada em etapas menores, onde cada categoria defina um "sub-álbum", o pilar Decomposição não é o mais indicado para definir a quantidade de fotos em cada categoria."
+                        },
+                        {
+                            value: "0",
+                            key: "3",
+                            text: "Reconhecimento de Padrões",
+                            tip: "<b>Reconhecimento de Padrões</b>: O pilar Reconhecimento de Padrões até pode auxiliar no processo de seleção de fotos, via critérios de semelhança ou outros, mas não ajudaria muito na definição de um processo efetivo de seleção de uma quantidade total de fotos que não ultrapasse o limite determinado."
+                        },
+                        {
+                            value: "1",
+                            key: "4",
+                            text: "Algoritmos",
+                            tip: "<b>Algoritmos</b>: O processo de construção do álbum envolve elementos como a definição da quantidade total de fotos, de critérios para a escolha das fotos e da quantidade em cada categoria. O pilar Algoritmos é a base para definir tal processo."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+
+    getMicromundoIActiviryFour = (unitId) => {
+        return {
+            unitId: unitId,
+            id: "atividade_4_micromundo_i",
+            questions: [
+                {
+                    id: "q1_a4_micromundo_i",
+                    options: [
+                        {
+                            value: "0",
+                            key: "1",
+                            text: "Abstração",
+                            tip: "<b>Abstração</b>: o pilar Abstração pode auxiliar na determinação de elementos para selecionar as músicas para a apresentação, mas o "enquadramento" de uma música em certa categoria não é adequadamente desenvolvido por este pilar."
+                        },
+                        {
+                            value: "0",
+                            key: "2",
+                            text: "Decomposição",
+                            tip: "<b>Decomposição</b>: embora uma música possa ser decomposta em um certo número de aspectos, a identificação de características específicas de regiões, por exemplo, não seria adequadamente apoiada por este pilar."
+                        },
+                        {
+                            value: "1",
+                            key: "3",
+                            text: "Reconhecimento de Padrões",
+                            tip: "<b>Reconhecimento de Padrões</b>: A partir do elenco de músicas conhecidas pela banda, o pilar Reconhecimento de Padrões seria o mais indicado para identificar os elementos regionais de cada música."
+                        },
+                        {
+                            value: "0",
+                            key: "4",
+                            text: "Algoritmos",
+                            tip: "<b>Algoritmos</b>: Embora o pilar Algoritmos possa ser usado para definir uma possível sequência musical, por exemplo "aleatória", ou segundo uma "linha de tempo", seria necessário que o conjunto de músicas fosse previamente determinado, usando um outro pilar. "
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+
+    getMicromundoIActiviryFive = (unitId) => {
+        return {
+            unitId: unitId,
+            id: "atividade_5_micromundo_i",
+            questions: [
+                {
+                    id: "q1_a5_micromundo_i",
+                    options: [
+                        {
+                            value: "0",
+                            key: "1",
+                            text: "Abstração",
+                            tip: "<b>Abstração</b>: A definição das etapas caracterizando cada trajeto (etapas diferentes na vida da D. Veridiana) é um exemplo de uso do pilar Abstração. Entretanto, a definição de cada trajeto, com passos e detalhes precisos e quantificáveis, não é suportada de forma efetiva por esse pilar."
+                        },
+                        {
+                            value: "0",
+                            key: "2",
+                            text: "Decomposição",
+                            tip: "<b>Decomposição</b>: Cada trajeto pode até ser decomposto em etapas, por exemplo a parte percorrida a pé e a parte percorrida utilizando algum meio de transporte, mas a definição detalhada do trajeto, inclusive de cada uma de suas partes, não é suportada de forma efetiva por esse pilar."
+                        },
+                        {
+                            value: "0",
+                            key: "3",
+                            text: "Reconhecimento de Padrões",
+                            tip: "<b>Reconhecimento de Padrões</b>: Os trajetos realizados pela D. Veridiana podem ser identificados segundo os aspectos mencionados (etapas da vida), mas a definição detalhada de cada um desses trajetos não é suportada de forma efetiva por esse pilar."
+                        },
+                        {
+                            value: "1",
+                            key: "4",
+                            text: "Algoritmos",
+                            tip: "<b>Algoritmos</b>: A descrição de um caminho envolve um conjunto de ações básicas precisamente descritas, segundo seu tipo e dimensão, organizadas e sequenciadas de acordo com critérios previamente definidos, o que são questões típicas de uso do pilar Algoritmos."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+
     getMicromundoIIIActiviryOne = (unitId) => {
         return {
             unitId: unitId,

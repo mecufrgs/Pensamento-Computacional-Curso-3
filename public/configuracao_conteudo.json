@@ -9,6 +9,181 @@
         "atividades": []
     },
     {
+        "identificador": "micromundo-i",
+        "nome": "Micromundo I - Uma família bem brasileira",
+        "descricao": "",
+        "permitePorcentagem": "false",
+        "identificadorPai": "",
+        "topicos": [],
+        "atividades": [
+            {
+                "identificador": "atividade_1_micromundo_i",
+                "nomeAtividade": "Planejamento da apresentação sobre a vida da Dona Veridiana",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a1_micromundo_i",
+                        "enunciado": "No planejamento da apresentação da vida de D. Veridiana, em três atos: <b>Uma vida em imagens</b>; <b>Música Típica</b>; e <b>Os caminhos da D. Veridiana</b>,  qual  o pilar do Pensamento Computacional que foi <b>exercitado com mais ênfase</b> nesse planejamento?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "<b>Abstração</b>;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Decomposição</b>;",
+                                "chave": "2",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "<b>Reconhecimento de Padrões</b>;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Algoritmos</b>.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_2_micromundo_i",
+                "nomeAtividade": "Uma vida em imagens - Parte 1",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a1_micromundo_i",
+                        "enunciado": "Qual o pilar do Pensamento Computacional que será <b>exercitado com mais ênfase</b> na concepção e realização desta parte da apresentação?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "<b>Abstração</b>;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Decomposição</b>;",
+                                "chave": "2",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "<b>Reconhecimento de Padrões</b>;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Algoritmos</b>.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_3_micromundo_i",
+                "nomeAtividade": "Uma vida em imagens - Parte 2",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a3_micromundo_i",
+                        "enunciado": "Qual o pilar do Pensamento Computacional que será <b>exercitado com mais ênfase</b> na concepção e realização desta parte da apresentação?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "<b>Abstração</b>;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Decomposição</b>;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Reconhecimento de Padrões</b>;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Algoritmos</b>.",
+                                "chave": "4",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_4_micromundo_i",
+                "nomeAtividade": "Música típica",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a4_micromundo_i",
+                        "enunciado": "Qual o pilar do Pensamento Computacional que será <b>exercitado com mais ênfase</b> na concepção e realização desta parte da apresentação?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "<b>Abstração</b>;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Decomposição</b>;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Reconhecimento de Padrões</b>;",
+                                "chave": "3",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "<b>Algoritmos</b>.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_5_micromundo_i",
+                "nomeAtividade": "Os caminhos de D. Veridiana",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a5_micromundo_i",
+                        "enunciado": "Qual o pilar do Pensamento Computacional que será <b>exercitado com mais ênfase</b> na concepção e realização desta parte da apresentação?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "<b>Abstração</b>;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Decomposição</b>;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Reconhecimento de Padrões</b>;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Algoritmos</b>.",
+                                "chave": "4",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "identificador": "micromundo-iii",
         "nome": "Micromundo III - O Bairro onde Moramos",
         "descricao": "",

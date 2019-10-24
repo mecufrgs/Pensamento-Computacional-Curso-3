@@ -12,7 +12,7 @@ import CaminhosSVG from '../../../images/content/micromundo-i/caminhos.svg'
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
 .*/
-class Seven extends React.Component {
+class SlideSeven extends React.Component {
 
   constructor(props) {
     super(props)
@@ -47,4 +47,4 @@ class Seven extends React.Component {
   }
 }
 
-export default Seven
+export default SlideSeven

@@ -6,15 +6,12 @@ import PrimaryText from '../../../components/text/primary'
 import EmptySpace from '../../../components/empty-space'
 import ImageSlide from '../../../components/image-slide'
 
-import FamiliaSVG from '../../../images/content/micromundo-iv/familia.svg'
-import FalaUmSVG from '../../../images/content/micromundo-iv/1-1-fala.svg'
-import FalaDoisSVG from '../../../images/content/micromundo-iv/1-2-fala.svg'
-import FalaTresSVG from '../../../images/content/micromundo-iv/1-3-fala.svg'
+import OlimpiadaSVG from '../../../images/content/micromundo-iv/olimpiada.svg'
 
 /*Props
   renderTop: function(bool), called to show the header
 */
-class One extends React.Component {
+class SlideOne extends React.Component {
   constructor(props){
     super(props)
     
@@ -58,10 +55,15 @@ class One extends React.Component {
           <p>Variação no Tema:</p>
           <p><a href="https://vimeo.com/294218213">Esporte Inclusivo</a></p>
           <EmptySpace/>
+          <div style={{textAlign:"center", width:"100%"}}>
+            <div style={{display:"inline-block"}}>
+          <Image  center width="534px"  src={OlimpiadaSVG} alt='Feira'/>
+            </div>
+          </div>
         </PrimaryText>
       </ContentBox>
     )
   }
 }
 
-export default One
+export default SlideOne

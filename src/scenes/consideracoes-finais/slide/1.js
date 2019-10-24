@@ -14,7 +14,7 @@ import FalaTresSVG from '../../../images/content/micromundo-iii/1-3-fala.svg'
 /*Props
   renderTop: function(bool), called to show the header
 */
-class One extends React.Component {
+class SlideOne extends React.Component {
   constructor(props){
     super(props)
     
@@ -58,4 +58,4 @@ class One extends React.Component {
   }
 }
 
-export default One
+export default SlideOne

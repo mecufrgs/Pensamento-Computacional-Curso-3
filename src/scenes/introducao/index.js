@@ -5,16 +5,19 @@ import UnitId from '../../constants/unit-id'
 import SlideCount from '../../constants/slide-count'
 
 import SlideOne from './slide/1'
+import SlideTwo from './slide/2'
+import SlideThree from './slide/3'
+import SlideFour from './slide/4'
 
-class Consideracoes_Finais extends BaseScene {
+class Introducao extends BaseScene {
   constructor(props){
     super(props)
     this.state = {
-      id: UnitId.CONSIDERACOES_FINAIS,
-      slideCount: SlideCount.CONSIDERACOES_FINAIS,
+      id: UnitId.INTRODUCAO,
+      slideCount: SlideCount.INTRODUCAO,
       slide: props.slide,
-      hasNextUnit: false,
-      hasPreviousUnit: true
+      hasNextUnit: true,
+      hasPreviousUnit: false
     }
     this.getUnitState()
   }
@@ -23,6 +26,12 @@ class Consideracoes_Finais extends BaseScene {
     switch(this.state.slide.toString()){
       case '1':
         return (<SlideOne setHeader={this.showHeader}/>)
+      case '2':
+        return (<SlideTwo setHeader={this.showHeader}/>)
+      case '3':
+        return (<SlideThree setHeader={this.showHeader}/>)
+      case '4':
+        return (<SlideFour setHeader={this.showHeader}/>)
       default:
         return this.errorSlideNotFound()
     }
@@ -37,4 +46,4 @@ class Consideracoes_Finais extends BaseScene {
   }
 }
 
-export default Consideracoes_Finais
+export default Introducao

@@ -12,14 +12,13 @@ import SlideFive from './slide/5'
 import SlideSix from './slide/6'
 import SlideSeven from './slide/7'
 import SlideEight from './slide/8'
-import SlideNine from './slide/9'
 
-class Micromundo_IV extends BaseScene {
+class Micromundo_I extends BaseScene {
   constructor(props){
     super(props)
     this.state = {
-      id: UnitId.MICROMUNDO_IV,
-      slideCount: SlideCount.MICROMUNDO_IV,
+      id: UnitId.MICROMUNDO_I,
+      slideCount: SlideCount.MICROMUNDO_I,
       slide: props.slide,
       hasNextUnit: true,
       hasPreviousUnit: true
@@ -45,8 +44,6 @@ class Micromundo_IV extends BaseScene {
         return (<SlideSeven setHeader={this.showHeader}/>)
       case '8':
         return (<SlideEight setHeader={this.showHeader}/>)
-      case '9':
-        return (<SlideNine setHeader={this.showHeader}/>)
       default:
         return this.errorSlideNotFound()
     }
@@ -61,4 +58,4 @@ class Micromundo_IV extends BaseScene {
   }
 }
 
-export default Micromundo_IV
+export default Micromundo_I
