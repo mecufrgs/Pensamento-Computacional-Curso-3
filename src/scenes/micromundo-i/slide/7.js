@@ -7,7 +7,6 @@ import TextBNCC from '../../../components/text/bncc'
 import SubtitleBar from '../../../components/subtitle-bar'
 import Activities from '../../../services/activities'
 import IntegralActivity from '../../../components/integral-activity'
-import CaminhosSVG from '../../../images/content/micromundo-i/caminhos.svg'
 
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
