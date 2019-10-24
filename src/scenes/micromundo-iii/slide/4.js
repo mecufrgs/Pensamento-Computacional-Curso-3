@@ -1,44 +1,25 @@
 import React from 'react'
 import ContentBox from '../../../components/content-box'
-import Image from '../../../components/image'
 import PrimaryText from '../../../components/text/primary'
-import EmptySpace from '../../../components/empty-space'
-import IntegralActivity from '../../../components/integral-activity'
+import Bold from '../../../components/text/bold'
 import SubtitleBar from '../../../components/subtitle-bar'
-import TextBNCC from '../../../components/text/bncc'
-import Activities from '../../../services/activities'
-import CriancasSVG from '../../../images/content/micromundo-i/criancas.svg'
+import EmptySpace from '../../../components/empty-space'
+import Subtitle from '../../../components/text/subtitle'
 
-/*Props:
-    unitId: String, representa o id da unidade em que a atividade se encontra
-.*/
 class SlideFour extends React.Component {
-
-  constructor(props) {
+  constructor(props){
     super(props)
     this.props.setHeader()
   }
-
   render() {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA' subtitle='Passeio Ciclístico Guiado pelo Bairro'/>
-          <p>Os estudantes, em seu levantamento, identificaram a existência de vários pontos turísticos no bairro e perceberam também que há um fluxo grande de moradores do município e também de outros municípios que gostam de visitá-los.  Aproveitando o planejamento para tratar da mobilidade dos trabalhadores, poderíamos enriquecer o projeto, escolhendo alguns pontos imperdíveis para fazer parte do corredor ciclístico, assim poderíamos juntar o útil ao cultural.</p>
-          <p>Pensamos então na realização de um projeto voltado para um estudo mais aprofundado sobre os pontos turísticos de nosso bairro, buscando a seleção dos pontos a serem incluídos no corredor ciclístico. Nesse contexto, poderíamos pensar na organização de um evento no bairro, que poderia ter o seguinte planejamento:</p>
-          <blockquote>
-            <p>A1: realizar um inventário dos pontos considerados turísticos;</p>
-            <p>A2: elaborar uma mostra fotográfica dos principais pontos turísticos;</p>
-            <p>A3: elaborar texto narrando a história de cada um dos pontos turísticos;</p>
-            <p>A4: promover palestras de professores dessas e de outras escolas, e também de outros convidados, que teriam como tema um ou mais pontos relacionados no levantamento realizado;</p>
-            <p>A5: elaborar uma série de quesitos que poderiam ser considerados na avaliação dos pontos turísticos, para facilitar o processo de escolha dos que seriam incluídos no corredor ciclístico.</p>
-          </blockquote>
-          <EmptySpace />
-          <SubtitleBar type={3} title='Questão Avaliativa - 2' subtitle='Passeio Ciclístico Guiado pelo Bairro'/>
-          <EmptySpace />
-          <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: Arte, História e Geografia.</TextBNCC>
-          <p>Considerando a lista de tópicos acima, solicitamos que você indique qual  dentre as afirmativas a seguir não é pertinente nesse contexto.</p>
-          <IntegralActivity activity={Activities.getMicromundoIIIActiviryTwo(this.props.unitId)} />
+            <SubtitleBar type={3} title='Questão Avaliativa - 1' subtitle='Solicitação de Ciclofaixa ou Espaço Compartilhado'/>
+            <p>No levantamento realizado por nossos alunos, ficou evidenciado que nosso bairro tem um relevo que favorece o uso de bicicletas, e que muitas ruas têm condições para a criação de uma faixa específica para circulação das mesmas.  Dada a impossibilidade de destinar recursos financeiros para construir ciclovias para todos os destinos, foi definido como objetivo encontrar trajetos que contemplem os interesses de pelo menos 25% da população trabalhadora. Assim, considerando-se apenas o uso da casa para o trabalho e vice-versa, precisarão ser planejados corredores viários, a serem implantados futuramente, que facilitem o acesso aos principais pontos de trabalho.</p>
+            <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: Geografia, Matemática, Ciências e Língua Portuguesa.</TextBNCC>
+            <p>Qual das seguintes atividades parece <b>menos apropriada</b> para contribuir com a solução do problema?</p>
+            <IntegralActivity activity={Activities.getMicromundoIIIActiviryOne(this.props.unitId)} />
         </PrimaryText>
       </ContentBox>
     )

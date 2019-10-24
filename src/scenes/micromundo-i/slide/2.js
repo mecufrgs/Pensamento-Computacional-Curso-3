@@ -3,7 +3,8 @@ import ContentBox from '../../../components/content-box'
 import Image from '../../../components/image'
 import PrimaryText from '../../../components/text/primary'
 import SubtitleBar from '../../../components/subtitle-bar'
-import FalaMarianaSVG from '../../../images/content/micromundo-i/fala-mariana.svg'
+
+import FalaMarianaSVG from '../../../images/content/micromundo-i/slide-2.svg'
 
 class SlideTwo extends React.Component {
   constructor(props){
@@ -15,8 +16,7 @@ class SlideTwo extends React.Component {
       <ContentBox>
         <PrimaryText>
             <SubtitleBar type={1} title='EVENTO' subtitle='O aniversário de Dona Veridiana'/>
-            <p>Para comemorarmos o aniversário de 60 anos de minha mãe, ou Dona Veridiana, como é conhecida, realizaremos uma festa em um domingo, das 9 às 17 horas,  em um clube social, próximo à casa dos meus pais, que dispõe de espaço para churrasco, uma quadra e um campo de futebol, além de uma pracinha para as crianças.</p>
-            <p>Mamãe nasceu no mês de julho, então o encontro acontecerá no inverno, no estado do Rio Grande do Sul, onde meus pais, eu e mais dois irmãos residimos. Meus dois outros irmãos, um residente na região Norte e o outro na região Centro-Oeste, bem como vários outros parentes e conhecidos, já confirmaram presença.</p>
+            <Image center width='750px' src={FalaMarianaSVG} alt='Para comemorarmos o aniversário de 60 anos de minha mãe, ou Dona Veridiana, como é conhecida, realizaremos uma festa em um domingo, das 9 às 17 horas,  em um clube social, próximo à casa dos meus pais, que dispõe de espaço para churrasco, uma quadra e um campo de futebol, além de uma pracinha para as crianças. Mamãe nasceu no mês de julho, então o encontro acontecerá no inverno, no estado do Rio Grande do Sul, onde meus pais, eu e mais dois irmãos residimos. Meus dois outros irmãos, um residente na região Norte e o outro na região Centro-Oeste, bem como vários outros parentes e conhecidos, já confirmaram presença.'/>
         </PrimaryText>
       </ContentBox>
     )

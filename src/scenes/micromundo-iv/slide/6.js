@@ -7,7 +7,6 @@ import TextBNCC from '../../../components/text/bncc'
 import SubtitleBar from '../../../components/subtitle-bar'
 import Activities from '../../../services/activities'
 import IntegralActivity from '../../../components/integral-activity'
-import CaminhosSVG from '../../../images/content/micromundo-i/caminhos.svg'
 
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
@@ -23,11 +22,9 @@ class SlideSix extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 4' subtitle='Nova premiação'/>
-          <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: Ciências, Matemática, Arte, Geografia e Língua Portuguesa.</TextBNCC>
-
-          <p>Além da premiação convencional, baseada nos resultados e pontuação de atletas e equipes, a coordenação dos Jogos Estudantis decidiu estabelecer uma nova categoria de premiação, chamada de &quot;representatividade esportiva&quot;, e solicitou aos representantes das escolas que selecionassem os aspectos a serem considerados para a pontuação dessa nova categoria. Indique qual dos pilares do Pensamento Computacional parece mais adequado para essa tarefa:</p>
-          <IntegralActivity activity={Activities.getMicromundoIVActiviryFour(this.props.unitId)} />
+          <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA' subtitle='Nas escolas de uma cidade'/>
+          <p>As competições são realizadas, em geral, no espaço esportivo das escolas participantes e é importante  que sejam distribuídas de forma que sejam atendidos os critérios que objetivam a qualidade das disputas, o envolvimento das torcidas e, ao mesmo tempo, prestigiem o espaço físico de todas as escolas. A habilitação de uma determinada infraestrutura passa por um apurado processo de inspeção, para garantir a integridade física dos participantes, e permite um melhor conhecimento das potencialidades e necessidades das escolas.</p>
+          <p>Igualmente, a escola deve buscar exercer o seu papel de agente integrador, dado que todos os habitantes de uma determinada região circunvizinha estão de certa forma com ela implicados, seja como alunos, pais, parentes ou professores. Assim, é importante que na realização das atividades esportivas também seja buscado o apoio de outras estruturas esportivas no seu entorno.</p>
         </PrimaryText>
       </ContentBox>
     )

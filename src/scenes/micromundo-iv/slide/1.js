@@ -6,6 +6,10 @@ import PrimaryText from '../../../components/text/primary'
 import EmptySpace from '../../../components/empty-space'
 import ImageSlide from '../../../components/image-slide'
 
+import FalaUmSVG from '../../../images/content/micromundo-iv/5-fala1.svg'
+import FalaDoisSVG from '../../../images/content/micromundo-iv/5-fala2.svg'
+import FalaTresSVG from '../../../images/content/micromundo-iv/5-fala3.svg'
+
 import OlimpiadaSVG from '../../../images/content/micromundo-iv/olimpiada.svg'
 
 /*Props
@@ -37,11 +41,6 @@ class SlideOne extends React.Component {
         <ImageSlide getSlide={this.getSlideImage} slideCount={SlideCount.MICROMUNDO_IV_DIALOG} />
         <PrimaryText>
           <Subtitle>AS OLIMPÍADAS ESCOLARES</Subtitle>
-          <p>Car@ cursista:</p>
-          <p>Minhas crianças estão participando de uma olímpiada escolar, que envolve escolas aqui da região, com várias modalidades esportivas e muitas atividades multidiscplinares.</p>
-          <p>Os quatro pilares do Pensamento Computacional estão sendo de grande valia nesse evento.</p>
-          <p>Venha exercitar seus conhecimentos!</p>
-          <EmptySpace/>
           <p>Anualmente várias escolas, especialmente aquelas que integram a rede pública, participam de um evento chamado "Jogos Estudantis" ou "Olimpíadas Escolares", envolvendo várias unidades (escolas) distribuídas por várias regiões de uma cidade. Muitos professores participam diretamente desses jogos, auxiliando na organização, treinamento, logística, etc., enquanto outros têm conhecimento dos mesmos, mas não participam diretamente ou compõem a torcida da escola.</p>
           <p>Nesse tipo de evento há um conjunto de ações que em muitos casos compõem o calendário de atividades da escola e cujo planejamento, organização e desenvolvimento podem envolver muitos elementos estudados no Ensino Fundamental, de um modo transversal a várias áreas, segundo uma perspectiva interdisciplinar. Por essa razão propomos explorar alguns dos elementos envolvidos, buscando ilustrar como os pilares do Pensamento Computacional, associados a certas habilidades específicas, podem auxiliar na construção de soluções.<p>
           <p>Vídeos e recursos externos sobre esportes, importância dos esportes, socialização através dos esportes, prática desportiva e colaboração, etc.</p>
@@ -54,12 +53,9 @@ class SlideOne extends React.Component {
           <EmptySpace/>
           <p>Variação no Tema:</p>
           <p><a href="https://vimeo.com/294218213">Esporte Inclusivo</a></p>
-          <EmptySpace/>
-          <div style={{textAlign:"center", width:"100%"}}>
-            <div style={{display:"inline-block"}}>
-          <Image  center width="534px"  src={OlimpiadaSVG} alt='Feira'/>
-            </div>
-          </div>
+          <EmptySpace />
+          <Image src={OlimpiadaSVG} />
+          <EmptySpace />
         </PrimaryText>
       </ContentBox>
     )

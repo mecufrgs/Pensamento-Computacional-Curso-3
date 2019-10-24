@@ -22,12 +22,11 @@ class SlideEight extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 4' subtitle='Nova premiação'/>
-          <p>Além da premiação convencional, baseada nos resultados e pontuação de atletas e equipes, a coordenação dos Jogos Estudantis decidiu estabelecer uma nova categoria de premiação, chamada de &quot;representatividade esportiva&quot;, e solicitou aos representantes das escolas que selecionassem os aspectos a serem considerados para a pontuação dessa nova categoria.</p>
+          <SubtitleBar type={3} title='Questão Avaliativa - 4' subtitle='Design Participativo para o Parque'/>
+          <p>Um dos pressupostos para a definição do parque é que ele seja um recurso compartilhado por todos, sendo necessário, portanto, oferecer oportunidades para todas as necessidades e preferências possíveis.</p>
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: Ciências, Matemática, Arte, Geografia e Língua Portuguesa.</TextBNCC>
-
-          <p>Indique qual dos pilares do Pensamento Computacional parece mais adequado para essa tarefa:</p>
-          <IntegralActivity activity={Activities.getMicromundoIVActiviryFour(this.props.unitId)} />
+          <p>Selecione, das afirmativas a seguir, <b>a que não está correta</b> ao se referir à solução para essa proposta, considerando o Pensamento Computacional:</p>
+          <IntegralActivity activity={Activities.getMicromundoIIIActiviryFour(this.props.unitId)} />
         </PrimaryText>
       </ContentBox>
     )

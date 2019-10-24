@@ -8,13 +8,13 @@ import SubtitleBar from '../../../components/subtitle-bar'
 import Activities from '../../../services/activities'
 import IntegralActivity from '../../../components/integral-activity'
 
-import FalaMarianaSVG from '../../../images/content/micromundo-i/slide-8.svg'
+import QuadroUmSVG from '../../../images/content/introducao/micromundo3pg7.svg'
 
 
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
 .*/
-class SlideEight extends React.Component {
+class SlideSeven extends React.Component {
 
   constructor(props) {
     super(props)
@@ -25,14 +25,14 @@ class SlideEight extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 5' subtitle='Produtos, marcas e preços'/>
-          <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: Matemática e Língua Portuguesa.</TextBNCC>
-          <p>Considere o pilar Algoritmos, e selecione a alternativa <b>menos adequada</b> para aplicação desse pilar no contexto desta situação-problema.</p>
-          <IntegralActivity activity={Activities.getMicromundoIIActiviryFive(this.props.unitId)} />
+          <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA' subtitle='Criação de um Parque Urbano'/>
+          <EmptySpace/>
+            <Image className='highlightbox' src={QuadroUmSVG} alt='Um terreno pertencente ao município, localizado em nosso bairro, tem dimensão equivalente a um quarteirão típico e encontra-se sem uso, o que originou a ideia de transformá-lo em um parque urbano, ou seja, um espaço ao ar livre para diferentes atividades físicas. Considere esse cenário nas questões a seguir.'/>
+          <EmptySpace/>
         </PrimaryText>
       </ContentBox>
     )
   }
 }
 
-export default SlideEight
+export default SlideSeven
