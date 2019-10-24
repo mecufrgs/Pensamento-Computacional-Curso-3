@@ -5,7 +5,7 @@ import PrimaryText from '../../../components/text/primary'
 import SubtitleBar from '../../../components/subtitle-bar'
 import FalaMarianaSVG from '../../../images/content/micromundo-i/fala-mariana.svg'
 
-class Two extends React.Component {
+class SlideTwo extends React.Component {
   constructor(props){
     super(props)
     this.props.setHeader()
@@ -14,13 +14,12 @@ class Two extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-            <SubtitleBar type={1} title='EVENTO' subtitle='Planejamento Participativo'/>
-            <p>Dentre as iniciativas de descentralização da administração pública municipal, a criação de &quot;subprefeituras&quot; ou de &quot;coordenações distritais&quot; são exemplos onde a participação dos membros da comunidade tem impacto direto na definição de demandas e prioridades e no acompanhamento dos investimentos e qualidade dos recursos e serviços públicos.</p>
-            <p>Podemos considerar que nosso bairro conta com uma subprefeitura responsável por levantar demandas da comunidade local, bem como por opinar sobre questões estratégicas, como a prioridade para uso dos recursos na área. Anualmente, os moradores podem fazer propostas que são analisadas por uma comissão.</p>
+            <SubtitleBar type={1} title='EVENTO' subtitle='Uma feira beneficente'/>
+            <p>Para apoiar a consolidação de um clube de artesãos do bairro, uma escola concordou em ajudar na comercialização de produtos dos artesãos, ou doados pelas famílias dos estudantes. A administração municipal fornecerá barracas e licenciamento, para que os produtos sejam comercializados na feira livre realizada no bairro. O planejamento e realização dessa feira beneficente envolve um conjunto de atividades desenvolvidas por voluntários da escola, estudantes e seus familiares, mais os próprios artesãos.</p>
         </PrimaryText>
       </ContentBox>
     )
   }
 }
 
-export default Two
+export default SlideTwo

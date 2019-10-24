@@ -11,53 +11,35 @@ import BairroSVG from '../../../images/content/micromundo-iii/Bairro.svg'
 /*Props
   renderTop: function(bool), called to show the header
 */
-class One extends React.Component {
+class SlideOne extends React.Component {
   constructor(props){
     super(props)
     
     this.props.setHeader()
   }
 
-  getSlideImage = id => {
-    switch(id){
-      case 1: 
-        return FalaUmSVG
-      case 2: 
-        return FalaDoisSVG
-      case 3: 
-        return FalaTresSVG
-      default:
-        throw Error('Erro ao buscar slide desconhecido.')
-    }
-  }
-
   render() {
     return (
       <ContentBox>
-        <ImageSlide getSlide={this.getSlideImage} slideCount={SlideCount.MICROMUNDO_III_DIALOG} />
+        <ImageSlide getSlide={this.getSlideImage} slideCount={SlideCount.MICROMUNDO_II_DIALOG} />
         <PrimaryText>
-          <Subtitle>O BAIRRO ONDE MORAMOS</Subtitle>
+          <Subtitle>A FEIRA LIVRE E SIMILARES</Subtitle>
           <p>Car@ cursista:</p>
-          <p>Chegamos ao terceiro Micromundo.</p>
-          <p>Nele vamos explorar situações relativas ao bairro onde moramos, tão importante para a nossa vida familiar e de nossas crianças.</p>
-          <p>E vamos resolver algumas questões usando os pilares do Pensamento Computacional!</p>
+          <p>Hoje é dia de uma ótima feira livre aqui perto de casa.</p>
+          <p>É para lá que estamos indo, eu, mais José Carlos e  Ana Maria, minhas crianças, para providenciar nossas compras da semana e uns presentinhos.</p>
+          <p>Venha conosco e veja como realizamos nossas atividades, apoiados pelos pilares do Pensamento Computacional.</p>
+          
           <EmptySpace/>
-          <p>O bairro onde moramos é um espaço geopolítico rico o suficiente para que as crianças construam uma boa visão da organização geográfica, social, cultural e econômica, fundamentais para a vida em sociedade e para o convívio saudável com o meio ambiente e com outros seres vivos.</p>
-          <p>Nosso bairro tem uma localização específica dentro de nossa cidade, faz fronteira com os bairros vizinhos e é constituído por várias ruas. As ruas possuem nomes, o que pode nos levar a tomar conhecimento de pessoas e/ou acontecimentos que de alguma forma estão associados com a história de nosso bairro, nossa cidade, nosso estado, nosso país ou até mesmo da humanidade.<p>
-          <p>Explorar e conhecer a história de nossas ruas é por certo uma fonte inesgotável de conhecimento específico, mas, o que é mais importante, pode ajudar-nos a criar uma visão mais ampla que podemos extrapolar para compreender o mundo.</p>
-          <p>A exploração pode partir das ruas nas quais moram os alunos de uma turma, depois incluir as ruas de todos os alunos que estudam em nossa escola, sempre buscando conhecer melhor nosso bairro.</p>
-          <p>No bairro em que moramos encontramos diversos estabelecimentos comerciais, praças, igrejas, ambientes públicos ou privados de trabalho e lazer, postos de saúde, delegacias, hospitais, etc. Ao &quot;inventariarmos&quot; esses estabelecimentos, ou explorarmos questões como transporte urbano, abastecimento de água e de energia elétrica, ampliaremos nossa compreensão sobre os diferentes serviços disponíveis para a comunidade.<p>
-          <EmptySpace />
-          <div style={{textAlign:"center", width:"100%"}}>
-            <div style={{display:"inline-block"}}>
-          <Image  center width="534px"  src={OlimpiadaSVG} alt='Feira'/>
-            </div>
-          </div>
-          <EmptySpace/>
+          
+          <p>A feira livre é uma modalidade de comércio que data de épocas bastante remotas.</p>
+          <p>Originalmente, a feira livre era um local em que as pessoas podiam trocar ou até comercializar as mercadorias que produziam, para obter outras de que necessitavam. Com o tempo as feiras livres passaram também a ser espaços para conhecer pessoas e  produtos, trocar objetos manufaturados (inclusive artesanato), saber das novidades, discutir política, etc.</p>
+          <p>Hoje, mesmo com a existência de outras opções para essas atividades, as feiras livres, por seu encanto e praticidade, permanecem atrativas, muito pelo fato de que nelas cada feirante é um comércio à parte, com características definidas por cada um.</p>
+          <p>O conceito de feira modernamente é usado em diferentes situações. Hoje há feiras beneficentes, do livro, para liquidação de estoque, agropecuárias, industriais e até mesmo de ciências.<p>
+          <p>Na escola, usando os espaços de feiras, podemos elaborar diferentes eventos e situações-problema, para apoiar o desenvolvimento dos estudantes nas diversas áreas de conhecimento. Excelentes oportunidades de aprendizagem podem surgir de um passeio de reconhecimento, uma saída para compras, uma visita para conversar com os profissionais e até mesmo na concepção e organização de feiras temáticas.</p>
         </PrimaryText>
       </ContentBox>
     )
   }
 }
 
-export default One
+export default SlideOne

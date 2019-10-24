@@ -189,6 +189,234 @@ class Activities {
         }
     }
 
+    getMicromundoIIActiviryOne = (unitId) => {
+        return {
+            unitId: unitId,
+            id: "atividade_1_micromundo_ii",
+            questions: [
+                {
+                    id: "q1_a1_micromundo_ii",
+                    options: [
+                        {
+                            value: "0",
+                            key: "1",
+                            text: "Abstração",
+                            tip: "<b>Abstração</b>: Embora o pilar Abstração possa ser usado para definir aspectos comuns dos voluntários,  o desmembramento em tarefas para formação das equipes não é adequadamente suportado por esse pilar."
+                        },
+                        {
+                            value: "1",
+                            key: "2",
+                            text: "Decomposição",
+                            tip: "<b>Decomposição</b>: A divisão de uma ação complexa em partes menores, mais fáceis de serem compreendidas e tratadas, e a reaplicação do processo nas partes ainda muito complexas para serem tratadas como unidade, no caso as tarefas de cada agrupamento, é de fato uma estratégia importante do pilar Decomposição."
+                        },
+                        {
+                            value: "0",
+                            key: "3",
+                            text: "Reconhecimento de Padrões",
+                            tip: "<b>Reconhecimento de Padrões</b>: A organização dos voluntários em equipes depende mais diretamente de uma estratégia de divisão recorrente de etapas ou tarefas do que da identificação de padrões para cada grupo, portanto essa questão é apoiada de modo mais adequado por outro pilar do Pensamento Computacional."
+                        },
+                        {
+                            value: "0",
+                            key: "4",
+                            text: "Algoritmos",
+                            tip: "<b>Algoritmos</b>: Certamente o pilar Algoritmos colaborará na alocação de indivíduos em equipes no cenário descrito. Entretanto a definição das tarefas ou atividades de atuação, resultantes da "quebra" do todo em partes menores, é a questão central, que é apoiada de modo mais adequado por outro pilar do Pensamento Computacional."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+
+    getMicromundoIIActiviryTwo = (unitId) => {
+        return {
+            unitId: unitId,
+            id: "atividade_2_micromundo_ii",
+            questions: [
+                {
+                    id: "q1_a2_micromundo_ii",
+                    options: [
+                        {
+                            value: "0",
+                            key: "1",
+                            text: "Abstração",
+                            tip: "<b>Abstração</b>: O pilar Abstração seria indicado numa etapa anterior ao cenário descrito, qual seja a da definição de categorias e de sua natureza e aplicação. Quando tais categorias já existem, o processo de &quot;casamento&quot; entre produtos e categorias é apoiado de modo mais adequado por outro pilar do Pensamento Computacional. "
+                        },
+                        {
+                            value: "0",
+                            key: "2",
+                            text: "Decomposição",
+                            tip: "<b>Decomposição</b>: Central nesta tarefa é o &quot;casamento&quot; entre aspectos dos produtos e as categorias previamente definidas (natureza e aplicação), mais do  que sua &quot;quebra&quot; em etapas mais simples, e essa associação seria apoiada de modo mais adequado por outro pilar do Pensamento Computacional."
+                        },
+                        {
+                            value: "1",
+                            key: "3",
+                            text: "Reconhecimento de Padrões",
+                            tip: "<b>Reconhecimento de Padrões</b>: Identificar em cada produto aspectos que o descrevem, associando tais aspectos a classes, conjuntos ou categorias específicas, é uma tarefa que deve ser apoiada pelo pilar Reconhecimento de Padrões."
+                        },
+                        {
+                            value: "0",
+                            key: "4",
+                            text: "Algoritmos",
+                            tip: "<b>Algoritmos</b>: Embora o pilar Algoritmos possa ser utilizado para organizar a acomodação de produtos, o elemento central nesse cenário é o enquadramento dos produtos em categorias previamente determinadas, o que sugere que outro pilar do Pensamento Computacional seria mais adequado."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+
+    getMicromundoIIActiviryThree = (unitId) => {
+        return {
+            unitId: unitId,
+            id: "atividade_3_micromundo_ii",
+            questions: [
+                {
+                    id: "q1_a3_micromundo_ii",
+                    options: [
+                        {
+                            value: "0",
+                            key: "1",
+                            text: "Abstração e Composição",
+                            tip: "<b>Abstração e Composição</b>: A criação de categorias para os produtos requer o uso do pilar Abstração, para que se possa descrever com objetividade o que determina que um determinado objeto pertença a uma categoria, mas no caso em questão está sendo suposta a  existência dessas categorias e o que se busca é algo mais, ou seja, qual o valor de uma venda específica. Mais importante, "Composição" não é pilar do Pensamento Computacional (são pilares do PC: Abstração, Decomposição, Reconhecimento de Padrões e Algoritmos)."
+                        },
+                        {
+                            value: "0",
+                            key: "2",
+                            text: "Decomposição e Reconhecimento de Padrões",
+                            tip: "<b>Decomposição e Reconhecimento de Padrões</b>: A Decomposição poderia ser utilizada para definir diferentes categorias de produtos, caso não existisse uma definição prévia, mas neste caso as categorias já existem ou podem ser facilmente  adaptadas. O Reconhecimento de Padrões certamente é necessário para classificar um produto em sua categoria. Mas neste caso ficaria faltando um aspecto chave na comercialização, a determinação do valor de uma venda. Certamente existe uma alternativa que se mostra mais apropriada para a comercialização."
+                        },
+                        {
+                            value: "0",
+                            key: "3",
+                            text: "Equilibração e Algoritmos",
+                            tip: "<b>Reconhecimento de Padrões</b>: Certamente o pilar Algoritmos é muito importante para este caso, para descrever como determinar o valor de uma venda. Entretanto, "Equilibração" não é pilar do Pensamento Computacional (são pilares do PC: Abstração, Decomposição, Reconhecimento de Padrões e Algoritmos)."
+                        },
+                        {
+                            value: "1",
+                            key: "4",
+                            text: "Reconhecimento de Padrões e Algoritmos",
+                            tip: "<b>Reconhecimento de Padrões e Algoritmos</b>: Conhecendo as propriedades de um produto e usando o &quot;Reconhecimento de Padrões&quot;, podemos associá-lo a uma determinada categoria. Em produtos industrializados essas propriedades estão descritas em rótulos ou podem ser inferidas dos mesmos. Em produtos artesanais, nem sempre isso ocorre, e nesse caso o Pilar Abstração poderia ser um apoio. Quanto ao cálculo do preço de uma compra, precisamos elaborar um roteiro de cálculo que deve levar em conta a quantidade de itens comprados de uma determinada categoria e aplicar regras de desconto definidas a priori ou mesmo o valor específico de desconto concedido ao cliente. Assim, Reconhecimento de Padrões e Algoritmos são centrais nesse processo (com Abstração sendo uma possibilidade eventual)."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+
+    getMicromundoIIActiviryFour = (unitId) => {
+        return {
+            unitId: unitId,
+            id: "atividade_4_micromundo_ii",
+            questions: [
+                {
+                    id: "q1_a4_micromundo_ii",
+                    options: [
+                        {
+                            value: "0",
+                            key: "1",
+                            text: "Abstração",
+                            tip: "<b>Abstração</b>: Conhecer as propriedades relevantes para descrição dos produtos de uma determinada categoria é importante para o estudo dessas categorias."
+                        },
+                        {
+                            value: "1",
+                            key: "2",
+                            text: "Algoritmos",
+                            tip: "<b>Algoritmos</b>: Certamente colocar os produtos em ordem alfabética dos conteúdos pode facilitar o acesso a esses produtos, caso seja necessário fazer alguma coisa com eles. Além disso, conhecer a ordem alfabética e elaborar um algoritmo para dispor os produtos em ordem crescente (ou decrescente) de seus nomes é uma atividade que apoia o desenvolvimento da habilidade para construção de algoritmos, mas, neste caso, considerando a possibilidade de estudo sobre os produtos adquiridos, essa é a atividade menos apropriada."
+                        },
+                        {
+                            value: "0",
+                            key: "3",
+                            text: "Reconhecimento de Padrões",
+                            tip: "<b>Reconhecimento de Padrões</b>: Reconhecer o grupo alimentar ao qual pertence um determinado produto é muito importante, por exemplo na elaboração de refeições saudáveis."
+                        },
+                        {
+                            value: "0",
+                            key: "4",
+                            text: "Decomposição",
+                            tip: "<b>Decomposição</b>: A Decomposição pode auxiliar em questões vitais para o consumo e a saúde. Por exemplo, ter os produtos organizados por data de vencimento pode ajudar na reflexão sobre a longevidade de produtos, além de contribuir para evitar problemas de saúde proporcionados por ingestão de alimentos estragados. Pode também ajudar na reflexão sobre a organização do consumo, considerando a proximidade de expiração das datas de validade."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+
+    getMicromundoIIActiviryFive = (unitId) => {
+        return {
+            unitId: unitId,
+            id: "atividade_5_micromundo_ii",
+            questions: [
+                {
+                    id: "q1_a5_micromundo_ii",
+                    options: [
+                        {
+                            value: "0",
+                            key: "1",
+                            text: "(a)",
+                            tip: "(a) Um mesmo produto pode se comercializado em recipientes de diferentes volumes e formas. Mas, certamente, todos precisam ter a indicação da quantidade em uma determinada unidade de medida. Sabendo o preço de venda de um determinado recipiente e a quantidade de produto que contém, podemos obter o preço unitário do produto."
+                        },
+                        {
+                            value: "0",
+                            key: "2",
+                            text: "(b)",
+                            tip: "(b) Tendo disponíveis as informações nos recipientes, podemos pegar cada um e listar as informações indicadas, bem como calcular o preço da unidade, construindo assim a lista desejada."
+                        },
+                        {
+                            value: "1",
+                            key: "3",
+                            text: "(c)",
+                            tip: "(c) A informação de preço por tipo de embalagem, embora possa vir a ser usada para, por exemplo, estudar questões de custos industriais, é pouco relevante na definição de políticas de produtos, marcas e preços."
+                        },
+                        {
+                            value: "0",
+                            key: "4",
+                            text: "(d)",
+                            tip: "(d) Considerando a existência de uma lista dos produtos, ordenada por nome e preço unitário, podemos selecionar a marca que oferece o menor preço e providenciar a anotação desejada."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+
+    getMicromundoIIActivirySix = (unitId) => {
+        return {
+            unitId: unitId,
+            id: "atividade_6_micromundo_ii",
+            questions: [
+                {
+                    id: "q1_a6_micromundo_ii",
+                    options: [
+                        {
+                            value: "0",
+                            key: "1",
+                            text: "(a)",
+                            tip: "(a) Jogar é uma atividade bastante motivadora e envolvente. No caso do super trunfo, esse é um jogo bastante conhecido e jogado por crianças, adolescentes e até mesmo adultos. É um jogo temático materializado por cartas representando exemplares de um determinado tema, como: carros de corrida, estados, cidades. Ao jogar aprendemos muito sobre o assunto, com base na seleção de suas propriedades e comparação de valores.<br/>Neste caso, a brincadeira começa com a identificação de propriedades relevantes dos países, com a busca por informações sobre os valores de cada propriedade para cada país.<br/>Ao jogar, exercitamos a escolha da propriedade que tomaremos como referência para comparação e a seguir, com base no que for sendo colocado na mesa do jogo, podemos comparar os valores para determinar o vencedor. Também aprendemos estratégia, por exemplo, ao escolhermos uma carta para jogar, devemos buscar uma que nos aproxime da vitória, mas, se não for possível, com base no que já está posto na mesa, devemos buscar uma carta que melhore as chances de atingirmos nossos objetivos."
+                        },
+                        {
+                            value: "0",
+                            key: "2",
+                            text: "(b)",
+                            tip: "(b) Jogar é uma atividade bastante motivadora e envolvente. No caso do super trunfo, é um jogo bastante conhecido e jogado por crianças, adolescentes e até mesmo adultos. É um jogo temático materializado por cartas representando exemplares de um determinado tema, como: carros de corrida, estados, cidades. Ao jogar aprendemos muito sobre o assunto, com base na seleção de suas propriedades e comparação de valores.<br/>Neste caso, a brincadeira começa com a identificação de propriedades relevantes dos estados exportadores, com a busca por informações sobre os valores de cada propriedade para cada estado.<br/>Ao jogar, exercitamos a escolha da propriedade que tomaremos como referência para comparação e a seguir, com base no que for sendo colocado na mesa do jogo, podemos comparar os valores para determinar o vencedor. Também aprendemos estratégia, por exemplo, ao escolhermos uma carta para jogar, devemos buscar uma que nos aproxime da vitória, mas, se não for possível, com base no que já está posto na mesa, devemos buscar uma carta que melhore as chances de atingirmos nossos objetivos."
+                        },
+                        {
+                            value: "1",
+                            key: "3",
+                            text: "(c)",
+                            tip: "(c) Certamente podemos elaborar roteiros para sair de uma cidade e visitar todas as que tenhamos interesse. Entretanto, nem sempre é possível acessar todas as cidades das quais importamos produtos usando apenas um meio de transporte. Assim, provavelmente precisaríamos ampliar a proposta, buscando uma combinação de meios de transporte que seja mais adequada para cada lista de cidades a serem visitadas. De qualquer forma o desenvolvimento de um roteiro de viagem não é a forma mais indicada para trabalhar a mostra de produtos e países."
+                        },
+                        {
+                            value: "0",
+                            key: "4",
+                            text: "(d)",
+                            tip: "(d) Aqui podemos pensar em diversos jogos, um para cada propriedade que nos permite distinguir um determinado estado entre os demais. Usando propriedades áudio visuais, daremos muitas oportunidades para o desenvolvimento cultural e artístico de nossos alunos, dentro da ideia da mostra de estados e produtos."
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+
     getMicromundoIIIActiviryOne = (unitId) => {
         return {
             unitId: unitId,

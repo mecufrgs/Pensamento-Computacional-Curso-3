@@ -184,6 +184,214 @@
         ]
     },
     {
+        "identificador": "micromundo-ii",
+        "nome": "Micromundo II - A Feira Livre e similares",
+        "descricao": "",
+        "permitePorcentagem": "false",
+        "identificadorPai": "",
+        "topicos": [],
+        "atividades": [
+            {
+                "identificador": "atividade_1_micromundo_ii",
+                "nomeAtividade": "Formação das equipes",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a1_micromundo_ii",
+                        "enunciado": "Qual dos pilares do Pensamento Computacional seria <b>mais útil</b> para tratar essa questão?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "<b>Abstração</b>;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Decomposição</b>;",
+                                "chave": "2",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "<b>Reconhecimento de Padrões</b>;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Algoritmos</b>.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_2_micromundo_ii",
+                "nomeAtividade": "Organização dos produtos",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a2_micromundo_ii",
+                        "enunciado": "Qual dos pilares do Pensamento Computacional seria <b>mais útil</b> para tratar essa questão?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "<b>Abstração</b>;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Decomposição</b>;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Reconhecimento de Padrões</b>;",
+                                "chave": "3",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "<b>Algoritmos</b>.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_3_micromundo_ii",
+                "nomeAtividade": "Comercialização de produtos",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a3_micromundo_ii",
+                        "enunciado": "Qual o par de pilares do Pensamento Computacional que <b>melhor contribuiria</b> para a determinação do valor de uma determinada venda?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "<b>Abstração e Composição</b>;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Decomposição e Reconhecimento de Padrões</b>;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Equilibração e Algoritmos</b>;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Reconhecimento de Padrões e Algoritmos</b>.",
+                                "chave": "4",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_4_micromundo_ii",
+                "nomeAtividade": "Organizando os produtos adquiridos",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a4_micromundo_ii",
+                        "enunciado": "Considerando as informações disponíveis sobre os produtos comprados, os professores podem elaborar atividades de estudo para diferentes disciplinas. A seguir apresentamos algumas possibilidades, cada uma relacionada com um pilar do Pensamento Computacional.  Selecione a alternativa que lhe pareça <b>menos apropriada</b>.",
+                        "gabaritos": [
+                            {
+                                "alternativa": "<b>Abstração</b>: selecionar o rol de propriedades importantes para descrever cada categoria de produtos, considerando os produtos adquiridos pelos alunos;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Algoritmos</b>: organizar os &quot;recipientes&quot; (vidro, lata, saco...), contendo produtos alimentícios, em ordem alfabética de seu conteúdo, colocando nas prateleiras, da mais alta para a mais baixa e da esquerda para a direita;",
+                                "chave": "2",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "<b>Reconhecimento de Padrões</b>: usando uma separação de prateleiras por grupo alimentar e uma descrição dos grupos alimentares, determinar a prateleira onde deverá ser colocado um dado produto;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Decomposição</b>: agrupar produtos conforme as informações disponíveis, como composição, validade, etc.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_5_micromundo_ii",
+                "nomeAtividade": "Produtos, marcas e preços",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a5_micromundo_ii",
+                        "enunciado": "Considere o pilar Algoritmos, e selecione a alternativa <b>menos adequada</b> para aplicação desse pilar no contexto desta situação-problema.",
+                        "gabaritos": [
+                            {
+                                "alternativa": "(a) Determine o preço unitário de cada produto, considerando o preço de um recipiente, a unidade de medida e a quantidade contida no recipiente;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "(b) Elabore uma lista de todos os produtos, contendo o nome do produto, a marca, a  quantidade, a unidade de medida e o preço por unidade;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "(c) Elabore uma relação de produtos organizados por tipo de embalagem e por preço de recipiente, do maior para o menor;",
+                                "chave": "3",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "(d) Determine, para cada tipo de produto, qual a marca e o recipiente que oferece o menor preço unitário, coloque uma marca indicativa na lista ao lado dos produtos.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_6_micromundo_ii",
+                "nomeAtividade": "Uma mostra de países e seus produtos consumidos no Brasil",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a6_micromundo_ii",
+                        "enunciado": "Tendo em vista os itens acima, indique qual das alternativas a seguir <b>não parece adequada</b> para falar da atividade proposta:",
+                        "gabaritos": [
+                            {
+                                "alternativa": "(a) Com o resultado do Item <b>A3</b>, podemos construir um jogo de cartas do tipo <u>super trunfo</u>, sobre países, considerando as seguintes características: distância entre os pontos de embarque e desembarque dos seus produtos; população;  superfície; temperatura mínima; e PIB;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "(b) Poderíamos usar uma proposta similar à que consta no Item <b>A1</b>, considerando os estados brasileiros e, a seguir, aplicando a proposta do Item <b>A3</b>, elaborar um <u>super trunfo</u> sobre os estados exportadores de quem nosso supermercado adquiriu os produtos nacionais por ele comercializados;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "(c) detalhando mais o algoritmo <b>A2</b>, poderemos organizar os produtos por país e cidade de origem, obtendo uma lista de cidades. Supondo que desejemos conhecer todas essas cidades, podemos, baseados no pilar <b>Algoritmos</b> do Pensamento Computacional,  propor aos nossos alunos que elaborem um roteiro de viagem, para visitar todas as cidades de avião, tendo nossa cidade como ponto de partida e chegada;",
+                                "chave": "3",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "(d) Para que nossos alunos descubram um pouco mais da cultura brasileira, poderíamos usar uma proposta similar a do Item <b>A1</b>, considerando os estados brasileiros, e poderíamos propor um jogo, baseado no <b>Reconhecimento de Padrões</b>, usando música, comidas, literatura e sotaques (conversas gravadas), para que tentem descobrir os estados de onde se originam os produtos comercializados pelo supermercado que fez a parceria com nossa escola.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "identificador": "micromundo-iii",
         "nome": "Micromundo III - O Bairro onde Moramos",
         "descricao": "",
