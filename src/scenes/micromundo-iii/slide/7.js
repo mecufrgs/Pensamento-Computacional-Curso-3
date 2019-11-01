@@ -8,7 +8,7 @@ import SubtitleBar from '../../../components/subtitle-bar'
 import Activities from '../../../services/activities'
 import IntegralActivity from '../../../components/integral-activity'
 
-import QuadroUmSVG from '../../../images/content/introducao/micromundo3pg7.svg'
+import QuadroUmSVG from '../../../images/content/micromundo-iii/micromundo3pg7.svg'
 
 
 /*Props:

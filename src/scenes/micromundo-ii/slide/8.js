@@ -8,7 +8,7 @@ import SubtitleBar from '../../../components/subtitle-bar'
 import Activities from '../../../services/activities'
 import IntegralActivity from '../../../components/integral-activity'
 
-import FalaMarianaSVG from '../../../images/content/micromundo-i/slide-8.svg'
+import FalaMarianaSVG from '../../../images/content/micromundo-ii/slide-6.svg'
 
 
 /*Props:

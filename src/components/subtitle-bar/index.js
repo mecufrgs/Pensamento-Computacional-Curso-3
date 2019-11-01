@@ -37,7 +37,7 @@ class SubTitleBar extends React.Component {
     getContBkColor = type => {
         switch(type){
             case 1:
-                return '#ffefaf'
+                return '#8acec3'
             case 2:
                 return '#a5d9ff'
             case 3:

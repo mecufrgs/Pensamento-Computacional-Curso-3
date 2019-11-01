@@ -7,7 +7,7 @@ import IntegralActivity from '../../../components/integral-activity'
 import SubtitleBar from '../../../components/subtitle-bar'
 import TextBNCC from '../../../components/text/bncc'
 import Activities from '../../../services/activities'
-
+import Subtitle from '../../../components/text/subtitle'
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
 .*/

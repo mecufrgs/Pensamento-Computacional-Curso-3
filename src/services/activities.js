@@ -93,7 +93,7 @@ class Activities {
                             value: "0",
                             key: "2",
                             text: "Decomposição",
-                            tip: "<b>Decomposição</b>: Embora a composição do álbum possa ser desmembrada em etapas menores, onde cada categoria defina um "sub-álbum", o pilar Decomposição não é o mais indicado para definir a quantidade de fotos em cada categoria."
+                            tip: "<b>Decomposição</b>: Embora a composição do álbum possa ser desmembrada em etapas menores, onde cada categoria defina um \"sub-álbum\", o pilar Decomposição não é o mais indicado para definir a quantidade de fotos em cada categoria."
                         },
                         {
                             value: "0",
@@ -125,7 +125,7 @@ class Activities {
                             value: "0",
                             key: "1",
                             text: "Abstração",
-                            tip: "<b>Abstração</b>: o pilar Abstração pode auxiliar na determinação de elementos para selecionar as músicas para a apresentação, mas o "enquadramento" de uma música em certa categoria não é adequadamente desenvolvido por este pilar."
+                            tip: "<b>Abstração</b>: o pilar Abstração pode auxiliar na determinação de elementos para selecionar as músicas para a apresentação, mas o \"enquadramento\" de uma música em certa categoria não é adequadamente desenvolvido por este pilar."
                         },
                         {
                             value: "0",
@@ -143,7 +143,7 @@ class Activities {
                             value: "0",
                             key: "4",
                             text: "Algoritmos",
-                            tip: "<b>Algoritmos</b>: Embora o pilar Algoritmos possa ser usado para definir uma possível sequência musical, por exemplo "aleatória", ou segundo uma "linha de tempo", seria necessário que o conjunto de músicas fosse previamente determinado, usando um outro pilar. "
+                            tip: "<b>Algoritmos</b>: Embora o pilar Algoritmos possa ser usado para definir uma possível sequência musical, por exemplo \"aleatória\", ou segundo uma \"linha de tempo\", seria necessário que o conjunto de músicas fosse previamente determinado, usando um outro pilar. "
                         }
                     ]
                 }
@@ -219,7 +219,7 @@ class Activities {
                             value: "0",
                             key: "4",
                             text: "Algoritmos",
-                            tip: "<b>Algoritmos</b>: Certamente o pilar Algoritmos colaborará na alocação de indivíduos em equipes no cenário descrito. Entretanto a definição das tarefas ou atividades de atuação, resultantes da "quebra" do todo em partes menores, é a questão central, que é apoiada de modo mais adequado por outro pilar do Pensamento Computacional."
+                            tip: "<b>Algoritmos</b>: Certamente o pilar Algoritmos colaborará na alocação de indivíduos em equipes no cenário descrito. Entretanto a definição das tarefas ou atividades de atuação, resultantes da \"quebra\" do todo em partes menores, é a questão central, que é apoiada de modo mais adequado por outro pilar do Pensamento Computacional."
                         }
                     ]
                 }
@@ -277,7 +277,7 @@ class Activities {
                             value: "0",
                             key: "1",
                             text: "Abstração e Composição",
-                            tip: "<b>Abstração e Composição</b>: A criação de categorias para os produtos requer o uso do pilar Abstração, para que se possa descrever com objetividade o que determina que um determinado objeto pertença a uma categoria, mas no caso em questão está sendo suposta a  existência dessas categorias e o que se busca é algo mais, ou seja, qual o valor de uma venda específica. Mais importante, "Composição" não é pilar do Pensamento Computacional (são pilares do PC: Abstração, Decomposição, Reconhecimento de Padrões e Algoritmos)."
+                            tip: "<b>Abstração e Composição</b>: A criação de categorias para os produtos requer o uso do pilar Abstração, para que se possa descrever com objetividade o que determina que um determinado objeto pertença a uma categoria, mas no caso em questão está sendo suposta a  existência dessas categorias e o que se busca é algo mais, ou seja, qual o valor de uma venda específica. Mais importante, \"Composição\" não é pilar do Pensamento Computacional (são pilares do PC: Abstração, Decomposição, Reconhecimento de Padrões e Algoritmos)."
                         },
                         {
                             value: "0",
@@ -289,7 +289,7 @@ class Activities {
                             value: "0",
                             key: "3",
                             text: "Equilibração e Algoritmos",
-                            tip: "<b>Reconhecimento de Padrões</b>: Certamente o pilar Algoritmos é muito importante para este caso, para descrever como determinar o valor de uma venda. Entretanto, "Equilibração" não é pilar do Pensamento Computacional (são pilares do PC: Abstração, Decomposição, Reconhecimento de Padrões e Algoritmos)."
+                            tip: "<b>Reconhecimento de Padrões</b>: Certamente o pilar Algoritmos é muito importante para este caso, para descrever como determinar o valor de uma venda. Entretanto, \"Equilibração\" não é pilar do Pensamento Computacional (são pilares do PC: Abstração, Decomposição, Reconhecimento de Padrões e Algoritmos)."
                         },
                         {
                             value: "1",
@@ -587,13 +587,13 @@ class Activities {
                             value: "0",
                             key: "2",
                             text: "Algoritmos e Decomposição",
-                            tip: "Embora o pilar Algoritmos possa ser usado, por exemplo, para organizar o processo de levantamento/coleta de informações sobre estudantes, que por sua vez possa ser "quebrado" em etapas, usando o pilar Decomposição, essa combinação não é adequada para apoiar os cenários descritos por A1 e A2."
+                            tip: "Embora o pilar Algoritmos possa ser usado, por exemplo, para organizar o processo de levantamento/coleta de informações sobre estudantes, que por sua vez possa ser \"quebrado\" em etapas, usando o pilar Decomposição, essa combinação não é adequada para apoiar os cenários descritos por A1 e A2."
                         },
                         {
                             value: "0",
                             key: "3",
                             text: "Classificação e Padronização",
-                            tip: "Embora sejam atividades importantes em vários cenários, inclusive nos descritos por A1 e A2, "Classificação" e "Padronização" não estão entre os pilares do Pensamento Computacional aqui considerados, ainda que possam ser apoiadas pelos mesmos."
+                            tip: "Embora sejam atividades importantes em vários cenários, inclusive nos descritos por A1 e A2, \"Classificação\" e \"Padronização\" não estão entre os pilares do Pensamento Computacional aqui considerados, ainda que possam ser apoiadas pelos mesmos."
                         },
                         {
                             value: "0",
@@ -790,7 +790,7 @@ class Activities {
                             value: "0",
                             key: "4",
                             text: "Abstração",
-                            tip: "Para identificar possíveis atividades candidatas para definição da "vocação esportiva", a partir do entorno da escola, é importante construir uma abstração para esse conceito. Isso implica em determinar as principais características que devem ser consideradas sobre os espaços esportivos existentes, para viabilizar uma avaliação."
+                            tip: "Para identificar possíveis atividades candidatas para definição da \"vocação esportiva\", a partir do entorno da escola, é importante construir uma abstração para esse conceito. Isso implica em determinar as principais características que devem ser consideradas sobre os espaços esportivos existentes, para viabilizar uma avaliação."
                         }
                     ]
                 }

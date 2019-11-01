@@ -41,7 +41,7 @@ class SlideOne extends React.Component {
       <ContentBox>
         <ImageSlide getSlide={this.getSlideImage} slideCount={SlideCount.INTRODUCAO_DIALOG} />
         <PrimaryText>
-          <Subtitle>INTRODUÇÃO</Subtitle>
+          
           <p>No curso <i>Introdução ao Pensamento Computacional</i>, foram trabalhados os quatro pilares do Pensamento Computacional (<b>Abstração</b>, <b>Decomposição</b>, <b>Reconhecimento de Padrões</b> e <b>Algoritmos</b>) e foram também apresentadas aplicações desses pilares em situações práticas.</p>
           <EmptySpace />
           <Image src={PilaresSVG} />

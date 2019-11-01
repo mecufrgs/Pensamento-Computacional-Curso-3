@@ -2,9 +2,12 @@ import React from 'react'
 import ContentBox from '../../../components/content-box'
 import PrimaryText from '../../../components/text/primary'
 import Bold from '../../../components/text/bold'
-import SubtitleBar from '../../../components/subtitle-bar'
 import EmptySpace from '../../../components/empty-space'
 import Subtitle from '../../../components/text/subtitle'
+import IntegralActivity from '../../../components/integral-activity'
+import SubtitleBar from '../../../components/subtitle-bar'
+import TextBNCC from '../../../components/text/bncc'
+import Activities from '../../../services/activities'
 
 class SlideFour extends React.Component {
   constructor(props){

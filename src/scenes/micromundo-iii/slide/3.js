@@ -5,8 +5,8 @@ import Bold from '../../../components/text/bold'
 import SubtitleBar from '../../../components/subtitle-bar'
 import EmptySpace from '../../../components/empty-space'
 import Subtitle from '../../../components/text/subtitle'
-
-import QuadroUmSVG from '../../../images/content/introducao/micromundo3pg3.svg'
+import QuadroUmSVG from '../../../images/content/micromundo-iii/micromundo3pg3.svg'
+import Image from '../../../components/image'
 
 class SlideThree extends React.Component {
   constructor(props){

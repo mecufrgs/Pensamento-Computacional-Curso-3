@@ -6,11 +6,12 @@ import PrimaryText from '../../../components/text/primary'
 import EmptySpace from '../../../components/empty-space'
 import ImageSlide from '../../../components/image-slide'
 
-import FamiliaSVG from '../../../images/content/micromundo-iii/Familia.svg'
+import FamiliaSVG from '../../../images/content/micromundo-i/Familia.svg'
 
 import FalaUmSVG from '../../../images/content/micromundo-i/2-fala1.svg'
 import FalaDoisSVG from '../../../images/content/micromundo-i/2-fala2.svg'
 import FalaTresSVG from '../../../images/content/micromundo-i/2-fala3.svg'
+import Subtitle from '../../../components/text/subtitle'
 
 /*Props
   renderTop: function(bool), called to show the header

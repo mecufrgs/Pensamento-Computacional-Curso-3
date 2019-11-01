@@ -7,7 +7,7 @@ import EmptySpace from '../../../components/empty-space'
 import Subtitle from '../../../components/text/subtitle'
 
 import QuadroUmSVG from '../../../images/content/micromundo-iv/micromundo4pg3.svg'
-
+import Image from '../../../components/image'
 class SlideThree extends React.Component {
   constructor(props){
     super(props)

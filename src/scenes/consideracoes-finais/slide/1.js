@@ -35,7 +35,6 @@ class SlideOne extends React.Component {
       <ContentBox>
         <ImageSlide getSlide={this.getSlideImage} slideCount={SlideCount.CONSIDERACOES_FINAIS_DIALOG} />
         <PrimaryText>
-          <Subtitle>CONSIDERAÇÕES FINAIS</Subtitle>
           <p>Neste curso vimos, através dos Micromundos, que o Pensamento Computacional está naturalmente presente em nossa prática diária, permeando o cotidiano, em variadas situações que podem ser exploradas em sala de aula, no contexto da BNCC.</p>
           <p>Reconhece-se hoje, internacionalmente, a importância das estratégias de raciocínio do Pensamento Computacional para a realidade do mundo atual. E as pesquisas apontam que  essas estratégias deveriam ser desenvolvidas não só nos primeiros anos de escolaridade, capitalizando a naturalidade das crianças para essa forma de pensamento, mas ao longo de toda a vida escolar das crianças e jovens.</p>
           <p>Existe no mundo um número não desprezível de materiais para trabalhar com Pensamento Computacional, mas nem sempre o enfoque privilegia os quatro pilares.</p>

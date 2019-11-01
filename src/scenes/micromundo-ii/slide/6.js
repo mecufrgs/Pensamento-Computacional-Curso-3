@@ -9,7 +9,7 @@ import Activities from '../../../services/activities'
 import IntegralActivity from '../../../components/integral-activity'
 
 
-import FalaMarianaSVG from '../../../images/content/micromundo-i/slide-6.svg'
+import FalaMarianaSVG from '../../../images/content/micromundo-ii/slide-6.svg'
 
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
