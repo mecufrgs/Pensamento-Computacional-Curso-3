@@ -37,11 +37,11 @@ class SubTitleBar extends React.Component {
     getContBkColor = type => {
         switch(type){
             case 1:
-                return '#8acec3'
+                return '#C1DDFF'
             case 2:
-                return '#a5d9ff'
+                return '#C1DDFF'
             case 3:
-                return '#ffb2b2'
+                return '#C1DDFF'
             default:
                 throw Error('Subtitle bar type invalid!')
         }
@@ -50,11 +50,11 @@ class SubTitleBar extends React.Component {
     getUpBkColor = type => {
         switch(type){
             case 1:
-                return '#ffe784'
+                return '#A7D0F6'
             case 2:
-                return '#59b9ff'
+                return '#A7D0F6'
             case 3:
-                return '#ff6d6d'
+                return '#A7D0F6'
             default:
                 throw Error('Subtitle bar type invalid!')
         }
@@ -63,11 +63,11 @@ class SubTitleBar extends React.Component {
     getTxtColor = type => {
         switch(type){
             case 1:
-                return '#a44a3d'
+                return '#5798A4'
             case 2:
-                return '#0060a5'
+                return '#5798A4'
             case 3:
-                return '#d63333'
+                return '#5798A4'
             default:
                 throw Error('Subtitle bar type invalid!')
         }
@@ -88,10 +88,12 @@ class SubTitleBar extends React.Component {
 
     render() {
         return (
+            
             <div className='subtitle'>
                 <div className='subtitle-container' style={{width: this.state.subContentWidth}}>
                     <div className='subtitle-up-bar' style={{backgroundColor: this.state.upBarBkColor}}></div>
                     <div className='subtitle-content' style={{backgroundColor: this.state.contBkColor}}>
+                    
                         <div className='subtitle-image'>
                             <Image src={this.state.image}/>
                         </div>
