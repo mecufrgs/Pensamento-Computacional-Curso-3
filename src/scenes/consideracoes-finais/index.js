@@ -6,7 +6,7 @@ import SlideCount from '../../constants/slide-count'
 
 import SlideOne from './slide/1'
 
-class Consideracoes_Finais extends BaseScene {
+class ConsideracoesFinais extends BaseScene {
   constructor(props){
     super(props)
     this.state = {
@@ -37,4 +37,4 @@ class Consideracoes_Finais extends BaseScene {
   }
 }
 
-export default Consideracoes_Finais
+export default ConsideracoesFinais

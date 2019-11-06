@@ -50,7 +50,7 @@ class SlideOne extends React.Component {
           <EmptySpace />
           <Image className='highlightbox' src={QuadroUmSVG} alt='O presente curso, <i>Aplicações do Pensamento Computacional para os Anos Finais do Ensino Fundamental</i>, apresentará exemplos de como você poderá apoiar o desenvolvimento do Pensamento Computacional, para alunos nessa etapa de escolarização, e seguirá a mesma organização do curso  relativo aos Anos Iniciais.'/>
           <EmptySpace />
-        </PrimaryText>
+        </PrimaryText> 
       </ContentBox>
     )
   }
