@@ -9,7 +9,7 @@
         "atividades": []
     },
     {
-        "identificador": "micromundo-i",
+        "identificador": "micromundo_i",
         "nome": "Micromundo I - Uma família bem brasileira",
         "descricao": "",
         "permitePorcentagem": "false",
@@ -184,7 +184,7 @@
         ]
     },
     {
-        "identificador": "micromundo-ii",
+        "identificador": "micromundo_ii",
         "nome": "Micromundo II - A Feira Livre e similares",
         "descricao": "",
         "permitePorcentagem": "false",
@@ -392,7 +392,7 @@
         ]
     },
     {
-        "identificador": "micromundo-iii",
+        "identificador": "micromundo_iii",
         "nome": "Micromundo III - O Bairro onde Moramos",
         "descricao": "",
         "permitePorcentagem": "true",
@@ -534,7 +534,7 @@
         ]
     },
     {
-        "identificador": "micromundo-iv",
+        "identificador": "micromundo_iv",
         "nome": "As Olimpíadas Escolares",
         "descricao": "",
         "permitePorcentagem": "true",
@@ -740,5 +740,14 @@
                 ]
             }
         ]
+    },
+    {
+        "identificador": "consideracoes_finais",
+        "nome": "Considerações Finais",
+        "descricao": "",
+        "permitePorcentagem": "false",
+        "identificadorPai": "",
+        "topicos": [],
+        "atividades": []
     }
 ]
