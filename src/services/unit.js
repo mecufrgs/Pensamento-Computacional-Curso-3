@@ -4,10 +4,10 @@ import UnitName from '../constants/unit-name'
 import AvamecError from '../constants/avamec-error'
 import Introducao from '../scenes/introducao'
 import UnitNotFound from '../scenes/unit-not-found'
-import Micromundo_I from '../scenes/micromundo-i'
-import Micromundo_II from '../scenes/micromundo-ii'
-import Micromundo_III from '../scenes/micromundo-iii'
-import Micromundo_IV from '../scenes/micromundo-iv'
+import MicromundoI from '../scenes/micromundo-i'
+import MicromundoII from '../scenes/micromundo-ii'
+import MicromundoIII from '../scenes/micromundo-iii'
+import MicromundoIV from '../scenes/micromundo-iv'
 import ConsideracoesFinais from '../scenes/consideracoes-finais'
 class UnitService {
     getUnit = (unit, slide) => {
@@ -15,13 +15,13 @@ class UnitService {
             case Unit.INTRODUCAO:
                 return (<Introducao slide={slide} />)
             case Unit.MICROMUNDO_I:
-                return (<Micromundo_I slide={slide} />)
+                return (<MicromundoI slide={slide} />)
             case Unit.MICROMUNDO_II:
-                return (<Micromundo_II slide={slide} />)
+                return (<MicromundoII slide={slide} />)
             case Unit.MICROMUNDO_III:
-                return (<Micromundo_III slide={slide} />)
+                return (<MicromundoIII slide={slide} />)
             case Unit.MICROMUNDO_IV:
-                return (<Micromundo_IV slide={slide} />)
+                return (<MicromundoIV slide={slide} />)
             case Unit.CONSIDERACOES_FINAIS:
                 return (<ConsideracoesFinais slide={slide} />)
 

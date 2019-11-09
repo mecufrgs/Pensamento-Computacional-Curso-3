@@ -314,25 +314,25 @@ class Activities {
                         {
                             value: "0",
                             key: "1",
-                            text: "Abstração",
+                            text: "Abstração: selecionar o rol de propriedades importantes para descrever cada categoria de produtos, considerando os produtos adquiridos pelos alunos",
                             tip: "<b>Abstração</b>: Conhecer as propriedades relevantes para descrição dos produtos de uma determinada categoria é importante para o estudo dessas categorias."
                         },
                         {
                             value: "1",
                             key: "2",
-                            text: "Algoritmos",
+                            text: "Algoritmos: organizar os “recipientes” (vidro, lata, saco...), contendo produtos alimentícios, em ordem alfabética de seu conteúdo, colocando nas prateleiras, da mais alta para a mais baixa e da esquerda para a direita",
                             tip: "<b>Algoritmos</b>: Certamente colocar os produtos em ordem alfabética dos conteúdos pode facilitar o acesso a esses produtos, caso seja necessário fazer alguma coisa com eles. Além disso, conhecer a ordem alfabética e elaborar um algoritmo para dispor os produtos em ordem crescente (ou decrescente) de seus nomes é uma atividade que apoia o desenvolvimento da habilidade para construção de algoritmos, mas, neste caso, considerando a possibilidade de estudo sobre os produtos adquiridos, essa é a atividade menos apropriada."
                         },
                         {
                             value: "0",
                             key: "3",
-                            text: "Reconhecimento de Padrões",
+                            text: "Reconhecimento de Padrões: usando uma separação de prateleiras por grupo alimentar e uma descrição dos grupos alimentares, determinar a prateleira onde deverá ser colocado um dado produto",
                             tip: "<b>Reconhecimento de Padrões</b>: Reconhecer o grupo alimentar ao qual pertence um determinado produto é muito importante, por exemplo na elaboração de refeições saudáveis."
                         },
                         {
                             value: "0",
                             key: "4",
-                            text: "Decomposição",
+                            text: "Decomposição: agrupar produtos conforme as informações disponíveis, como composição, validade, etc",
                             tip: "<b>Decomposição</b>: A Decomposição pode auxiliar em questões vitais para o consumo e a saúde. Por exemplo, ter os produtos organizados por data de vencimento pode ajudar na reflexão sobre a longevidade de produtos, além de contribuir para evitar problemas de saúde proporcionados por ingestão de alimentos estragados. Pode também ajudar na reflexão sobre a organização do consumo, considerando a proximidade de expiração das datas de validade."
                         }
                     ]
@@ -352,26 +352,26 @@ class Activities {
                         {
                             value: "0",
                             key: "1",
-                            text: "(a)",
-                            tip: "(a) Um mesmo produto pode se comercializado em recipientes de diferentes volumes e formas. Mas, certamente, todos precisam ter a indicação da quantidade em uma determinada unidade de medida. Sabendo o preço de venda de um determinado recipiente e a quantidade de produto que contém, podemos obter o preço unitário do produto."
+                            text: "Determine o preço unitário de cada produto, considerando o preço de um recipiente, a unidade de medida e a quantidade contida no recipiente",
+                            tip: "Um mesmo produto pode se comercializado em recipientes de diferentes volumes e formas. Mas, certamente, todos precisam ter a indicação da quantidade em uma determinada unidade de medida. Sabendo o preço de venda de um determinado recipiente e a quantidade de produto que contém, podemos obter o preço unitário do produto."
                         },
                         {
                             value: "0",
                             key: "2",
-                            text: "(b)",
-                            tip: "(b) Tendo disponíveis as informações nos recipientes, podemos pegar cada um e listar as informações indicadas, bem como calcular o preço da unidade, construindo assim a lista desejada."
+                            text: "Elabore uma lista de todos os produtos, contendo o nome do produto, a marca, a quantidade, a unidade de medida e o preço por unidade",
+                            tip: "Tendo disponíveis as informações nos recipientes, podemos pegar cada um e listar as informações indicadas, bem como calcular o preço da unidade, construindo assim a lista desejada."
                         },
                         {
                             value: "1",
                             key: "3",
-                            text: "(c)",
-                            tip: "(c) A informação de preço por tipo de embalagem, embora possa vir a ser usada para, por exemplo, estudar questões de custos industriais, é pouco relevante na definição de políticas de produtos, marcas e preços."
+                            text: "Elabore uma relação de produtos organizados por tipo de embalagem e por preço de recipiente, do maior para o menor",
+                            tip: "A informação de preço por tipo de embalagem, embora possa vir a ser usada para, por exemplo, estudar questões de custos industriais, é pouco relevante na definição de políticas de produtos, marcas e preços."
                         },
                         {
                             value: "0",
                             key: "4",
-                            text: "(d)",
-                            tip: "(d) Considerando a existência de uma lista dos produtos, ordenada por nome e preço unitário, podemos selecionar a marca que oferece o menor preço e providenciar a anotação desejada."
+                            text: "Determine, para cada tipo de produto, qual a marca e o recipiente que oferece o menor preço unitário, coloque uma marca indicativa na lista ao lado dos produtos",
+                            tip: "Considerando a existência de uma lista dos produtos, ordenada por nome e preço unitário, podemos selecionar a marca que oferece o menor preço e providenciar a anotação desejada."
                         }
                     ]
                 }
@@ -390,26 +390,26 @@ class Activities {
                         {
                             value: "0",
                             key: "1",
-                            text: "(a)",
+                            text: "Com o resultado do Item <b>A3</b>, podemos construir um jogo de cartas do tipo supertrunfo, sobre países, considerando as seguintes características: distância entre os pontos de embarque e desembarque dos seus produtos; população; superfície; temperatura mínima; e PIB",
                             tip: "(a) Jogar é uma atividade bastante motivadora e envolvente. No caso do super trunfo, esse é um jogo bastante conhecido e jogado por crianças, adolescentes e até mesmo adultos. É um jogo temático materializado por cartas representando exemplares de um determinado tema, como: carros de corrida, estados, cidades. Ao jogar aprendemos muito sobre o assunto, com base na seleção de suas propriedades e comparação de valores.<br/>Neste caso, a brincadeira começa com a identificação de propriedades relevantes dos países, com a busca por informações sobre os valores de cada propriedade para cada país.<br/>Ao jogar, exercitamos a escolha da propriedade que tomaremos como referência para comparação e a seguir, com base no que for sendo colocado na mesa do jogo, podemos comparar os valores para determinar o vencedor. Também aprendemos estratégia, por exemplo, ao escolhermos uma carta para jogar, devemos buscar uma que nos aproxime da vitória, mas, se não for possível, com base no que já está posto na mesa, devemos buscar uma carta que melhore as chances de atingirmos nossos objetivos."
                         },
                         {
                             value: "0",
                             key: "2",
-                            text: "(b)",
-                            tip: "(b) Jogar é uma atividade bastante motivadora e envolvente. No caso do super trunfo, é um jogo bastante conhecido e jogado por crianças, adolescentes e até mesmo adultos. É um jogo temático materializado por cartas representando exemplares de um determinado tema, como: carros de corrida, estados, cidades. Ao jogar aprendemos muito sobre o assunto, com base na seleção de suas propriedades e comparação de valores.<br/>Neste caso, a brincadeira começa com a identificação de propriedades relevantes dos estados exportadores, com a busca por informações sobre os valores de cada propriedade para cada estado.<br/>Ao jogar, exercitamos a escolha da propriedade que tomaremos como referência para comparação e a seguir, com base no que for sendo colocado na mesa do jogo, podemos comparar os valores para determinar o vencedor. Também aprendemos estratégia, por exemplo, ao escolhermos uma carta para jogar, devemos buscar uma que nos aproxime da vitória, mas, se não for possível, com base no que já está posto na mesa, devemos buscar uma carta que melhore as chances de atingirmos nossos objetivos."
+                            text: "Poderíamos usar uma proposta similar a que consta no Item A1, considerando os estados brasileiros e, a seguir, aplicando a proposta do Item A3, elaborar um supertrunfo sobre os estados exportadores de quem nosso supermercado adquiriu os produtos nacionais por ele comercializados",
+                            tip: "Jogar é uma atividade bastante motivadora e envolvente. No caso do super trunfo, é um jogo bastante conhecido e jogado por crianças, adolescentes e até mesmo adultos. É um jogo temático materializado por cartas representando exemplares de um determinado tema, como: carros de corrida, estados, cidades. Ao jogar aprendemos muito sobre o assunto, com base na seleção de suas propriedades e comparação de valores.<br/>Neste caso, a brincadeira começa com a identificação de propriedades relevantes dos estados exportadores, com a busca por informações sobre os valores de cada propriedade para cada estado.<br/>Ao jogar, exercitamos a escolha da propriedade que tomaremos como referência para comparação e a seguir, com base no que for sendo colocado na mesa do jogo, podemos comparar os valores para determinar o vencedor. Também aprendemos estratégia, por exemplo, ao escolhermos uma carta para jogar, devemos buscar uma que nos aproxime da vitória, mas, se não for possível, com base no que já está posto na mesa, devemos buscar uma carta que melhore as chances de atingirmos nossos objetivos."
                         },
                         {
                             value: "1",
                             key: "3",
-                            text: "(c)",
-                            tip: "(c) Certamente podemos elaborar roteiros para sair de uma cidade e visitar todas as que tenhamos interesse. Entretanto, nem sempre é possível acessar todas as cidades das quais importamos produtos usando apenas um meio de transporte. Assim, provavelmente precisaríamos ampliar a proposta, buscando uma combinação de meios de transporte que seja mais adequada para cada lista de cidades a serem visitadas. De qualquer forma o desenvolvimento de um roteiro de viagem não é a forma mais indicada para trabalhar a mostra de produtos e países."
+                            text: "Detalhando mais o algoritmo A2, poderemos organizar os produtos por país e cidade de origem, obtendo uma lista de cidades. Supondo que desejemos conhecer todas essas cidades, podemos, baseados no pilar Algoritmos do Pensamento Computacional, propor aos nossos alunos que elaborem um roteiro de viagem, para visitar todas as cidades de avião, tendo nossa cidade como ponto de partida e chegada",
+                            tip: "Certamente podemos elaborar roteiros para sair de uma cidade e visitar todas as que tenhamos interesse. Entretanto, nem sempre é possível acessar todas as cidades das quais importamos produtos usando apenas um meio de transporte. Assim, provavelmente precisaríamos ampliar a proposta, buscando uma combinação de meios de transporte que seja mais adequada para cada lista de cidades a serem visitadas. De qualquer forma o desenvolvimento de um roteiro de viagem não é a forma mais indicada para trabalhar a mostra de produtos e países."
                         },
                         {
                             value: "0",
                             key: "4",
-                            text: "(d)",
-                            tip: "(d) Aqui podemos pensar em diversos jogos, um para cada propriedade que nos permite distinguir um determinado estado entre os demais. Usando propriedades áudio visuais, daremos muitas oportunidades para o desenvolvimento cultural e artístico de nossos alunos, dentro da ideia da mostra de estados e produtos."
+                            text: "Para que nossos alunos descubram um pouco mais da cultura brasileira, poderíamos usar uma proposta similar a do Item A1, considerando os estados brasileiros, e poderíamos propor um jogo, baseado no Reconhecimento de Padrões, usando música, comidas, literatura e sotaques (conversas gravadas), para que tentem descobrir os estados de onde se originam os produtos comercializados pelo supermercado que fez a parceria com nossa escola",
+                            tip: "Aqui podemos pensar em diversos jogos, um para cada propriedade que nos permite distinguir um determinado estado entre os demais. Usando propriedades áudio visuais, daremos muitas oportunidades para o desenvolvimento cultural e artístico de nossos alunos, dentro da ideia da mostra de estados e produtos."
                         }
                     ]
                 }
@@ -428,25 +428,25 @@ class Activities {
                         {
                             value: "0",
                             key: "1",
-                            text: "Reconhecimento de Padrões",
+                            text: "<b>Abstração</b>: Elaboração dos estereótipos de usuários da ciclovia",
                             tip: "Os trajetos podem ser descritos segundo elementos característicos, por exemplo: hora de início e conclusão do trajeto; ponto de partida e de chegada; passagem por pontos de destaque/referência no bairro; etc. O pilar Reconhecimento de Padrões é essencial em tal atividade."
                         },
                         {
                             value: "1",
                             key: "2",
-                            text: "Decomposição",
+                            text: "<b>Algoritmos:</b> Descrever cada um dos percursos que podem ser realizados nesse corredor cicloviário, considerando os principais locais de trabalho dos usuários de bicicletas",
                             tip: "Embora as ações listadas para a efetiva implementação da ciclofaixa exemplifiquem Decomposição, o encaminhamento dessas ações não cabe na fase de planejamento, razão porque essa é atividade menos apropriada para a solução do problema em discussão."
                         },
                         {
                             value: "0",
                             key: "3",
-                            text: "Algoritmos",
+                            text: "Reconhecimento de Padrões: Identificar as principais rotas dos trabalhadores no horário da ida para o trabalho e no horário da volta",
                             tip: "A descrição dos percursos padrão envolve a descrição precisa de deslocamentos (possivelmente medidos em metros percorridos) ou alterações de direção (dobrar à esquerda/direita), escolhas baseadas nas condições de tráfego, etc. O pilar Algoritmo é o mais indicado para apoiar tal atividade, a qual é muito apropriada ao problema."
                         },
                         {
                             value: "0",
                             key: "4",
-                            text: "Abstração",
+                            text: "Decomposição: Encaminhar ações para a efetiva implementação da ciclofaixa: compra de materiais, demarcação e sinalização das vias, etc",
                             tip: "É de fato importante caracterizar os potenciais usuários da ciclofaixas, agrupando-os segundo aspectos considerados relevantes para o propósito, como faixa etária, gênero, atividade profissional, etc."
                         }
                     ]
@@ -466,25 +466,25 @@ class Activities {
                         {
                             value: "0",
                             key: "1",
-                            text: "Decomposição",
+                            text: "Para realizar a atividade A2, podemos usar a Decomposição, para organizar o esforço das equipes de fotografia, buscando um equilíbrio entre as mesmas",
                             tip: "A realização de uma mostra fotográfica pode ser dividida em etapas ou partes, como:  coleta de fotos antigas em registros diversos;  coleta de fotos atuais na própria atração;  a seleção das melhores fotos; a organização do espaço físico. O pilar Decomposição é adequado para desmembrar a mostra das fotos em \"partes\" e, portanto, importante para melhor organizar os esforços das equipes."
                         },
                         {
                             value: "0",
                             key: "2",
-                            text: "Abstração",
+                            text: "Usar o pilar Abstração do Pensamento Computacional facilitaria o trabalho de caracterizar os aspectos que devem ser tratados nas descrições textuais previstas na atividade A3",
                             tip: "Dentre os inúmeros aspectos (acontecimentos, datas, pessoas envolvidas, etc.) relacionados direta ou indiretamente a um ponto turístico, a elaboração de um texto descritivo deve incluir apenas alguns deles, os considerados relevantes para o propósito (apresentá-lo como uma referência histórico-cultural), sendo os demais abstraídos da narrativa. O pilar Abstração é, então, essencial a tal propósito."
                         },
                         {
                             value: "0",
                             key: "3",
-                            text: "Algoritmos",
+                            text: "Em geral, quando temos uma relação de atividades a serem realizadas, algumas precisam ser realizadas antes que outras. Certamente, seria possível elaborar essa ordenação, usando conceitos do pilar Algoritmos, do Pensamento Computacional",
                             tip: "A sequenciação de atividades a serem executadas, que pode incluir a repetição de certos trechos e a seleção de uma ou outra parte da sequência, segundo a verificação de alguma condição, é uma ação típica do uso do pilar <b>Algoritmos</b>, e nesse caso essencial para a organização do evento."
                         },
                         {
                             value: "1",
                             key: "4",
-                            text: "Reconhecimento de Padrões",
+                            text: "A lista produzida acima é resultado de um processo de Decomposição, típico do Pensamento Computacional, considerando o tipo das tarefas envolvidas na realização de uma atividade. Você professor@, possivelmente poderia ter uma outra forma de organizar o seu planejamento, tomando por base o pilar Reconhecimento de Padrões.",
                             tip: "Embora o uso do pilar <b>Decomposição</b> seja adequado para dividir a organização de um evento, especialmente um de grandes proporções, em partes menores e bem determinadas, a segunda parte da afirmação não parece razoável. O pilar <b>Reconhecimento de Padrões</b> é adequado para associar aspectos de um objeto (no sentido mais amplo/genérico possível do termo) a categorias previamente definidas."
                         }
                     ]
@@ -504,25 +504,25 @@ class Activities {
                         {
                             value: "1",
                             key: "1",
-                            text: "Decomposição",
+                            text: "O horário de funcionamento da exposição e a quantidade de dias que ficará em cada local poderão ser definidos utilizando-se o pilar Decomposição.",
                             tip: "O pilar Decomposição poderia ser utilizado para particionar o problema central - a realização da exposição itinerante - em partes menores, que poderiam inclusive ser tratadas em paralelo. Entretanto, seria pouco útil para a definição do horário de funcionamento e a duração da mesma."
                         },
                         {
                             value: "0",
                             key: "2",
-                            text: "Abstração",
+                            text: "O material deveria ser organizado de modo a ilustrar diferentes perspectivas dos moradores, por exemplo as relacionadas a aspectos físicos, como as construções e caminhos do bairro, ou  impressões subjetivas, como 'receptivo' ou 'dinâmico'. O pilar Abstração poderia auxiliar nesse propósito",
                             tip: "De fato, a identificação de aspectos, inclusive subjetivos, que caracterizem o material e possibilitem conceber uma ou várias formas de organizá-lo, segundo perspectivas distintas, pode ser apoiada pelo pilar Abstração."
                         },
                         {
                             value: "0",
                             key: "3",
-                            text: "Algoritmos",
+                            text: "Dependendo do perfil de público de cada local, seria interessante definir diferentes roteiros ou caminhos para conhecer o material. O pilar Algoritmos é importante para tal propósito",
                             tip: "Os roteiros ou caminhos de visitação serão produzidos a partir das características do público alvo, o que implicará em diferentes sequenciamentos, seleções de materiais, etc., questões típicas do desenvolvimento de Algoritmos."
                         },
                         {
                             value: "0",
                             key: "4",
-                            text: "Reconhecimento de Padrões",
+                            text: "Uma parte do material da exposição é configurada para destacar aspectos semelhantes a cada local que a hospeda. O pilar Reconhecimento de Padrões poderia ser usado nessa tarefa.",
                             tip: "A identificação de aspectos do material e de características marcantes no ambiente onde a exposição se localiza possibilita estabelecer similaridades apoiadas pelo pilar Reconhecimento de Padrões. Seria possível, por exemplo, alocar parte do acervo em uma seção intitulada \"Tal e Qual\" ou \"Lá e Aqui\"."
                         }
                     ]
@@ -542,25 +542,25 @@ class Activities {
                         {
                             value: "1",
                             key: "1",
-                            text: "Suposição",
+                            text: "Utilizando-se o pilar Suposição, do Pensamento Computacional e fazendo uso das informações coletadas, podemos identificar as diferentes atividades a serem oferecidas, considerando as características das atividades, o tamanho da população de interessados e o espaço necessário",
                             tip: "Certamente a noção de suposição pode ser usada quando não temos acesso a informação que viabilize um planejamento mais aprimorado. Mas, neste caso, fizemos referência a um possível pilar do Pensamento Computacional, o pilar Suposição, que não é um dos pilares do PC, a saber: Abstração, Decomposição, Reconhecimento de Padrões e Algoritmos."
                         },
                         {
                             value: "0",
                             key: "2",
-                            text: "Abstração",
+                            text: "O pilar Abstração pode auxiliar no propósito de caracterizar cada uma das atividades demandadas pela população durante o levantamento realizado",
                             tip: "Para melhor descrever as práticas esportivas, por exemplo, é importante que sejam definidas as propriedades a partir das quais possamos organizá-las em categorias."
                         },
                         {
                             value: "0",
                             key: "3",
-                            text: "Algoritmos",
+                            text: "O pilar Algoritmos pode ajudar no planejamento das vias internas, buscando evitar as dificuldades de circulação. Da mesma forma, esse pilar pode ajudar a planejar a circulação de veículos nas proximidades do parque",
                             tip: "Os caminhos internos no parque poderiam ser definidos de modo a atender roteiros específicos, precisamente definidos, contemplando deslocamentos padronizados para áreas de atividades esportivas e com recursos centrais, como banheiros, administração, subestação de energia, etc. As formas de acesso, entrada e saída do parque também deveriam seguir roteiros e situações precisamente definidos. Certamente o pilar Algoritmos é muito útil em tal cenário."
                         },
                         {
                             value: "0",
                             key: "4",
-                            text: "Reconhecimento de Padrões",
+                            text: "O pilar Reconhecimento de Padrões pode ser usado para analisar os hábitos da população, considerando os horários de trabalho, horários de aulas e preferências de horários para a prática de atividades físicas ao ar livre.",
                             tip: "Conhecer os hábitos dos prováveis frequentadores do parque é certamente um apoio indispensável para planejar, por exemplo,  os horários de monitores e voluntários, para maximizar os benefícios da prática de atividades físicas. Através de questionários poderão ser levantadas informações dos moradores, principalmente daqueles que residem nas proximidades, permitindo identificar diferentes perfis."
                         }
                     ]
@@ -668,13 +668,13 @@ class Activities {
                         {
                             value: "0",
                             key: "3",
-                            text: "Pontuação",
+                            text: "Reconhecimento de Padrões",
                             tip: "Considerando a existência de abstrações que representem as diferentes categorias de infraestrutura adequadas a práticas esportivas, é possível utilizar o pilar Reconhecimento de Padrões, para associar uma dada prática esportiva com as possíveis infraestruturas nas quais ela poderia ser praticada. Entretanto, esse não é o problema principal proposto e certamente na lista de alternativas apresentada há uma que pode contribuir de maneira mais efetiva para a resolução do mesmo."
                         },
                         {
                             value: "1",
                             key: "4",
-                            text: "Algoritmos e Reconhecimento de Padrões",
+                            text: "Algoritmos",
                             tip: "Algumas atividades requerem a realização de várias competições (partidas) em pares de equipes, para chegar-se ao vencedor, por exemplo o voleibol. Outras, como muitas provas de atletismo, são praticadas envolvendo todas as equipes (ou atletas) em um único evento. A organização dos jogos esportivos precisa definir todas essas disputas e posteriormente alocar cada uma delas para realização em uma dada infraestrutura (quadra, campo, ginásio, piscina etc.). Esse procedimento consiste em alocar para cada disputa a estrutura onde deverá ser realizada, considerando uma série de critérios estabelecidos, como a distância para se chegar das escolas envolvidas até o local da realização. Esse é um problema clássico, que se aplica em várias situações e que, para ser resolvido, requer a elaboração de um algoritmo."
                         }
                     ]
@@ -700,7 +700,7 @@ class Activities {
                         {
                             value: "0",
                             key: "2",
-                            text: "Pontuação",
+                            text: "Decomposição",
                             tip: "<b>Pontuação:</b> Certamente em alguma etapa da realização das competições e da avaliação da performance das equipes este conceito será de grande valia. Entretanto, ele não faz parte da lista de pilares do Pensamento Computacional aqui considerados: Abstração, Decomposição, Reconhecimento de Padrões e Algoritmos."
                         },
                         {
@@ -733,25 +733,25 @@ class Activities {
                         {
                             value: "0",
                             key: "1",
-                            text: "Algoritmos",
-                            tip: "A menos de alguns detalhes que deixamos de apresentar, podemos descrever um jogo de super trunfo usando algoritmos, como o que apresentamos a seguir: o super trunfo é disputado em uma série de rodadas e termina quando não houver mais nenhuma a realizar. Em cada rodada há um vencedor, que se apropria de todas as cartas ganhas durante a mesma. Para existir uma rodada, é necessário que mais de um jogador tenha cartas para dela participar."
+                            text: "Para descrever o funcionamento do jogo supertrunfo, poderemos usar o conceito de Algoritmos, um dos pilares do Pensamento Computacional.",
+                            tip: "A menos de alguns detalhes que deixamos de apresentar, podemos descrever um jogo de super trunfo usando algoritmos, como o que apresentamos a seguir: o super trunfo é disputado em uma série de rodadas e termina quando não houver mais nenhuma a realizar. Em cada rodada há um vencedor, que se apropria de todas as cartas ganhas durante a mesma. Para existir uma rodada, é necessário que mais de um jogador tenha cartas para dela participar"
                         },
                         {
                             value: "0",
                             key: "2",
-                            text: "Abstração",
+                            text: "Definir as características relevantes e mensuráveis dos atletas de uma determinada modalidade, que possam servir para criar as cartas do jogo, usando o pilar Abstração, um dos pilares do Pensamento Computacional",
                             tip: "Certamente, antes de criar as cartas do jogo, precisamos escolher as propriedades que descrevem um atleta de determinada modalidade esportiva. Para isso precisamos escolher algumas características e abandonar as que não são relevantes, ou seja, elaborar uma abstração. O pilar que nos apoia nessa situação é, por definição, Abstração."
                         },
                         {
                             value: "0",
                             key: "3",
-                            text: "Decomposição",
+                            text: "Para produzir as cartas de um determinado supertrunfo é importante pensarmos em um trabalho de equipe. Usando o pilar Decomposição do Pensamento Computacional, podemos identificar diferentes atividades para serem distribuídas pelas equipes",
                             tip: "Construir um jogo de cartas certamente envolve várias atividades que vão da seleção de propriedades até a produção física do jogo. Isso não é um trabalho pequeno, principalmente quando se pensa em fazer vários conjuntos temáticos de cartas. A divisão de tarefas pode ser facilitada com uma decomposição, que facilitará a definição de responsabilidades."
                         },
                         {
                             value: "1",
                             key: "4",
-                            text: "Reconhecimento de Padrões",
+                            text: "Usando o Reconhecimento de Padrões poderemos descobrir a similaridade entre os diversos jogadores de uma modalidade esportiva e determinar o vencedor de cada jogada de uma partida de supertrunfo",
                             tip: "Certamente, se coletarmos as características estratégicas e táticas de cada jogador de dois ou mais times, poderemos realizar comparações entre os jogadores. Por exemplo, no futebol é comum escutarmos frases do tipo: a Mariana é a Marta do nosso time, ou o Joaquim, do Maçaranduba Futebol Clube, é o Pelé (ou o Garrincha) do time. Tais comparações em geral são feitas com base na forma de jogar dos jogadores."
                         }
                     ]
@@ -771,25 +771,25 @@ class Activities {
                         {
                             value: "0",
                             key: "1",
-                            text: "Reconhecimento de Padrões",
+                            text: "Dado que nem todas as atividades que encontraremos acham-se catalogadas, podemos, usando o pilar Reconhecimento de Padrões, fazer aproximações com as práticas assemelhadas, para entender as inspirações para cada nova modalidade encontrada. Por exemplo, algumas práticas podem ser definidas a partir de outras semelhantes. Veja-se o caso do futevôlei, que usa uma rede de vôleibol com uma variação das suas regras: quantidade de jogadores e o uso dos pés e da cabeça ao invés das mãos",
                             tip: "Com o apoio de um catálogo de atividades e suas principais características. (por exemplo, o objeto usado para promover a disputa, número de participantes, ambiente onde se realiza a disputa (água, quadra, etc.)), podemos associar uma atividade qualquer de acordo com a aproximação dessa com uma ou mais atividades catalogadas, atribuindo um grau de similaridade."
                         },
                         {
                             value: "0",
                             key: "2",
-                            text: "Algoritmo",
+                            text: "O funcionamento de uma nova atividade esportiva descoberta pode ser definido pela elaboração de um algoritmo",
                             tip: "Isso é possível, pois uma atividade esportiva é realizada em uma sequência finita de subatividades e cada atividade possui critérios de finalização."
                         },
                         {
                             value: "1",
                             key: "3",
-                            text: "Decomposição",
+                            text: "Para determinar a menor distância a ser percorrida a pé, para ir de uma escola a um local onde uma dada atividade esportiva possa ser praticada, basta usar a Decomposição. Inicialmente calcular a distância em linha reta entre a escola e cada um dos locais onde a atividade é praticada e a seguir determinar o local mais próximo, usando um algoritmo para verificar qual local tem a menor distância",
                             tip: "Para se ir de um local a outro, a pé, é preciso usar as vias de circulação. Dessa forma é possível ter vários possíveis caminhos para ir de um ao outro. Com isso, para resolver o problema é necessário escolher o menor caminho entre os possíveis que não necessariamente é uma linha reta. Em outras palavras, a atividade descrita nesta alternativa não resolve o problema a que se propõe."
                         },
                         {
                             value: "0",
                             key: "4",
-                            text: "Abstração",
+                            text: "O pilar Abstração seria adequado para apoiar um estudo para definição de uma 'vocação esportiva' para o entorno de uma escola, a partir dos locais constantes do inventário",
                             tip: "Para identificar possíveis atividades candidatas para definição da \"vocação esportiva\", a partir do entorno da escola, é importante construir uma abstração para esse conceito. Isso implica em determinar as principais características que devem ser consideradas sobre os espaços esportivos existentes, para viabilizar uma avaliação."
                         }
                     ]

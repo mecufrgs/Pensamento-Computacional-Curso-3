@@ -1,8 +1,6 @@
 import React from 'react'
 import ContentBox from '../../../components/content-box'
-import Image from '../../../components/image'
 import PrimaryText from '../../../components/text/primary'
-import SubtitleBar from '../../../components/subtitle-bar'
 
 class SlideTwo extends React.Component {
   constructor(props){

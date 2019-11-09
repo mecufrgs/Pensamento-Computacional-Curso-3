@@ -1,10 +1,8 @@
 import React from 'react'
 import ContentBox from '../../../components/content-box'
 import PrimaryText from '../../../components/text/primary'
-import Bold from '../../../components/text/bold'
 import SubtitleBar from '../../../components/subtitle-bar'
 import EmptySpace from '../../../components/empty-space'
-import Subtitle from '../../../components/text/subtitle'
 
 import QuadroUmSVG from '../../../images/content/micromundo-iv/micromundo4pg3.svg'
 import Image from '../../../components/image'

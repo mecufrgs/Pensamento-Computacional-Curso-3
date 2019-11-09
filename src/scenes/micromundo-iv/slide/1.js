@@ -6,12 +6,11 @@ import PrimaryText from '../../../components/text/primary'
 import EmptySpace from '../../../components/empty-space'
 import ImageSlide from '../../../components/image-slide'
 
-import FalaUmSVG from '../../../images/content/micromundo-iii/4-fala1.svg'
-import FalaDoisSVG from '../../../images/content/micromundo-iii/4-fala2.svg'
-import FalaTresSVG from '../../../images/content/micromundo-iii/4-fala3.svg'
+import FalaUmSVG from '../../../images/content/micromundo-iv/5-fala1.svg'
+import FalaDoisSVG from '../../../images/content/micromundo-iv/5-fala2.svg'
+import FalaTresSVG from '../../../images/content/micromundo-iv/5-fala3.svg'
 
 import OlimpiadaSVG from '../../../images/content/micromundo-iv/olimpiada.svg'
-import Subtitle from '../../../components/text/subtitle'
 /*Props
   renderTop: function(bool), called to show the header
 */
@@ -40,7 +39,6 @@ class SlideOne extends React.Component {
       <ContentBox>
         <ImageSlide getSlide={this.getSlideImage} slideCount={SlideCount.MICROMUNDO_IV_DIALOG} />
         <PrimaryText>
-          <Subtitle>AS OLIMPÍADAS ESCOLARES</Subtitle>
           <p>Anualmente várias escolas, especialmente aquelas que integram a rede pública, participam de um evento chamado "Jogos Estudantis" ou "Olimpíadas Escolares", envolvendo várias unidades (escolas) distribuídas por várias regiões de uma cidade. Muitos professores participam diretamente desses jogos, auxiliando na organização, treinamento, logística, etc., enquanto outros têm conhecimento dos mesmos, mas não participam diretamente ou compõem a torcida da escola.</p>
           <p>Nesse tipo de evento há um conjunto de ações que em muitos casos compõem o calendário de atividades da escola e cujo planejamento, organização e desenvolvimento podem envolver muitos elementos estudados no Ensino Fundamental, de um modo transversal a várias áreas, segundo uma perspectiva interdisciplinar. Por essa razão propomos explorar alguns dos elementos envolvidos, buscando ilustrar como os pilares do Pensamento Computacional, associados a certas habilidades específicas, podem auxiliar na construção de soluções.</p>
           <p>Vídeos e recursos externos sobre esportes, importância dos esportes, socialização através dos esportes, prática desportiva e colaboração, etc.</p>

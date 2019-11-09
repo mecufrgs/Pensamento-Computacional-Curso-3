@@ -46,6 +46,10 @@ class SlideOne extends React.Component {
           <p>Hoje, mesmo com a existência de outras opções para essas atividades, as feiras livres, por seu encanto e praticidade, permanecem atrativas, muito pelo fato de que nelas cada feirante é um comércio à parte, com características definidas por cada um.</p>
           <p>O conceito de feira modernamente é usado em diferentes situações. Hoje há feiras beneficentes, do livro, para liquidação de estoque, agropecuárias, industriais e até mesmo de ciências.</p>
           <p>Na escola, usando os espaços de feiras, podemos elaborar diferentes eventos e situações-problema, para apoiar o desenvolvimento dos estudantes nas diversas áreas de conhecimento. Excelentes oportunidades de aprendizagem podem surgir de um passeio de reconhecimento, uma saída para compras, uma visita para conversar com os profissionais e até mesmo na concepção e organização de feiras temáticas.</p>
+          <p>Excelentes oportunidades de aprendizagem podem surgir de um passeio
+de reconhecimento, uma saída para compras, uma visita para conversar
+com os profissionais e até mesmo na concepção e organização de feiras
+temáticas.</p>
           <EmptySpace />
           <Image src={FeiraSVG} />
           <EmptySpace />

@@ -1,6 +1,5 @@
 import React from 'react'
 import ContentBox from '../../../components/content-box'
-import Image from '../../../components/image'
 import PrimaryText from '../../../components/text/primary'
 import EmptySpace from '../../../components/empty-space'
 import TextBNCC from '../../../components/text/bncc'

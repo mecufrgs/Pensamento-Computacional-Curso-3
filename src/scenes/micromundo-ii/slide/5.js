@@ -1,17 +1,15 @@
 import React from 'react'
 import ContentBox from '../../../components/content-box'
-import Image from '../../../components/image'
 import PrimaryText from '../../../components/text/primary'
-import EmptySpace from '../../../components/empty-space'
-import TextBNCC from '../../../components/text/bncc'
-import SubtitleBar from '../../../components/subtitle-bar'
-import Activities from '../../../services/activities'
 import IntegralActivity from '../../../components/integral-activity'
+import SubtitleBar from '../../../components/subtitle-bar'
+import TextBNCC from '../../../components/text/bncc'
+import Activities from '../../../services/activities'
 
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
 .*/
-class SlideFive extends React.Component {
+class SlideFour extends React.Component {
 
   constructor(props) {
     super(props)
@@ -22,18 +20,15 @@ class SlideFive extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA' subtitle='Definindo preços'/>
-          <p>Os produtos que serão comercializados na feira beneficente são de várias naturezas e podem ser novos ou usados. Cada barraca deve ter sua lista de preços, onde  a cada item estará associado um valor padrão e uma margem de negociação.</p>
-          <SubtitleBar type={3} title='Questão Avaliativa - 3' subtitle='Comercialização de produtos'/>
-          <p>O preço de cada produto dependerá da sua categoria e margem de negociação. Por exemplo, a aquisição de três ou mais unidades de produtos de uma mesma categoria dará direito a uma redução de 20% no valor total. O preço dos produtos artesanais partirá do menor valor de mercado, com margem de negociação de até 30%. Compradores que adquirirem produtos de uma determinada lista de promoções do dia ganharão descontos na próxima compra.</p>
-          <EmptySpace />
-          <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em:  Matemática, Ciências e Língua Portuguesa.</TextBNCC>
-          <p>Qual o par de pilares do Pensamento Computacional que <b>melhor contribuiria</b> para a determinação do valor de uma determinada venda?</p>
-          <IntegralActivity activity={Activities.getMicromundoIIActiviryThree(this.props.unitId)} />
+            <SubtitleBar type={3} title='Questão Avaliativa - 2' subtitle='Organização dos produtos'/>
+            <p>Cada barraca deverá acomodar produtos com características semelhantes, definidas segundo sua natureza ou aplicação: alimentos, vestuário, acessórios de casa, ferramentas, etc.</p>
+            <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: Matemática, Ciências e Língua Portuguesa.</TextBNCC>
+            <p>Qual dos pilares do Pensamento Computacional seria <b>mais útil</b> para tratar essa questão?</p>
+            <IntegralActivity activity={Activities.getMicromundoIIActiviryTwo(this.props.unitId)} />
         </PrimaryText>
       </ContentBox>
     )
   }
 }
 
-export default SlideFive
+export default SlideFour

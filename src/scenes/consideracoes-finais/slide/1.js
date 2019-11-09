@@ -1,7 +1,6 @@
 import React from 'react'
 import SlideCount from '../../../constants/slide-count'
 import ContentBox from '../../../components/content-box'
-import Image from '../../../components/image'
 import PrimaryText from '../../../components/text/primary'
 import EmptySpace from '../../../components/empty-space'
 import ImageSlide from '../../../components/image-slide'

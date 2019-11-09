@@ -11,8 +11,6 @@ import FamiliaSVG from '../../../images/content/micromundo-i/Familia.svg'
 import FalaUmSVG from '../../../images/content/micromundo-i/2-fala1.svg'
 import FalaDoisSVG from '../../../images/content/micromundo-i/2-fala2.svg'
 import FalaTresSVG from '../../../images/content/micromundo-i/2-fala3.svg'
-import Subtitle from '../../../components/text/subtitle'
-
 /*Props
   renderTop: function(bool), called to show the header
 */
@@ -41,8 +39,9 @@ class SlideOne extends React.Component {
       <ContentBox>
         <ImageSlide getSlide={this.getSlideImage} slideCount={SlideCount.MICROMUNDO_I_DIALOG} />
         <PrimaryText>
-          <Subtitle>UMA FAMÍLIA BEM BRASILEIRA</Subtitle>
-          <p>Neste Micromundo, as ações acontecem no seio de uma família bem brasileira, com pessoas de diferentes origens e etnias. Esse núcleo familiar está constituído pelo casal  Dona Veridiana (60), de origem italiana, que adora comemorações, e Seu Akira (70), de origem japonesa (os pais vieram do Japão). Dona Veridiana e Seu Akira têm 5 filhos: Pedro (42), casado com Dolores; Gustavo (36); Marta (40), casada com Paulo; Janaina (35); e Mariana (28). A caçula, Mariana, é casada com o Augusto, há 8 anos, e o casal tem dois filhos: José Carlos (7) e Ana Maria (5). Mais detalhes da árvore genealógica dessa família serão apresentados conforme for surgindo a necessidade de explorar eventos que integrem outros núcleos familiares. </p>
+          <p>Neste Micromundo, as ações acontecem no seio de uma família bem brasileira, com pessoas de diferentes origens e etnias.</p>
+          <p> Esse núcleo familiar está constituído pelo casal  Dona Veridiana (60), de origem italiana, que adora comemorações, e Seu Akira (70), de origem japonesa (os pais vieram do Japão). Dona Veridiana e Seu Akira têm 5 filhos: Pedro (42), casado com Dolores; Gustavo (36); Marta (40), casada com Paulo; Janaina (35); e Mariana (28). A caçula, Mariana, é casada com o Augusto, há 8 anos, e o casal tem dois filhos: José Carlos (7) e Ana Maria (5).</p>
+          <p> Mais detalhes da árvore genealógica dessa família serão apresentados conforme for surgindo a necessidade de explorar eventos que integrem outros núcleos familiares. </p>
           <EmptySpace/>
           <Image src={FamiliaSVG} />
           <EmptySpace/>
