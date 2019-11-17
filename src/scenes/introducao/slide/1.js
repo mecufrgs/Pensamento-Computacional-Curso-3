@@ -19,7 +19,6 @@ import FalaTresSVG from '../../../images/content/introducao/1-fala3.svg'
 class SlideOne extends React.Component {
   constructor(props){
     super(props)
-    
     this.props.setHeader()
   }
 
@@ -46,9 +45,7 @@ class SlideOne extends React.Component {
           <EmptySpace />
           <Image src={PilaresSVG} />
           <EmptySpace />
-          <p>O curso <i>Aplicações do Pensamento Computacional para os Anos Iniciais do Ensino Fundamental</i> estimulou a reflexão e a identificação de oportunidades para a aplicação em sala de aula dos quatro pilares do Pensamento Computacional, considerando habilidades elencadas na BNCC.</p>
-          <EmptySpace />
-          <Image className='highlightbox' src={QuadroUmSVG} alt='O presente curso, <i>Aplicações do Pensamento Computacional para os Anos Finais do Ensino Fundamental</i>, apresentará exemplos de como você poderá apoiar o desenvolvimento do Pensamento Computacional, para alunos nessa etapa de escolarização, e seguirá a mesma organização do curso  relativo aos Anos Iniciais.'/>
+          <Image className='highlightbox' src={QuadroUmSVG} alt='O presente curso, <b><i>Aplicações do Pensamento Computacional para os Anos Finais do Ensino Fundamental</i></b>, apresentará exemplos de como você poderá apoiar o desenvolvimento do Pensamento Computacional, para alunos nessa etapa de escolarização, e seguirá a mesma organização do curso  relativo aos Anos Iniciais.'/>
           <EmptySpace />
         </PrimaryText> 
       </ContentBox>

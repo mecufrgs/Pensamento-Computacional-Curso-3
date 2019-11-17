@@ -20,7 +20,7 @@ class SlideEight extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 4' subtitle='Design Participativo para o Parque'/>
+          <SubtitleBar type={3} title='Questão Avaliativa - 4' subtitle='Projeto Participativo para o Parque'/>
           <p>Um dos pressupostos para a definição do parque é que ele seja um recurso compartilhado por todos, sendo necessário, portanto, oferecer oportunidades para todas as necessidades e preferências possíveis.</p>
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: Ciências, Matemática, Arte, Geografia e Língua Portuguesa.</TextBNCC>
           <p>Selecione, das afirmativas a seguir, <b>a que não está correta</b> ao se referir à solução para essa proposta, considerando o Pensamento Computacional:</p>

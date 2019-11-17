@@ -79,6 +79,9 @@ class AvaMecApiServices {
     }
 
     getPreviousUnit = unit => {
+        console.log('getPreviousUnit')
+        console.log('unit')
+        console.log(unit)
         if (unit !== undefined) {
             try {
                 this.api.obterUnidadeAnterior(unit)
@@ -89,6 +92,9 @@ class AvaMecApiServices {
     }
 
     getNextUnit = unit => {
+        console.log('getNextUnit')
+        console.log('unit')
+        console.log(unit)
         if (unit !== undefined) {
             try {
                 this.api.obterProximaUnidade(unit)

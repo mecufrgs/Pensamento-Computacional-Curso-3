@@ -1,7 +1,6 @@
 import React from 'react'
 import ContentBox from '../../../components/content-box'
 import PrimaryText from '../../../components/text/primary'
-import EmptySpace from '../../../components/empty-space'
 import TextBNCC from '../../../components/text/bncc'
 import SubtitleBar from '../../../components/subtitle-bar'
 import Activities from '../../../services/activities'
@@ -10,7 +9,7 @@ import IntegralActivity from '../../../components/integral-activity'
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
 .*/
-class SlideFive extends React.Component {
+class SlideSeven extends React.Component {
 
   constructor(props) {
     super(props)
@@ -23,7 +22,6 @@ class SlideFive extends React.Component {
         <PrimaryText>
         <SubtitleBar type={3} title='Questão Avaliativa - 3' subtitle='Comercialização de produtos'/>
           <p>O preço de cada produto dependerá da sua categoria e margem de negociação. Por exemplo, a aquisição de três ou mais unidades de produtos de uma mesma categoria dará direito a uma redução de 20% no valor total. O preço dos produtos artesanais partirá do menor valor de mercado, com margem de negociação de até 30%. Compradores que adquirirem produtos de uma determinada lista de promoções do dia ganharão descontos na próxima compra.</p>
-          <EmptySpace />
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em:  Matemática, Ciências e Língua Portuguesa.</TextBNCC>
           <p>Qual o par de pilares do Pensamento Computacional que <b>melhor contribuiria</b> para a determinação do valor de uma determinada venda?</p>
           <IntegralActivity activity={Activities.getMicromundoIIActiviryThree(this.props.unitId)} />
@@ -33,4 +31,4 @@ class SlideFive extends React.Component {
   }
 }
 
-export default SlideFive
+export default SlideSeven

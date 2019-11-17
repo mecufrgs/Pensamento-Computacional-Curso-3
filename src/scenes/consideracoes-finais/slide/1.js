@@ -37,12 +37,11 @@ class SlideOne extends React.Component {
           <p>Neste curso vimos, através dos Micromundos, que o Pensamento Computacional está naturalmente presente em nossa prática diária, permeando o cotidiano, em variadas situações que podem ser exploradas em sala de aula, no contexto da BNCC.</p>
           <p>Reconhece-se hoje, internacionalmente, a importância das estratégias de raciocínio do Pensamento Computacional para a realidade do mundo atual. E as pesquisas apontam que  essas estratégias deveriam ser desenvolvidas não só nos primeiros anos de escolaridade, capitalizando a naturalidade das crianças para essa forma de pensamento, mas ao longo de toda a vida escolar das crianças e jovens.</p>
           <p>Existe no mundo um número não desprezível de materiais para trabalhar com Pensamento Computacional, mas nem sempre o enfoque privilegia os quatro pilares.</p>
-          <p>Assim, este curso voltado para os  Anos Finais do Ensino Fundamental, insere-se no esforço:</p>
+          <p>Assim, este curso, voltado para os  Anos Finais do Ensino Fundamental, insere-se no esforço:</p>
           <ul>
-            <li>Do efetivo desenvolvimento do Pensamento Computacional, também nos Anos Finais do Ensino Fundamental;</li>
-            <li>De sensibilização e motivação dos professores para realizarem o trabalho com o Pensamento Computacional em sala de aula, embasado no uso dos quatro pilares, não necessariamente usando soluções prontas e acabadas, mas principalmente apontando caminhos para que o professor desenvolva os seus próprios recursos, ampliando o acervo pedagógico para o tema.</li>
+            <li>do efetivo desenvolvimento do Pensamento Computacional, também nos Anos Finais do Ensino Fundamental;</li>
+            <li>de sensibilização e motivação dos professores para realizarem o trabalho com o Pensamento Computacional em sala de aula, embasado no uso dos quatro pilares, não necessariamente usando soluções prontas e acabadas, mas principalmente apontando caminhos para que o professor desenvolva os seus próprios recursos, ampliando o acervo pedagógico para o tema</li>
           </ul>
-          <EmptySpace/>
         </PrimaryText>
       </ContentBox>
     )

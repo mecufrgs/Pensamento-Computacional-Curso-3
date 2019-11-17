@@ -9,8 +9,8 @@
         "atividades": []
     },
     {
-        "identificador": "micromundo-i",
-        "nome": "Micromundo I - Uma família bem brasileira",
+        "identificador": "micromundo_i",
+        "nome": "Micromundo I - Uma Família bem Brasileira",
         "descricao": "",
         "permitePorcentagem": "false",
         "identificadorPai": "",
@@ -23,7 +23,7 @@
                     {
                         "tipoQuestaoString": "INTEGRAL",
                         "identificador": "q1_a1_micromundo_i",
-                        "enunciado": "No planejamento da apresentação da vida de D. Veridiana, em três atos: <b>Uma vida em imagens</b>; <b>Música Típica</b>; e <b>Os caminhos da D. Veridiana</b>,  qual  o pilar do Pensamento Computacional que foi <b>exercitado com mais ênfase</b> nesse planejamento?",
+                        "enunciado": "No planejamento da apresentação da vida de D. Veridiana, em três atos: <b>Uma vida em imagens</b>; <b>Música típica</b>; e <b>Os caminhos da D. Veridiana</b>,  qual  o pilar do Pensamento Computacional que foi <b>exercitado com mais ênfase</b> nesse planejamento?",
                         "gabaritos": [
                             {
                                 "alternativa": "<b>Abstração</b>;",
@@ -55,18 +55,18 @@
                 "questoes": [
                     {
                         "tipoQuestaoString": "INTEGRAL",
-                        "identificador": "q1_a1_micromundo_i",
+                        "identificador": "q1_a2_micromundo_i",
                         "enunciado": "Qual o pilar do Pensamento Computacional que será <b>exercitado com mais ênfase</b> na concepção e realização desta parte da apresentação?",
                         "gabaritos": [
                             {
                                 "alternativa": "<b>Abstração</b>;",
                                 "chave": "1",
-                                "valor": "0"
+                                "valor": "1"
                             },
                             {
                                 "alternativa": "<b>Decomposição</b>;",
                                 "chave": "2",
-                                "valor": "1"
+                                "valor": "0"
                             },
                             {
                                 "alternativa": "<b>Reconhecimento de Padrões</b>;",
@@ -184,8 +184,8 @@
         ]
     },
     {
-        "identificador": "micromundo-ii",
-        "nome": "Micromundo II - A Feira Livre e similares",
+        "identificador": "micromundo_ii",
+        "nome": "Micromundo II - A Feira Livre e Similares",
         "descricao": "",
         "permitePorcentagem": "false",
         "identificadorPai": "",
@@ -392,7 +392,7 @@
         ]
     },
     {
-        "identificador": "micromundo-iii",
+        "identificador": "micromundo_iii",
         "nome": "Micromundo III - O Bairro onde Moramos",
         "descricao": "",
         "permitePorcentagem": "true",
@@ -449,7 +449,7 @@
                             {
                                 "alternativa": "Usar o pilar <a>Abstração</a> do Pensamento Computacional facilitaria o trabalho de caracterizar os aspectos que devem ser tratados nas descrições textuais previstas na atividade A3.",
                                 "chave": "2",
-                                "valor": "1"
+                                "valor": "0"
                             },
                             {
                                 "alternativa": "Em geral, quando temos uma relação de atividades a serem realizadas, algumas precisam ser realizadas antes que outras. Certamente, seria possível elaborar essa ordenação, usando conceitos do pilar <b>Algoritmos</b>, do Pensamento Computacional.",
@@ -459,7 +459,7 @@
                             {
                                 "alternativa": "A lista produzida acima é resultado de um processo de <b>Decomposição</b>, típico do Pensamento Computacional, considerando o tipo das tarefas envolvidas na realização de uma atividade. Você professor@, possivelmente poderia ter uma outra forma de organizar o seu planejamento, tomando por base o pilar <b>Reconhecimento de Padrões</b>.",
                                 "chave": "4",
-                                "valor": "0"
+                                "valor": "1"
                             }
                         ]
                     }
@@ -534,7 +534,7 @@
         ]
     },
     {
-        "identificador": "micromundo-iv",
+        "identificador": "micromundo_iv",
         "nome": "Micromundo IV - As Olimpíadas Escolares",
         "descricao": "",
         "permitePorcentagem": "true",

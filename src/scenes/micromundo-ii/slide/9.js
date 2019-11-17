@@ -2,11 +2,13 @@ import React from 'react'
 import ContentBox from '../../../components/content-box'
 import PrimaryText from '../../../components/text/primary'
 import SubtitleBar from '../../../components/subtitle-bar'
+import EmptySpace from '../../../components/empty-space'
+import Subtitle from '../../../components/text/subtitle'
 
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
 .*/
-class SlideSeven extends React.Component {
+class SlideNine extends React.Component {
 
   constructor(props) {
     super(props)
@@ -17,12 +19,14 @@ class SlideSeven extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA' subtitle='Cada um compra o que quer'/>
+          <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA' subtitle='Adquirindo Produtos'/>
           <p>Os alunos foram às compras com a indicação de que poderiam escolher o que quisessem, até um máximo de 5 produtos de diferentes naturezas, sem se preocupar com o preço.  No caixa, os produtos de cada aluno foram acomodados em embalagens individuais. Na volta para escola, cada um colocou uma etiqueta com seu nome nos seus produtos.</p>
+            <Subtitle>Questões Avaliativas</Subtitle>
+          <p>A análise de determinados produtos disponíveis em um supermercado pode ser uma oportunidade para explorar estratégias de Pensamento Computacional, o que convidamos você a fazer nas atividades avaliativas a seguir.</p>
           </PrimaryText>
       </ContentBox>
     )
   }
 }
 
-export default SlideSeven
+export default SlideNine

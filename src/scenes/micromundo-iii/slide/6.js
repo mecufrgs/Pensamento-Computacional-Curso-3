@@ -19,7 +19,7 @@ class SlideSix extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 3' subtitle='Realização de Exposição Itinerante sobre o Bairro a partir do Material do Portfólio'/>
+          <SubtitleBar type={3} title='Questão Avaliativa - 3' subtitle='Exposição sobre o Bairro a partir do Portfólio'/>
           <p>O rico material que deu origem ao portfólio do bairro deverá ser socializado na forma de uma exposição. Para atender a demandas de diferentes grupos e organizações que se prontificaram a hospedá-la, a exposição será &quot;itinerante&quot;, ficando certo período em cada local.</p>
 
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em:  Arte, História, Geografia e Língua Portuguesa.</TextBNCC>

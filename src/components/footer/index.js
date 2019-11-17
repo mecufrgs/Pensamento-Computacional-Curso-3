@@ -9,7 +9,7 @@ class Footer extends React.Component {
                 <div className='slide-info'>
                     <SlideControlBottom 
                         hasNextUnit={this.props.hasNextUnit} 
-                        hasPreviousUnit={this.props.HasPreviousUnit} 
+                        hasPreviousUnit={this.props.hasPreviousUnit} 
                         slide={this.props.slide} 
                         onChangeUnit={this.props.onChangeUnit} 
                         onChangeSlide={this.props.onChangeSlide} 

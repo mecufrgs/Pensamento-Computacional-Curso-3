@@ -9,7 +9,7 @@ import IntegralActivity from '../../../components/integral-activity'
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
 .*/
-class SlideSeven extends React.Component {
+class SlideTen extends React.Component {
 
   constructor(props) {
     super(props)
@@ -20,7 +20,7 @@ class SlideSeven extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-         <SubtitleBar type={3} title='Questão Avaliativa - 4' subtitle='Organizando os produtos adquiridos'/>
+         <SubtitleBar type={3} title='Questão Avaliativa - 4' subtitle='Organizando os Produtos Adquiridos'/>
           <p>Considerando as informações disponíveis sobre os produtos comprados, os professores podem elaborar atividades de estudo para diferentes disciplinas. A seguir apresentamos algumas possibilidades, cada uma relacionada com um pilar do Pensamento Computacional. </p>
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em:  Ciências e Língua Portuguesa.</TextBNCC>
           <p>Selecione a alternativa que lhe pareça <b>menos apropriada.</b></p>
@@ -31,4 +31,4 @@ class SlideSeven extends React.Component {
   }
 }
 
-export default SlideSeven
+export default SlideTen

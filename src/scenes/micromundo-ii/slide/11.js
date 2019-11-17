@@ -10,7 +10,7 @@ import IntegralActivity from '../../../components/integral-activity'
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
 .*/
-class SlideEight extends React.Component {
+class SlideEleven extends React.Component {
 
   constructor(props) {
     super(props)
@@ -31,4 +31,4 @@ class SlideEight extends React.Component {
   }
 }
 
-export default SlideEight
+export default SlideEleven

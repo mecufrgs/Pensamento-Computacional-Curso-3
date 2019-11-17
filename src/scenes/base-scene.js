@@ -22,6 +22,7 @@ const mainCenterStyle = { backgroundColor: '#ffffff', backgroundImage: 'url(' + 
 
 class BaseScene extends Error {
     onChangeSlide = newSlide => {
+        console.log('onChangeSlide')
         SlideService.saveSlide(newSlide)
         URLService.updateSlide(newSlide)
         this.setState({
@@ -31,6 +32,7 @@ class BaseScene extends Error {
     }
 
     onChangeUnit = next => {
+        console.log('onChangeUnit')
         if(next){
             this.nextUnit()
         } else {
@@ -39,23 +41,30 @@ class BaseScene extends Error {
     }
 
     nextUnit = () => {
+        console.log('nextUnit')
+        console.log(this.state.id)
         if(this.state.hasNextUnit){
             AVAMECService.getNextUnit(this.state.id)
         }
     }
 
     previousUnit = () => {
+        console.log('previousUnit')
+        console.log(this.state.id)
         if(this.state.hasPreviousUnit){
             AVAMECService.getPreviousUnit(this.state.id)
         }
     }
 
     getUnitState = () => {
+        console.log('getUnitState')
         AVAMECService.getIfNextUnitExist(this.state.id, this.callBackIfNextUnitExists)
         AVAMECService.getIfPreviousUnitExist(this.state.id, this.callBackIfPreviousUnitExists)
     }
 
     callBackIfNextUnitExists = event => {
+        console.log('NextUnitExists')
+        console.log(event)
         try {
             if(!HttpStatus.isError(event.status)) {
                 this.setState({
@@ -70,6 +79,8 @@ class BaseScene extends Error {
     }
 
     callBackIfPreviousUnitExists = event => {
+        console.log('PreviousUnitExists')
+        console.log(event)
         try {
             if(!HttpStatus.isError(event.status)) {
                 this.setState({
@@ -138,7 +149,7 @@ class BaseScene extends Error {
                 </div>  
                 <Footer
                     hasNextUnit={this.state.hasNextUnit} 
-                    hasPreviousUnit={this.state.HasPreviousUnit} 
+                    hasPreviousUnit={this.state.hasPreviousUnit} 
                     slide={this.state.slide} 
                     onChangeUnit={this.onChangeUnit} 
                     onChangeSlide={this.onChangeSlide} 

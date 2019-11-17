@@ -9,7 +9,7 @@ import IntegralActivity from '../../../components/integral-activity'
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
 .*/
-class SlideNine extends React.Component {
+class SlideTwelve extends React.Component {
 
   constructor(props) {
     super(props)
@@ -20,7 +20,7 @@ class SlideNine extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 6' subtitle='Uma mostra de países e seus produtos consumidos no Brasil'/>
+          <SubtitleBar type={3} title='Questão Avaliativa - 6' subtitle='Uma mostra de países e seus produtos'/>
           <p>Nos dias atuais, é comum termos acesso a produtos do mundo inteiro. Da mesma forma, nossos produtos são exportados para os mais diversos países. Os acordos comerciais internacionais, realizados entre países e instituições reguladoras, são os responsáveis pela estruturação desse processo.</p>
           <p>Para os estudantes, conhecer a origem dos produtos consumidos, a partir da pequena amostra que encontram em suas compras nos supermercados, pode ser uma boa oportunidade para descobrirem o mundo em que vivem. Tendo por base os produtos adquiridos, pode-se organizar uma mostra de países e produtos.</p>
           <p>Sobre a organização e realização dessa mostra, considere os seguintes itens.</p>
@@ -38,4 +38,4 @@ class SlideNine extends React.Component {
   }
 }
 
-export default SlideNine
+export default SlideTwelve

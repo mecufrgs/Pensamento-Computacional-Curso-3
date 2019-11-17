@@ -20,8 +20,8 @@ class SlideSeven extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 4' subtitle='Música típica'/>
-          <p>Um grupo com interesses musicais, que possui uma banda com um repertório variado, ficou responsável por apresentar músicas típicas dos diferentes lugares em que D. Veridiana viveu ou visitou.</p>
+          <SubtitleBar type={3} title='Questão Avaliativa - 4' subtitle='Músicas Típicas'/>
+          <p>Um grupo com interesses musicais, que possui uma banda com um repertório variado, ficou responsável por apresentar músicas típicas dos diferentes lugares em que Dona Veridiana viveu ou visitou.</p>
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: Arte, História e Geografia.</TextBNCC>
           <p>Qual o pilar do Pensamento Computacional que será <b>exercitado com mais ênfase</b> na concepção e realização desta parte da apresentação?</p>
           <IntegralActivity activity={Activities.getMicromundoIActiviryFour(this.props.unitId)} />

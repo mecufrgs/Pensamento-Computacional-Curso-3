@@ -40,8 +40,7 @@ class SlideOne extends React.Component {
         <ImageSlide getSlide={this.getSlideImage} slideCount={SlideCount.MICROMUNDO_I_DIALOG} />
         <PrimaryText>
           <p>Neste Micromundo, as ações acontecem no seio de uma família bem brasileira, com pessoas de diferentes origens e etnias.</p>
-          <p> Esse núcleo familiar está constituído pelo casal  Dona Veridiana (60), de origem italiana, que adora comemorações, e Seu Akira (70), de origem japonesa (os pais vieram do Japão). Dona Veridiana e Seu Akira têm 5 filhos: Pedro (42), casado com Dolores; Gustavo (36); Marta (40), casada com Paulo; Janaina (35); e Mariana (28). A caçula, Mariana, é casada com o Augusto, há 8 anos, e o casal tem dois filhos: José Carlos (7) e Ana Maria (5).</p>
-          <p> Mais detalhes da árvore genealógica dessa família serão apresentados conforme for surgindo a necessidade de explorar eventos que integrem outros núcleos familiares. </p>
+          <p> Esse núcleo familiar é formado pelo casal  Dona Veridiana (60), de origem italiana, que adora comemorações, e Seu Akira (70), de origem japonesa (os pais vieram do Japão). Dona Veridiana e Seu Akira têm 5 filhos: Pedro (42), casado com Dolores; Gustavo (36); Marta (40), casada com Paulo; Janaina (35); e Mariana (28). A caçula, Mariana, é casada com o Augusto, há 8 anos, e o casal tem dois filhos: José Carlos (7) e Ana Maria (5).</p>
           <EmptySpace/>
           <Image src={FamiliaSVG} />
           <EmptySpace/>

@@ -9,7 +9,7 @@ import Activities from '../../../services/activities'
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
 .*/
-class SlideFour extends React.Component {
+class SlideFive extends React.Component {
 
   constructor(props) {
     super(props)
@@ -20,7 +20,7 @@ class SlideFour extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-            <SubtitleBar type={3} title='Questão Avaliativa - 2' subtitle='Organização dos produtos'/>
+            <SubtitleBar type={3} title='Questão Avaliativa - 2' subtitle='Organização dos Produtos'/>
             <p>Cada barraca deverá acomodar produtos com características semelhantes, definidas segundo sua natureza ou aplicação: alimentos, vestuário, acessórios de casa, ferramentas, etc.</p>
             <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: Matemática, Ciências e Língua Portuguesa.</TextBNCC>
             <p>Qual dos pilares do Pensamento Computacional seria <b>mais útil</b> para tratar essa questão?</p>
@@ -31,4 +31,4 @@ class SlideFour extends React.Component {
   }
 }
 
-export default SlideFour
+export default SlideFive

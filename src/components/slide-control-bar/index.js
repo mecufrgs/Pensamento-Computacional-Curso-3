@@ -20,11 +20,11 @@ class SlideControlBar extends React.Component {
     }
 
     nextUnit = () => {
-        this.props.onChangeUnit()
+        this.props.onChangeUnit(true)
     }
 
     previousUnit = () => {
-        this.props.onChangeUnit()
+        this.props.onChangeUnit(false)
     }
 
     previous = () => {
@@ -69,23 +69,30 @@ class SlideControlBar extends React.Component {
 
     render(){
         return (
+
             <div className='slide-control-bar'>
                 <div className='side-bar'></div>
                 <div className='central-bar'>
+
                     <GenericButton onClick={this.previous} className='slide-control-bar-button'>
                         <Image className='button-image' src={BackFilled} alt='Voltar'/>
                         <div className='white-bar'></div>
                     </GenericButton>
+
                     <div className='unit previous'>
                 	    {this.renderPreviousSlideName()}
                     </div>
+
                     <div className='unit next'>
                         {this.renderNextSlideName()}
                     </div>
+                    
+                    
                     <GenericButton onClick={this.next} className='slide-control-bar-button'>
                         <div className='white-bar'></div>
                         <Image className='button-image' src={ForwardFilled} alt='Avançar'/>
                     </GenericButton>
+                    
                 </div>
                 <div className='side-bar'></div>
             </div>
