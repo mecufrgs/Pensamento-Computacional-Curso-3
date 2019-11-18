@@ -21,9 +21,8 @@ class SlideThree extends React.Component {
             <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA 1' subtitle='Preparando a Escola para as Olimpíadas'/>
             <p>Cada escola precisa definir de que maneira pode e deseja participar da competição, orientando então o planejamento de atividades com vistas a obter resultados compatíveis com a infraestrutura disponível, o investimento em preparação e treino, o potencial dos estudantes e times envolvidos, etc.</p>
             <Subtitle>Questões Avaliativas</Subtitle> 
-            <p>Prosseguindo em nossa situação-problema, você é convidado a associar,
-a cada uma das propostas, o pilar do Pensamento Computacional <Bold>mais
-apropriado. </Bold></p>
+             <Subtitle>Questões Avaliativas</Subtitle> 
+            <p>Convidamos você a selecionar, nas Questões Avaliativas que seguem, o pilar do Pensamento Computacional <Bold>mais apropriado</Bold> para apoiar a execução de tarefas e a solução de problemas relacionados a Situação-problema descrita.</p>
         </PrimaryText>
       </ContentBox>
     )

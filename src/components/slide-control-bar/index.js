@@ -74,10 +74,12 @@ class SlideControlBar extends React.Component {
                 <div className='side-bar'></div>
                 <div className='central-bar'>
 
+
                     <GenericButton onClick={this.previous} className='slide-control-bar-button'>
                         <Image className='button-image' src={BackFilled} alt='Voltar'/>
                         <div className='white-bar'></div>
                     </GenericButton>
+
 
                     <div className='unit previous'>
                 	    {this.renderPreviousSlideName()}
@@ -86,8 +88,7 @@ class SlideControlBar extends React.Component {
                     <div className='unit next'>
                         {this.renderNextSlideName()}
                     </div>
-                    
-                    
+                                    
                     <GenericButton onClick={this.next} className='slide-control-bar-button'>
                         <div className='white-bar'></div>
                         <Image className='button-image' src={ForwardFilled} alt='Avançar'/>

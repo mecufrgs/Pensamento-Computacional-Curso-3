@@ -72,11 +72,14 @@ class ImageSlide extends React.Component {
     renderSlide = () => {
         if(this.state.showSlide){
             return (
-                <div className='image-slide'>
+                <div className='image-slide' style={{'z-index':'15'}}>
+                    <div style={{'margin-left':'50%','width':'50%', 'minHeight':'50px'}}>
                     <Image onClick={this.close} className='close-button' src={DeleteSign}/>
-                    <Image className='image' src={this.props.getSlide(this.state.slide)}/>
+                     </div>
+                    <div className='image'> <Image className='image' src={this.props.getSlide(this.state.slide)}/></div> 
+                    
                     <EmptySpace/>
-                    <div className='control-bar'>
+                    <div className='control-bar' style={{'position':'fixed', 'bottom':'0'}}>
                         <Image onClick={this.previousSlide} className={this.state.previousButtonClass} src={BackFilled}/>
                         <Image onClick={this.nextSlide} className={this.state.nextButtonClass} src={ForwardFilled}/>
                     </div>

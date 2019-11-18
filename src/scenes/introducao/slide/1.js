@@ -42,9 +42,11 @@ class SlideOne extends React.Component {
         <PrimaryText>
           
           <p>No curso <i>Introdução ao Pensamento Computacional</i>, foram trabalhados os quatro pilares do Pensamento Computacional (<b>Abstração</b>, <b>Decomposição</b>, <b>Reconhecimento de Padrões</b> e <b>Algoritmos</b>) e foram também apresentadas aplicações desses pilares em situações práticas.</p>
+
           <EmptySpace />
           <Image src={PilaresSVG} />
           <EmptySpace />
+          
           <Image className='highlightbox' src={QuadroUmSVG} alt='O presente curso, <b><i>Aplicações do Pensamento Computacional para os Anos Finais do Ensino Fundamental</i></b>, apresentará exemplos de como você poderá apoiar o desenvolvimento do Pensamento Computacional, para alunos nessa etapa de escolarização, e seguirá a mesma organização do curso  relativo aos Anos Iniciais.'/>
           <EmptySpace />
         </PrimaryText> 

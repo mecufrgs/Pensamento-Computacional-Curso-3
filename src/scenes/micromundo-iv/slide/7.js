@@ -17,6 +17,7 @@ class SlideSeven extends React.Component {
     this.props.setHeader()
   }
 
+
   render() {
     return (
       <ContentBox>

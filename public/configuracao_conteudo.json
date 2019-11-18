@@ -3,7 +3,7 @@
         "identificador": "introducao",
         "nome": "Introdução",
         "descricao": "",
-        "permitePorcentagem": "false",
+        "permitePorcentagem": "true",
         "identificadorPai": "",
         "topicos": [],
         "atividades": []
@@ -12,7 +12,7 @@
         "identificador": "micromundo_i",
         "nome": "Micromundo I - Uma Família bem Brasileira",
         "descricao": "",
-        "permitePorcentagem": "false",
+        "permitePorcentagem": "true",
         "identificadorPai": "",
         "topicos": [],
         "atividades": [
@@ -187,7 +187,7 @@
         "identificador": "micromundo_ii",
         "nome": "Micromundo II - A Feira Livre e Similares",
         "descricao": "",
-        "permitePorcentagem": "false",
+        "permitePorcentagem": "true",
         "identificadorPai": "",
         "topicos": [],
         "atividades": [

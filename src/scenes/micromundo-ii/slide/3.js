@@ -19,8 +19,7 @@ class SlideThree extends React.Component {
             <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA' subtitle='Organizando as Barracas'/>
             <p>Para viabilizar a realização da feira beneficente com a venda de produtos de artesãos locais, a administração municipal cedeu uma certa quantidade de barracas e orientou a coordenação da feira sobre as regras envolvidas (espaçamento mínimo entre as barracas, pontos de energia, espaço para circulação de pedestres, acesso de veículos para carga e descarga, etc.).</p>
             <Subtitle>Questões Avaliativas</Subtitle> 
-            <p>Prosseguindo em nossa situação-problema, você é convidado a associar, a cada uma das propostas, o pilar do Pensamento Computacional <Bold>mais
-apropriado. </Bold></p>
+            <p>Convidamos você a selecionar, nas Questões Avaliativas que seguem, o pilar do Pensamento Computacional <b>mais apropriado</b> para apoiar a execução de tarefas e a solução de problemas relacionados a Situação-problema descrita.</p>
         </PrimaryText>
       </ContentBox>
     )
