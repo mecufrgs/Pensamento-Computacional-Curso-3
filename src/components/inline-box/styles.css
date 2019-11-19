@@ -1,0 +1,7 @@
+.container-inline-box{
+    display: inline-block;
+    width: 95%;
+    text-align: left;
+    position: relative;
+    z-index:1;
+}

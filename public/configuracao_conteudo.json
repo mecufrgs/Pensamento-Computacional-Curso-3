@@ -1,0 +1,753 @@
+[
+    {
+        "identificador": "introducao",
+        "nome": "Introdução",
+        "descricao": "",
+        "permitePorcentagem": "true",
+        "identificadorPai": "",
+        "topicos": [],
+        "atividades": []
+    },
+    {
+        "identificador": "micromundo_i",
+        "nome": "Micromundo I - Uma Família bem Brasileira",
+        "descricao": "",
+        "permitePorcentagem": "true",
+        "identificadorPai": "",
+        "topicos": [],
+        "atividades": [
+            {
+                "identificador": "atividade_1_micromundo_i",
+                "nomeAtividade": "Planejamento da apresentação sobre a vida da Dona Veridiana",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a1_micromundo_i",
+                        "enunciado": "No planejamento da apresentação da vida de D. Veridiana, em três atos: <b>Uma vida em imagens</b>; <b>Música típica</b>; e <b>Os caminhos da D. Veridiana</b>,  qual  o pilar do Pensamento Computacional que foi <b>exercitado com mais ênfase</b> nesse planejamento?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "<b>Abstração</b>;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Decomposição</b>;",
+                                "chave": "2",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "<b>Reconhecimento de Padrões</b>;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Algoritmos</b>.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_2_micromundo_i",
+                "nomeAtividade": "Uma vida em imagens - Parte 1",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a2_micromundo_i",
+                        "enunciado": "Qual o pilar do Pensamento Computacional que será <b>exercitado com mais ênfase</b> na concepção e realização desta parte da apresentação?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "<b>Abstração</b>;",
+                                "chave": "1",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "<b>Decomposição</b>;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Reconhecimento de Padrões</b>;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Algoritmos</b>.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_3_micromundo_i",
+                "nomeAtividade": "Uma vida em imagens - Parte 2",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a3_micromundo_i",
+                        "enunciado": "Qual o pilar do Pensamento Computacional que será <b>exercitado com mais ênfase</b> na concepção e realização desta parte da apresentação?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "<b>Abstração</b>;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Decomposição</b>;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Reconhecimento de Padrões</b>;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Algoritmos</b>.",
+                                "chave": "4",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_4_micromundo_i",
+                "nomeAtividade": "Música típica",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a4_micromundo_i",
+                        "enunciado": "Qual o pilar do Pensamento Computacional que será <b>exercitado com mais ênfase</b> na concepção e realização desta parte da apresentação?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "<b>Abstração</b>;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Decomposição</b>;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Reconhecimento de Padrões</b>;",
+                                "chave": "3",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "<b>Algoritmos</b>.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_5_micromundo_i",
+                "nomeAtividade": "Os caminhos de D. Veridiana",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a5_micromundo_i",
+                        "enunciado": "Qual o pilar do Pensamento Computacional que será <b>exercitado com mais ênfase</b> na concepção e realização desta parte da apresentação?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "<b>Abstração</b>;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Decomposição</b>;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Reconhecimento de Padrões</b>;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Algoritmos</b>.",
+                                "chave": "4",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "identificador": "micromundo_ii",
+        "nome": "Micromundo II - A Feira Livre e Similares",
+        "descricao": "",
+        "permitePorcentagem": "true",
+        "identificadorPai": "",
+        "topicos": [],
+        "atividades": [
+            {
+                "identificador": "atividade_1_micromundo_ii",
+                "nomeAtividade": "Formação das equipes",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a1_micromundo_ii",
+                        "enunciado": "Qual dos pilares do Pensamento Computacional seria <b>mais útil</b> para tratar essa questão?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "<b>Abstração</b>;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Decomposição</b>;",
+                                "chave": "2",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "<b>Reconhecimento de Padrões</b>;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Algoritmos</b>.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_2_micromundo_ii",
+                "nomeAtividade": "Organização dos produtos",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a2_micromundo_ii",
+                        "enunciado": "Qual dos pilares do Pensamento Computacional seria <b>mais útil</b> para tratar essa questão?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "<b>Abstração</b>;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Decomposição</b>;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Reconhecimento de Padrões</b>;",
+                                "chave": "3",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "<b>Algoritmos</b>.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_3_micromundo_ii",
+                "nomeAtividade": "Comercialização de produtos",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a3_micromundo_ii",
+                        "enunciado": "Qual o par de pilares do Pensamento Computacional que <b>melhor contribuiria</b> para a determinação do valor de uma determinada venda?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "<b>Abstração e Composição</b>;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Decomposição e Reconhecimento de Padrões</b>;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Equilibração e Algoritmos</b>;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Reconhecimento de Padrões e Algoritmos</b>.",
+                                "chave": "4",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_4_micromundo_ii",
+                "nomeAtividade": "Organizando os produtos adquiridos",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a4_micromundo_ii",
+                        "enunciado": "Considerando as informações disponíveis sobre os produtos comprados, os professores podem elaborar atividades de estudo para diferentes disciplinas. A seguir apresentamos algumas possibilidades, cada uma relacionada com um pilar do Pensamento Computacional.  Selecione a alternativa que lhe pareça <b>menos apropriada</b>.",
+                        "gabaritos": [
+                            {
+                                "alternativa": "<b>Abstração</b>: selecionar o rol de propriedades importantes para descrever cada categoria de produtos, considerando os produtos adquiridos pelos alunos;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Algoritmos</b>: organizar os &quot;recipientes&quot; (vidro, lata, saco...), contendo produtos alimentícios, em ordem alfabética de seu conteúdo, colocando nas prateleiras, da mais alta para a mais baixa e da esquerda para a direita;",
+                                "chave": "2",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "<b>Reconhecimento de Padrões</b>: usando uma separação de prateleiras por grupo alimentar e uma descrição dos grupos alimentares, determinar a prateleira onde deverá ser colocado um dado produto;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Decomposição</b>: agrupar produtos conforme as informações disponíveis, como composição, validade, etc.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_5_micromundo_ii",
+                "nomeAtividade": "Produtos, marcas e preços",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a5_micromundo_ii",
+                        "enunciado": "Considere o pilar Algoritmos, e selecione a alternativa <b>menos adequada</b> para aplicação desse pilar no contexto desta situação-problema.",
+                        "gabaritos": [
+                            {
+                                "alternativa": "(a) Determine o preço unitário de cada produto, considerando o preço de um recipiente, a unidade de medida e a quantidade contida no recipiente;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "(b) Elabore uma lista de todos os produtos, contendo o nome do produto, a marca, a  quantidade, a unidade de medida e o preço por unidade;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "(c) Elabore uma relação de produtos organizados por tipo de embalagem e por preço de recipiente, do maior para o menor;",
+                                "chave": "3",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "(d) Determine, para cada tipo de produto, qual a marca e o recipiente que oferece o menor preço unitário, coloque uma marca indicativa na lista ao lado dos produtos.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_6_micromundo_ii",
+                "nomeAtividade": "Uma mostra de países e seus produtos consumidos no Brasil",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a6_micromundo_ii",
+                        "enunciado": "Tendo em vista os itens acima, indique qual das alternativas a seguir <b>não parece adequada</b> para falar da atividade proposta:",
+                        "gabaritos": [
+                            {
+                                "alternativa": "(a) Com o resultado do Item <b>A3</b>, podemos construir um jogo de cartas do tipo <u>super trunfo</u>, sobre países, considerando as seguintes características: distância entre os pontos de embarque e desembarque dos seus produtos; população;  superfície; temperatura mínima; e PIB;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "(b) Poderíamos usar uma proposta similar à que consta no Item <b>A1</b>, considerando os estados brasileiros e, a seguir, aplicando a proposta do Item <b>A3</b>, elaborar um <u>super trunfo</u> sobre os estados exportadores de quem nosso supermercado adquiriu os produtos nacionais por ele comercializados;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "(c) detalhando mais o algoritmo <b>A2</b>, poderemos organizar os produtos por país e cidade de origem, obtendo uma lista de cidades. Supondo que desejemos conhecer todas essas cidades, podemos, baseados no pilar <b>Algoritmos</b> do Pensamento Computacional,  propor aos nossos alunos que elaborem um roteiro de viagem, para visitar todas as cidades de avião, tendo nossa cidade como ponto de partida e chegada;",
+                                "chave": "3",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "(d) Para que nossos alunos descubram um pouco mais da cultura brasileira, poderíamos usar uma proposta similar a do Item <b>A1</b>, considerando os estados brasileiros, e poderíamos propor um jogo, baseado no <b>Reconhecimento de Padrões</b>, usando música, comidas, literatura e sotaques (conversas gravadas), para que tentem descobrir os estados de onde se originam os produtos comercializados pelo supermercado que fez a parceria com nossa escola.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "identificador": "micromundo_iii",
+        "nome": "Micromundo III - O Bairro onde Moramos",
+        "descricao": "",
+        "permitePorcentagem": "true",
+        "identificadorPai": "",
+        "topicos": [],
+        "atividades": [
+            {
+                "identificador": "atividade_1_micromundo_iii",
+                "nomeAtividade": "O Bairro onde Moramos",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a1_micromundo_iii",
+                        "enunciado": "Qual das seguintes atividades parece <b>menos apropriada</b> para contribuir com a solução do problema?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "<b>Reconhecimento de Padrões</b> - identificar as principais rotas dos trabalhadores no horário da ida para o trabalho e no horário da volta;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Decomposição</b> - Encaminhar ações para a efetiva implementação da ciclofaixa: compra de materiais, demarcação e sinalização das vias, etc;",
+                                "chave": "2",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "<b>Algoritmos</b> - Descrever cada um dos percursos que podem ser realizados nesse corredor cicloviário, considerando os principais locais de trabalho dos usuários de bicicletas;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "<b>Abstração</b> - Elaboração dos estereótipos de usuários da ciclovia.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_2_micromundo_iii",
+                "nomeAtividade": "Passeio Ciclístico Guiado pelo Bairro",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a2_micromundo_iii",
+                        "enunciado": "Considerando a lista de tópicos acima, solicitamos que você indique qual  dentre as afirmativas a seguir <b>não é pertinente</b> nesse contexto.",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Para realizar a atividade A2, podemos usar a <b>Decomposição</b>, para organizar o esforço das equipes de fotografia, buscando um equilíbrio entre as mesmas.",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Usar o pilar <a>Abstração</a> do Pensamento Computacional facilitaria o trabalho de caracterizar os aspectos que devem ser tratados nas descrições textuais previstas na atividade A3.",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Em geral, quando temos uma relação de atividades a serem realizadas, algumas precisam ser realizadas antes que outras. Certamente, seria possível elaborar essa ordenação, usando conceitos do pilar <b>Algoritmos</b>, do Pensamento Computacional.",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "A lista produzida acima é resultado de um processo de <b>Decomposição</b>, típico do Pensamento Computacional, considerando o tipo das tarefas envolvidas na realização de uma atividade. Você professor@, possivelmente poderia ter uma outra forma de organizar o seu planejamento, tomando por base o pilar <b>Reconhecimento de Padrões</b>.",
+                                "chave": "4",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_3_micromundo_iii",
+                "nomeAtividade": "Realização de Exposição Itinerante sobre o Bairro a partir do Material do Portfólio",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a3_micromundo_iii",
+                        "enunciado": "Considerando as atividades envolvidas em ações desse tipo, qual das afirmativas a seguir parece <b>menos adequada</a> ao propósito?",
+                        "gabaritos": [
+                            {
+                                "alternativa": "O horário de funcionamento da exposição e a quantidade de dias que ficará em cada local poderão ser definidos utilizando-se o pilar <b>Decomposição</b>.",
+                                "chave": "1",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "O material deveria ser organizado de modo a ilustrar diferentes perspectivas dos moradores, por exemplo as relacionadas a aspectos físicos, como as construções e caminhos do bairro, ou a impressões subjetivas, como 'receptivo' ou 'dinâmico'. O pilar <b>Abstração</b> poderia auxiliar nesse propósito.",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Dependendo do perfil de público de cada local, seria interessante definir diferentes roteiros ou caminhos para conhecer o material. O pilar <b>Algoritmos</b> é importante para tal propósito.",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Uma parte do material da exposição é configurada para destacar aspectos semelhantes a cada local que a hospeda. O pilar <b>Reconhecimento de Padrões</b> poderia ser usado nessa tarefa.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_4_micromundo_iii",
+                "nomeAtividade": "Design Participativo para o Parque",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a4_micromundo_iii",
+                        "enunciado": "Selecione, das afirmativas a seguir, <b>a que não está correta</b> ao se referir à solução para essa proposta, considerando o Pensamento Computacional:",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Utilizando-se o pilar <b>Suposição</b>, do Pensamento Computacional e fazendo uso das informações coletadas, podemos identificar as diferentes atividades a serem oferecidas, considerando as características das atividades, o tamanho da população de interessados e o espaço necessário;",
+                                "chave": "1",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "O pilar <b>Abstração</b> pode auxiliar no propósito de caracterizar cada uma das atividades demandadas pela população durante o levantamento realizado;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "O pilar <b>Algoritmos</b> pode ajudar no planejamento das vias internas, buscando evitar as dificuldades de circulação. Da mesma forma, esse pilar pode ajudar a planejar a circulação de veículos nas proximidades do parque;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "O pilar <b>Reconhecimento de Padrões</b> pode ser usado para analisar os hábitos da população, considerando os horários de trabalho, horários de aulas e preferências de horários para a prática de atividades físicas ao ar livre.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "identificador": "micromundo_iv",
+        "nome": "Micromundo IV - As Olimpíadas Escolares",
+        "descricao": "",
+        "permitePorcentagem": "true",
+        "identificadorPai": "",
+        "topicos": [],
+        "atividades": [
+            {
+                "identificador": "atividade_1_micromundo_iv",
+                "nomeAtividade": "Sobre modalidades esportivas",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a1_micromundo_iv",
+                        "enunciado": "",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Abstração e Reconhecimento de Padrões;",
+                                "chave": "1",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Algoritmos e Decomposição;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Classificação e Padronização;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Algoritmos e Reconhecimento de Padrões.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_2_micromundo_iv",
+                "nomeAtividade": "Sobre preparação física",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a2_micromundo_iv",
+                        "enunciado": "A preparação física inclui flexibilidade, treinamento de força e treinamento de resistência, com os exercícios organizados e sequenciados especificamente para cada esporte ou competição. Selecione o par de pilares do Pensamento Computacional cuja <b>ordem de aplicação seja a mais adequada</b> para a definição de um plano de preparação física de um atleta.",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Classificação e Padronização;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Algoritmos e Decomposição;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Decomposição e Algoritmos;",
+                                "chave": "3",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Abstração e Decomposição.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_3_micromundo_iv",
+                "nomeAtividade": "Alocação das competições",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a3_micromundo_iv",
+                        "enunciado": "Sem considerar outros fatores (localização equidistante, acesso, etc.), indique qual dos pilares do Pensamento Computacional seria mais importante para a tarefa de alocação das competições:",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Abstração;",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Pontuação;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Reconhecimento de Padrões;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Algoritmos.",
+                                "chave": "4",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_4_micromundo_iv",
+                "nomeAtividade": "Nova Premiação",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a4_micromundo_iv",
+                        "enunciado": "Além da premiação convencional, baseada nos resultados e pontuação de atletas e equipes, a coordenação dos Jogos Estudantis decidiu estabelecer uma nova categoria de premiação, chamada de \"representatividade esportiva\", e solicitou aos representantes das escolas que selecionassem os aspectos a serem considerados para a pontuação dessa nova categoria. Indique qual dos pilares do Pensamento Computacional parece <b>mais adequado</b> para essa tarefa:",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Abstração;",
+                                "chave": "1",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "Pontuação;",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Reconhecimento de Padrões;",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Algoritmos.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_5_micromundo_iv",
+                "nomeAtividade": "Nova Premiação",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a5_micromundo_iv",
+                        "enunciado": "Considerando os itens acima, identifique a alternativa que <b>não se aplica</b> à produção do super trunfo de uma modalidade esportiva específica.",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Para descrever o funcionamento do jogo super trunfo, poderemos usar o conceito de <b>Algoritmos</b>, um dos pilares do Pensamento Computacional.",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Definir as características relevantes e mensuráveis dos atletas de uma determinada modalidade, que possam servir para criar as cartas do jogo, usando o pilar <b>Abstração</b>, um dos pilares do Pensamento Computacional.",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Para produzir as cartas de um determinado super trunfo é importante pensarmos em um trabalho de equipe. Usando o pilar <b>Decomposição</b> do Pensamento Computacional, podemos identificar diferentes atividades para serem distribuídas pelas equipes.",
+                                "chave": "3",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Para descobrir as similaridades entre os diversos jogadores de uma modalidade esportiva e determinar o vencedor de cada jogada de uma partida de super trunfo, podemos usar o pilar <b>Reconhecimento de Padrões</b>.",
+                                "chave": "4",
+                                "valor": "1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "identificador": "atividade_6_micromundo_iv",
+                "nomeAtividade": "As práticas esportivas em nosso município",
+                "questoes": [
+                    {
+                        "tipoQuestaoString": "INTEGRAL",
+                        "identificador": "q1_a6_micromundo_iv",
+                        "enunciado": "Essa atividade pode ser realizada em parceria com escolas de outros bairros do município, o que por certo agilizaria o trabalho. Podemos então imaginar que, em nossa escola, faremos o levantamento para o nosso bairro. Indique, dentre as opções a seguir, <b>a menos adequada</b> ao propósito.",
+                        "gabaritos": [
+                            {
+                                "alternativa": "Dado que nem todas as atividades que encontraremos acham-se catalogadas, podemos, usando o pilar <b>Reconhecimento de Padrões</b>, fazer aproximações com as práticas assemelhadas, para entender as inspirações para cada nova modalidade encontrada. Por exemplo, algumas práticas podem ser definidas a partir de outras semelhantes. Veja-se o caso do futevôlei, que usa uma rede de voleibol com uma variação das suas regras: quantidade de jogadores e o uso dos pés e da cabeça ao invés das mãos.",
+                                "chave": "1",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "O funcionamento de uma nova atividade esportiva descoberta pode ser definido pela elaboração de um algoritmo.",
+                                "chave": "2",
+                                "valor": "0"
+                            },
+                            {
+                                "alternativa": "Para determinar a menor distância a ser percorrida a pé, para ir de uma escola a um local onde uma dada atividade esportiva possa ser praticada, basta usar a Decomposição. Inicialmente calcular a distância em linha reta entre a escola e cada um dos locais onde a atividade é praticada e a seguir determinar o local mais próximo, usando um algoritmo para verificar qual local tem a menor distância.",
+                                "chave": "3",
+                                "valor": "1"
+                            },
+                            {
+                                "alternativa": "O pilar Abstração seria adequado para apoiar um estudo para definição de uma \"vocação esportiva\" para o entorno de uma escola, a partir dos locais constantes do inventário.",
+                                "chave": "4",
+                                "valor": "0"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "identificador": "consideracoes_finais",
+        "nome": "Considerações Finais",
+        "descricao": "",
+        "permitePorcentagem": "false",
+        "identificadorPai": "",
+        "topicos": [],
+        "atividades": []
+    }
+]
