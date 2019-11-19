@@ -21,14 +21,14 @@ class SlideFive extends React.Component {
       <ContentBox>
         <PrimaryText>
           <SubtitleBar type={2} title='Questão Avaliativa - 2' subtitle='Passeio Ciclístico Guiado pelo Bairro'/>
-          <p>Os estudantes, em seu levantamento, identificaram a existência de vários pontos turísticos no bairro e perceberam também que há um fluxo grande de moradores do município e também de outros municípios que gostam de visitá-los.  Aproveitando o planejamento para tratar da mobilidade dos trabalhadores, poderíamos enriquecer o projeto, escolhendo alguns pontos imperdíveis para fazer parte do corredor ciclístico, assim poderíamos juntar o útil ao cultural.</p>
-          <p>Pensamos então na realização de um projeto voltado para um estudo mais aprofundado sobre os pontos turísticos de nosso bairro, buscando a seleção dos pontos a serem incluídos no corredor ciclístico. Nesse contexto, poderíamos pensar na organização de um evento no bairro, que poderia ter o seguinte planejamento:</p>
+          <p>Os estudantes, em seu levantamento, identificaram a existência de vários pontos de interesse no bairro e perceberam também que há um fluxo grande de moradores do município e também de outros municípios que gostam de visitá-los.  Aproveitando o planejamento para tratar da mobilidade dos trabalhadores, poderíamos enriquecer o projeto, escolhendo alguns pontos para fazer parte do corredor ciclístico, assim poderíamos juntar o útil ao interessante.</p>
+          <p>Pensamos então na realização de um projeto voltado para um estudo mais aprofundado sobre nosso bairro, buscando a seleção de locais a serem incluídos no corredor ciclístico. Nesse contexto, poderíamos pensar na organização de um evento no bairro, que poderia ter o seguinte planejamento:</p>
           <blockquote>
-            <p>A1: realizar um inventário dos pontos considerados turísticos;</p>
-            <p>A2: elaborar uma mostra fotográfica dos principais pontos turísticos;</p>
-            <p>A3: elaborar texto narrando a história de cada um dos pontos turísticos;</p>
-            <p>A4: promover palestras de professores dessas e de outras escolas, e também de outros convidados, que teriam como tema um ou mais pontos relacionados no levantamento realizado;</p>
-            <p>A5: elaborar uma série de quesitos que poderiam ser considerados na avaliação dos pontos turísticos, para facilitar o processo de escolha dos que seriam incluídos no corredor ciclístico.</p>
+            <p>A1: realizar um inventário dos pontos considerados interessantes do bairro;</p>
+            <p>A2: elaborar uma mostra fotográfica desses principais pontos de interesse;</p>
+            <p>A3: elaborar texto narrando a história de cada um desses locais;</p>
+            <p>A4: promover palestras de professores dessas e de outras escolas, e também de outros convidados, que teriam como tema um ou mais locais relacionados no levantamento realizado;</p>
+            <p>A5: elaborar uma série de quesitos que poderiam ser considerados na avaliação desses pontos de interesse, para facilitar o processo de escolha dos que seriam incluídos no corredor ciclístico.</p>
           </blockquote>
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: Arte, História e Geografia.</TextBNCC>
           <p>Considerando a lista de tópicos acima, solicitamos que você indique qual  dentre as afirmativas a seguir não é pertinente nesse contexto.</p>

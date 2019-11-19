@@ -25,7 +25,7 @@ class SlideTen extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 5' subtitle='Super Trunfo de Modalidades Esportivas'/>
+          <SubtitleBar type={3} title='Questão Avaliativa - 4' subtitle='Super Trunfo de Modalidades Esportivas'/>
           <EmptySpace/>
             <Image className='highlightbox' src={QuadroUmSVG} alt='Super Trunfo é um jogo de cartas. Nele toma-se todas as cartas em jogo dos outros participantes por meio de escolhas de características de cada carta (por ex.:  velocidade, altura, longevidade). O jogo comporta de dois a oito participantes e tem classificação livre, podendo ser disputado por qualquer pessoa alfabetizada. https://pt.wikipedia.org/wiki/Super_Trunfo'/>
           <EmptySpace/>
@@ -33,7 +33,7 @@ class SlideTen extends React.Component {
             <Image className='highlightbox' src={QuadroDoisSVG} alt='Exemplo: Super trunfo de animais'/>
           <EmptySpace/>
           
-          <p>Para divulgar e envolver os estudantes de sua escola com os jogos escolares, você pode propor a criação de diferentes super trunfos, um para cada modalidade esportiva. Para isso, você pode se inspirar nos diferentes <b>super trunfos</b> comercializados, como no <b>super trunfo</b> de carros. A ideia é que tenhamos um jogo &quot;super trunfo&quot; para cada uma das modalidades previstas para as olimpíadas escolares do município. Como resultado final, os alunos produzirão um jogo de cartas do tipo super trunfo com as modalidades que a escola disputará. Cada carta representará um atleta da escola. Como o super trunfo é jogado com 32 cartas, é possível que em alguns super trunfos seja necessário completar a coleção com atletas convidados (reais ou fictícios).</p>
+          <p>Para divulgar e envolver os estudantes da escola com os jogos escolares, pode-se propor a criação de diferentes <i>supertrunfos</i>, um para cada modalidade esportiva, inspirados nos diferentes <b>super trunfos</b> comercializados, como o <b>super trunfo</b> de carros. A ideia é que se tenha um jogo &quot;super trunfo&quot; para cada uma das modalidades previstas para as olimpíadas escolares do município. Como resultado final, os alunos produzirão um jogo de cartas do tipo super trunfo com as modalidades que a escola disputará. Cada carta representará um atleta da escola. Como o super trunfo é jogado com 32 cartas, é possível que em alguns super trunfos seja necessário completar a coleção com atletas convidados (reais ou fictícios).</p>
 
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em:  Língua Portuguesa, Ciências, Arte e Educação Física.</TextBNCC>
 

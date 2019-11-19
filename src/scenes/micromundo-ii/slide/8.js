@@ -1,10 +1,9 @@
 import React from 'react'
 import ContentBox from '../../../components/content-box'
-import Image from '../../../components/image'
 import PrimaryText from '../../../components/text/primary'
 import SubtitleBar from '../../../components/subtitle-bar'
-
-import FalaMarianaSVG from '../../../images/content/micromundo-ii/slide-6.svg'
+import EmptySpace from '../../../components/empty-space'
+import Subtitle from '../../../components/text/subtitle'
 
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
@@ -20,9 +19,11 @@ class SlideEight extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={1} title='EVENTO 2' subtitle='Uma compra no supermercado'/>
-          <Image center width='750px' src={FalaMarianaSVG} alt='Um grupo de professores de diferentes disciplinas de uma mesma classe resolveu organizar uma visita a um supermercado que fica na vizinhança da escola. Os donos do supermercado ficaram entusiasmados com a ideia desse evento, pois viram nele o potencial de criação de vínculo com futuros clientes. Assim, foi definido para a visita um horário de menor movimento de compradores reais. Foi combinado que as compras seriam apenas de produtos não perecíveis de certas prateleiras e que cada visita ficaria restrita a grupos de 5 professores, cada um acompanhado de 3 alunos, cabendo aos professores apenas o papel de cuidar para que a visita fosse realizada em clima de harmonia.'/>
-        </PrimaryText>
+          <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA' subtitle='Adquirindo Produtos'/>
+          <p>Os alunos foram às compras com a indicação de que poderiam escolher o que quisessem, até um máximo de 5 produtos de diferentes naturezas, sem se preocupar com o preço.  No caixa, os produtos de cada aluno foram acomodados em embalagens individuais. Na volta para escola, cada um colocou uma etiqueta com seu nome nos seus produtos.</p>
+            <Subtitle>Questões Avaliativas</Subtitle>
+            <p>Nas Questões Avaliativas que seguem, convidamos você a refletir sobre o papel dos pilares do Pensamento Computacional na execução de tarefas relacionadas a Situação-problema descrita.</p>
+          </PrimaryText>
       </ContentBox>
     )
   }

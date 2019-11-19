@@ -1,30 +1,28 @@
 import React from 'react'
 import ContentBox from '../../../components/content-box'
-import Image from '../../../components/image'
 import PrimaryText from '../../../components/text/primary'
-import EmptySpace from '../../../components/empty-space'
 import SubtitleBar from '../../../components/subtitle-bar'
+import EmptySpace from '../../../components/empty-space'
+import Subtitle from '../../../components/text/subtitle'
+import Bold from '../../../components/text/bold'
 
-import QuadroUmSVG from '../../../images/content/micromundo-iv/micromundo4pg9.svg'
+import QuadroUmSVG from '../../../images/content/micromundo-iv/micromundo4pg3.svg'
+import Image from '../../../components/image'
 
-/*Props:
-    unitId: String, representa o id da unidade em que a atividade se encontra
-.*/
 class SlideNine extends React.Component {
-
-  constructor(props) {
+  constructor(props){
     super(props)
     this.props.setHeader()
   }
-
   render() {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={1} title='EVENTO 2' subtitle='Conhecer e Divulgar as Práticas Esportivas'/>
-          <EmptySpace/>
-           <Image center width='750px' src={QuadroUmSVG} alt='As práticas esportivas não devem ser usadas nas escolas apenas como oportunidades de lazer, ou para propiciar o desenvolvimento físico ou a socialização. As práticas esportivas devem integrar-se às demais ações da escola, com vistas à formação integral de seus alunos e como espaços privilegiados para criação de conhecimento. Assim é possível que na escola os estudantes possam ser críticos quanto às atividades conhecidas e serem capazes de inovar também nesse campo. Atividades esportivas, sejam elas meramente físicas ou cognitivas, são concepções humanas e como tal se constituem em objetos de conhecimento. Assim, além de conhecer e praticar as regras de uma determinada atividade, podemos também discuti-las e propor modificações que contribuam para as suas práticas e para a invenção de novas modalidades.'/>
-          <EmptySpace />
+            <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA 1' subtitle='Modalidades Esportivas dos Catálogos Oficiais'/>
+            <p>É importante que os estudantes conheçam e pratiquem as regras das modalidades esportivas da Olimpíada, para que tenham uma participação e um envolvimento mais qualificado nessa atividade, como atletas, público ou organizadores</p>
+            <Subtitle>Questões Avaliativas</Subtitle> 
+             <Subtitle>Questões Avaliativas</Subtitle> 
+            <p>Convidamos você a selecionar, na Questão Avaliativa que segue, o pilar do Pensamento Computacional <Bold>mais apropriado</Bold> para apoiar a execução da tarefa relacionada a Situação-problema descrita.</p>
         </PrimaryText>
       </ContentBox>
     )

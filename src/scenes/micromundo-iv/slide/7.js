@@ -22,7 +22,7 @@ class SlideSeven extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 3' subtitle='Alocação das competições'/>
+          <SubtitleBar type={3} title='Questão Avaliativa - 3' subtitle='Alocação das Competições'/>
           <p>A distribuição dos jogos depende de quais, dentre as escolas participantes, possuem infraestrutura que permita a realização de certa modalidade esportiva (quadra, campo, pista de corrida, piscina, etc.), bem como da quantidade de partidas ou provas necessárias para cada modalidade.</p>
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em:  Matemática, Educação Física, Ciências  e Língua Portuguesa.</TextBNCC>
           <p>Sem considerar outros fatores (localização equidistante, acesso, etc.), indique qual dos pilares do Pensamento Computacional seria <b>mais importante</b> para a tarefa de alocação das competições:</p>

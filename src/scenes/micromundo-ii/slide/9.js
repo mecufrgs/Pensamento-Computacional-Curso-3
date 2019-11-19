@@ -1,9 +1,10 @@
 import React from 'react'
 import ContentBox from '../../../components/content-box'
 import PrimaryText from '../../../components/text/primary'
+import TextBNCC from '../../../components/text/bncc'
 import SubtitleBar from '../../../components/subtitle-bar'
-import EmptySpace from '../../../components/empty-space'
-import Subtitle from '../../../components/text/subtitle'
+import Activities from '../../../services/activities'
+import IntegralActivity from '../../../components/integral-activity'
 
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
@@ -19,11 +20,12 @@ class SlideNine extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA' subtitle='Adquirindo Produtos'/>
-          <p>Os alunos foram às compras com a indicação de que poderiam escolher o que quisessem, até um máximo de 5 produtos de diferentes naturezas, sem se preocupar com o preço.  No caixa, os produtos de cada aluno foram acomodados em embalagens individuais. Na volta para escola, cada um colocou uma etiqueta com seu nome nos seus produtos.</p>
-            <Subtitle>Questões Avaliativas</Subtitle>
-          <p>A análise de determinados produtos disponíveis em um supermercado pode ser uma oportunidade para explorar estratégias de Pensamento Computacional, o que convidamos você a fazer nas atividades avaliativas a seguir.</p>
-          </PrimaryText>
+         <SubtitleBar type={3} title='Questão Avaliativa - 4' subtitle='Organizando os Produtos Adquiridos'/>
+          <p>Considerando as informações disponíveis sobre os produtos comprados, os professores podem elaborar atividades de estudo para diferentes disciplinas. A seguir apresentamos algumas possibilidades, cada uma relacionada com um pilar do Pensamento Computacional. </p>
+          <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em:  Ciências e Língua Portuguesa.</TextBNCC>
+          <p>Selecione a alternativa que lhe pareça <b>menos apropriada.</b></p>
+          <IntegralActivity activity={Activities.getMicromundoIIActiviryFour(this.props.unitId)} />
+        </PrimaryText>
       </ContentBox>
     )
   }

@@ -1,10 +1,11 @@
 import React from 'react'
 import ContentBox from '../../../components/content-box'
+import Image from '../../../components/image'
 import PrimaryText from '../../../components/text/primary'
-import TextBNCC from '../../../components/text/bncc'
+import EmptySpace from '../../../components/empty-space'
 import SubtitleBar from '../../../components/subtitle-bar'
-import Activities from '../../../services/activities'
-import IntegralActivity from '../../../components/integral-activity'
+
+import QuadroUmSVG from '../../../images/content/micromundo-iv/micromundo4pg9.svg'
 
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
@@ -20,12 +21,10 @@ class SlideEight extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 4' subtitle='Nova premiação'/>
-          <p>Além da premiação convencional, baseada nos resultados e pontuação de atletas e equipes, a coordenação dos Jogos Estudantis decidiu estabelecer uma nova categoria de premiação, chamada de &quot;representatividade esportiva&quot;, e solicitou aos representantes das escolas que selecionassem os aspectos a serem considerados para a pontuação dessa nova categoria.</p>
-          <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: Matemática, Educação Física e Língua Portuguesa.</TextBNCC>
-
-          <p>Indique qual dos pilares do Pensamento Computacional parece <b>mais adequado</b> para essa tarefa:</p>
-          <IntegralActivity activity={Activities.getMicromundoIVActiviryFour(this.props.unitId)} />
+          <SubtitleBar type={1} title='EVENTO 2' subtitle='Conhecer e Apropriar-se das Modalidades  Esportivas'/>
+          <EmptySpace/>
+           <Image center width='750px' src={QuadroUmSVG} alt='As práticas esportivas devem integrar-se às demais ações da escola, com vistas à formação integral de seus alunos e como espaços privilegiados para criação de conhecimento. Assim é possível que na escola os estudantes possam ser críticos quanto às atividades conhecidas e serem capazes de inovar também nesse campo. Atividades esportivas, sejam elas meramente físicas ou cognitivas, são concepções humanas e como tal se constituem em objetos de conhecimento. Assim, além de conhecer e praticar as regras de uma determinada atividade, podemos também discuti-las e propor modificações que contribuam para as suas práticas e para a invenção de novas modalidades.'/>
+          <EmptySpace />
         </PrimaryText>
       </ContentBox>
     )

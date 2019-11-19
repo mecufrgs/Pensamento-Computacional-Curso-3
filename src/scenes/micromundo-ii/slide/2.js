@@ -16,7 +16,7 @@ class SlideTwo extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-            <SubtitleBar type={1} title='EVENTO 1' subtitle='Uma Feira Beneficente'/>
+            <SubtitleBar type={1} title='EVENTO 1' subtitle='Organizando uma Feira Beneficente'/>
             <Image center width='750px' src={FalaMarianaSVG} alt='Para apoiar a consolidação de um clube de artesãos do bairro, uma escola concordou em ajudar na comercialização de produtos dos artesãos, ou doados pelas famílias dos estudantes. A administração municipal fornecerá barracas e licenciamento, para que os produtos sejam comercializados na feira livre realizada no bairro. O planejamento e realização dessa feira beneficente envolve um conjunto de atividades desenvolvidas por voluntários da escola, estudantes e seus familiares, mais os próprios artesãos'/>
         </PrimaryText>
       </ContentBox>

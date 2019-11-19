@@ -9,7 +9,7 @@ import IntegralActivity from '../../../components/integral-activity'
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
 .*/
-class SlideNine extends React.Component {
+class SlideTwelve extends React.Component {
 
   constructor(props) {
     super(props)
@@ -20,7 +20,7 @@ class SlideNine extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 6' subtitle='As Práticas Esportivas em Nosso Município'/>
+          <SubtitleBar type={3} title='Questão Avaliativa - 5' subtitle='As Práticas Esportivas em Nosso Município'/>
           <p>Pode-se dizer que em qualquer município é possível encontrar inúmeros espaços para a prática de jogos em geral, envolvendo atividades físicas ou cognitivas, sejam elas individuais ou coletivas.</p>
           <p>Em geral desconhecemos a variedade de modalidades e espaços disponíveis em nossos bairros e isso pode prejudicar a nossa possibilidade de praticar um esporte ou desenvolver outra atividade que nos desperte o interesse.</p>
           <p>Uma boa estratégia para melhor conhecermos nossas opções é realizar uma atividade de inventário dos locais onde se pode praticar esportes e outras atividades (uma espécie de curadoria cooperativa).</p>
@@ -37,4 +37,4 @@ class SlideNine extends React.Component {
   }
 }
 
-export default SlideNine
+export default SlideTwelve

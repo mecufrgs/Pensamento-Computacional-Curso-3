@@ -39,8 +39,9 @@ class SlideOne extends React.Component {
       <ContentBox>
         <ImageSlide getSlide={this.getSlideImage} slideCount={SlideCount.MICROMUNDO_IV_DIALOG} />
         <PrimaryText>
-          <p>Anualmente várias escolas, especialmente aquelas que integram a rede pública, participam de um evento chamado "Jogos Estudantis" ou "Olimpíadas Escolares", envolvendo várias unidades (escolas) distribuídas por várias regiões de uma cidade. Muitos professores participam diretamente desses jogos, auxiliando na organização, treinamento, logística, etc.</p>
-          <p>Nesse tipo de evento há um conjunto de ações cujo planejamento, organização e desenvolvimento podem envolver muitos elementos estudados no Ensino Fundamental, de um modo transversal a várias áreas, segundo uma perspectiva interdisciplinar. Por essa razão propomos explorar alguns dos elementos envolvidos, buscando ilustrar como os pilares do Pensamento Computacional, associados a certas habilidades específicas, podem auxiliar na construção de soluções.</p>
+          <p>Anualmente várias escolas, especialmente aquelas que integram a rede pública, participam de um evento chamado "Jogos Estudantis" ou "Olimpíadas Escolares", envolvendo várias escolas distribuídas por várias regiões de uma cidade. Muitos professores participam diretamente desses jogos, auxiliando na organização, treinamento, logística, etc.</p>
+          <p>Nesse tipo de evento há um conjunto de ações cujo planejamento, organização e desenvolvimento podem envolver muitos elementos estudados no Ensino Fundamental, de um modo transversal a várias áreas, segundo uma perspectiva interdisciplinar. </p>
+          <p> Por essa razão propomos explorar alguns dos elementos envolvidos na organizaçao de Olimpíadas Escolares, buscando ilustrar como os pilares do Pensamento Computacional, associados a certas habilidades específicas, podem auxiliar na construção de soluções.</p>
           <Image src={OlimpiadaSVG} />
           <EmptySpace />
         </PrimaryText>
