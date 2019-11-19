@@ -1,1 +1,0 @@
-AVAMEC_Curso_Aplicacoes_do_Pensamento_Computacional

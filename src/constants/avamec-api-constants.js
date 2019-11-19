@@ -1,4 +1,0 @@
-export default {
-    SELECTED_OPTION_VALUE: '1',
-    NOT_SELECTED_OPTION_VALUE: '0'
-}
