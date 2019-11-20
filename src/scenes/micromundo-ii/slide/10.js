@@ -21,7 +21,7 @@ class SlideTen extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-          <SubtitleBar type={3} title='Questão Avaliativa - 5' subtitle='Produtos, marcas e preços'/>
+          <SubtitleBar type={3} title='Questão Avaliativa - 5' subtitle='Produtos, Marcas e Preços'/>
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: Matemática e Língua Portuguesa.</TextBNCC>
           <p>Considere o pilar Algoritmos, e selecione a alternativa <b>menos adequada</b> para aplicação desse pilar no contexto desta situação-problema.</p>
           <IntegralActivity activity={Activities.getMicromundoIIActiviryFive(this.props.unitId)} />

@@ -20,7 +20,7 @@ class SlideSix extends React.Component {
     return (
       <ContentBox>
         <PrimaryText>
-        <SubtitleBar type={3} title='Questão Avaliativa - 3' subtitle='Comercialização de produtos'/>
+        <SubtitleBar type={3} title='Questão Avaliativa - 3' subtitle='Comercialização de Produtos'/>
           <p>Cada barraca da feira deve ter sua lista de preços. O preço de cada produto dependerá da sua categoria e margem de negociação. Por exemplo, a aquisição de três ou mais unidades de produtos de uma mesma categoria dará direito a uma redução de 20% no valor total. O preço dos produtos artesanais partirá do menor valor de mercado, com margem de negociação de até 30%. Compradores que adquirirem produtos de uma determinada lista de promoções do dia ganharão descontos na próxima compra.</p>
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em:  Matemática, Ciências e Língua Portuguesa.</TextBNCC>
           <p>Qual o par de pilares do Pensamento Computacional que <b>melhor contribuiria</b> para a determinação do valor de uma determinada venda?</p>

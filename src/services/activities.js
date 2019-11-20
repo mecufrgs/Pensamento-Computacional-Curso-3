@@ -441,7 +441,7 @@ class Activities {
                             value: "0",
                             key: "3",                            
                             text: "Algoritmos: Descrever cada um dos percursos que podem ser realizados nesse corredor cicloviário, considerando os principais locais de trabalho dos usuários de bicicletas", 
-                            tip: "A descrição dos percursos padrão envolve a descrição precisa de deslocamentos (possivelmente medidos em metros percorridos) ou alterações de direção (dobrar à esquerda/direita), escolhas baseadas nas condições de tráfego, etc. O pilar Algoritmo é o mais indicado para apoiar tal atividade, a qual é muito apropriada ao problema."
+                            tip: "A descrição dos percursos padrão envolve a descrição precisa de deslocamentos (possivelmente medidos em metros percorridos) ou alterações de direção (dobrar à esquerda/direita), escolhas baseadas nas condições de tráfego, etc. O pilar Algoritmos é o mais indicado para apoiar tal atividade, a qual é muito apropriada ao problema."
                         },
                         {
                             value: "0",
@@ -702,7 +702,7 @@ class Activities {
                             value: "0",
                             key: "2",
                             text: "Pontuação",
-                            tip: "Certamente em alguma etapa da realização das competições e da avaliação do sempenho das equipes este conceito será de grande valia. Entretanto, ele não faz parte da lista de pilares do Pensamento Computacional aqui considerados: Abstração, Decomposição, Reconhecimento de Padrões e Algoritmos."
+                            tip: "Certamente em alguma etapa da realização das competições e da avaliação do desempenho das equipes este conceito será de grande valia. Entretanto, ele não faz parte da lista de pilares do Pensamento Computacional aqui considerados: Abstração, Decomposição, Reconhecimento de Padrões e Algoritmos."
                         },
                         {
                             value: "0",

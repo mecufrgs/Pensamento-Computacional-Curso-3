@@ -31,7 +31,7 @@ class SlideFive extends React.Component {
             <p>A5: elaborar uma série de quesitos que poderiam ser considerados na avaliação desses pontos de interesse, para facilitar o processo de escolha dos que seriam incluídos no corredor ciclístico.</p>
           </blockquote>
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: Arte, História e Geografia.</TextBNCC>
-          <p>Considerando a lista de tópicos acima, solicitamos que você indique qual  dentre as afirmativas a seguir não é pertinente nesse contexto.</p>
+          <p>Considerando a lista de tópicos acima, solicitamos que você indique qual  dentre as afirmativas a seguir <b>não é pertinente</b> nesse contexto.</p>
           <IntegralActivity activity={Activities.getMicromundoIIIActiviryTwo(this.props.unitId)} />
         </PrimaryText>
       </ContentBox>

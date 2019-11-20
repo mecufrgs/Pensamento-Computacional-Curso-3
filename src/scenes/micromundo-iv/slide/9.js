@@ -20,9 +20,8 @@ class SlideNine extends React.Component {
         <PrimaryText>
             <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA 1' subtitle='Modalidades Esportivas dos Catálogos Oficiais'/>
             <p>É importante que os estudantes conheçam e pratiquem as regras das modalidades esportivas da Olimpíada, para que tenham uma participação e um envolvimento mais qualificado nessa atividade, como atletas, público ou organizadores</p>
-            <Subtitle>Questões Avaliativas</Subtitle> 
-             <Subtitle>Questões Avaliativas</Subtitle> 
-            <p>Convidamos você a selecionar, na Questão Avaliativa que segue, o pilar do Pensamento Computacional <Bold>mais apropriado</Bold> para apoiar a execução da tarefa relacionada a Situação-problema descrita.</p>
+            <Subtitle>Questões Avaliativas</Subtitle>  
+            <p>Convidamos você a selecionar, na Questão Avaliativa que segue, o pilar do Pensamento Computacional <Bold>mais apropriado</Bold> para apoiar a execução da tarefa relacionada à Situação-problema descrita.</p>
         </PrimaryText>
       </ContentBox>
     )
