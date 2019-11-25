@@ -7,8 +7,8 @@ import Subtitle from '../../../components/text/subtitle'
 import Bold from '../../../components/text/bold'
 
 import QuadroUmSVG from '../../../images/content/micromundo-iv/micromundo4pg3.svg'
+import FamiliaSVG from '../../../images/content/micromundo-iv/SP1.svg'
 import Image from '../../../components/image'
-
 class SlideThree extends React.Component {
   constructor(props){
     super(props)
@@ -20,6 +20,7 @@ class SlideThree extends React.Component {
         <PrimaryText>
             <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA 1' subtitle='Preparando a Escola para as Olimpíadas'/>
             <p>Cada escola precisa definir de que maneira pode e deseja participar da competição, orientando então o planejamento de atividades com vistas a obter resultados compatíveis com a infraestrutura disponível, o investimento em preparação e treino, o potencial dos estudantes e times envolvidos, etc.</p>
+            <Image src={FamiliaSVG} />
             <Subtitle>Questões Avaliativas</Subtitle> 
             <p>Convidamos você a selecionar, nas Questões Avaliativas que seguem, o pilar do Pensamento Computacional <Bold>mais apropriado</Bold> para apoiar a execução de tarefas relacionadas à Situação-problema descrita.</p>
         </PrimaryText>
