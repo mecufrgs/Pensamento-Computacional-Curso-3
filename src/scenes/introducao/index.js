@@ -7,7 +7,7 @@ import SlideCount from '../../constants/slide-count'
 import SlideOne from './slide/1'
 import SlideTwo from './slide/2'
 import SlideThree from './slide/3'
-import SlideFour from './slide/4'
+/* import SlideFour from './slide/4' */
 
 class Introducao extends BaseScene {
   constructor(props){
@@ -29,8 +29,6 @@ class Introducao extends BaseScene {
         return (<SlideTwo setHeader={this.showHeader}/>)
       case '3':
         return (<SlideThree setHeader={this.showHeader}/>)
-      case '4':
-        return (<SlideFour setHeader={this.showHeader}/>)
       default:
         return this.errorSlideNotFound()
     }

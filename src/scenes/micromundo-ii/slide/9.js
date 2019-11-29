@@ -21,9 +21,9 @@ class SlideNine extends React.Component {
       <ContentBox>
         <PrimaryText>
          <SubtitleBar type={3} title='Questão Avaliativa - 4' subtitle='Organizando os Produtos Adquiridos'/>
-          <p>Considerando as informações disponíveis sobre os produtos comprados, os professores podem elaborar atividades de estudo para diferentes disciplinas. A seguir apresentamos algumas possibilidades, cada uma relacionada com um pilar do Pensamento Computacional. </p>
+          <p>Considerando as informações disponíveis sobre os produtos comprados, os professores podem elaborar atividades de estudo para diferentes disciplinas. A seguir apresentamos algumas possibilidades, cada uma relacionada com o pilar do Pensamento Computacional mais adequado. </p>
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em:  Ciências e Língua Portuguesa.</TextBNCC>
-          <p>Selecione a alternativa que lhe pareça <b>menos apropriada.</b></p>
+          <p>Selecione a alternativa que lhe pareça <b>menos apropriada</b> para exploração com os alunos em atvidades de estudo.</p>
           <IntegralActivity activity={Activities.getMicromundoIIActiviryFour(this.props.unitId)} />
         </PrimaryText>
       </ContentBox>

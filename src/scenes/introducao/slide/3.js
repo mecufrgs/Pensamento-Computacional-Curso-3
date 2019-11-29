@@ -3,23 +3,32 @@ import ContentBox from '../../../components/content-box'
 import PrimaryText from '../../../components/text/primary'
 
 import Image from '../../../components/image'
-import QuadroUmSVG from '../../../images/content/introducao/caixatextopg3.svg'
-
+import QuadroUmSVG from '../../../images/content/introducao/caixatextopg4.svg'
+/*Props:
+    unitId: String, representa o id da unidade em que a atividade se encontra
+.*/
 class SlideThree extends React.Component {
-  constructor(props){
+
+  constructor(props) {
     super(props)
     this.props.setHeader()
   }
+
   render() {
     return (
       <ContentBox>
         <PrimaryText>
-          <p>No que tange à <a href="http://basenacionalcomum.mec.gov.br/">BNCC (acesso em novembro de 2019)</a>, o curso foi todo construído tendo em vista o desenvolvimento das competências gerais que ela preconiza para a Educação Básica, que compreendem entre outras: &quot;valorizar e utilizar os conhecimentos historicamente construídos sobre o mundo físico, social, cultural e digital&quot;; &quot;utilizar diferentes linguagens para se expressar e partilhar informações, experiências, ideias e sentimentos&quot;; &quot;exercitar a empatia, o diálogo, a resolução de conflitos e a cooperação&quot;; &quot;agir pessoal e coletivamente com autonomia, responsabilidade, flexibilidade, resiliência e determinação&quot;.</p>
-          
-          <p>O trabalho proposto também está em conformidade com o que preconiza a BNCC para o Ensino Fundamental – Anos Finais:</p>
+          <p>Este curso explorará <b>quatro Micromundos</b>, com contextos complexos, onde serão tratadas situações que envolvem conhecimentos de diferentes áreas do saber, favorecendo assim a vivência com o conceito de <b>Interdisciplinaridade</b>.</p>
 
-          <Image className='highlightbox' src={QuadroUmSVG} alt='Ao longo do Ensino Fundamental – Anos Finais, os estudantes se deparam com desafios de maior complexidade, sobretudo devido à necessidade de se apropriarem das diferentes lógicas de organização dos conhecimentos relacionados às áreas. Tendo em vista essa maior especialização, é importante, nos vários componentes curriculares, retomar e ressignificar as aprendizagens do Ensino Fundamental – Anos Iniciais no contexto das diferentes áreas, visando ao aprofundamento e à ampliação de repertórios dos estudantes.'/>
-        <p>Dessa forma, muito além das indicações de habilidades que constam na BNCC, que podem ser trabalhadas nos vários contextos propostos, há todo um trabalho subjacente, que perpassa a concepção e o desenvolvimento do curso, para trabalhar de forma harmônica as várias dimensões do aluno na perspectiva da BNCC.</p>
+          <p>Em cada um dos Micromundos, serão apresentados <b>Eventos</b> relevantes, ou seja, acontecimentos sociais, onde atividades significativas serão realizadas,  algumas de forma individual e outras de forma cooperativa. Em cada Evento serão selecionadas uma ou mais <b>Situações-problema</b>, e associadas a elas serão introduzidas <b>Questões Avaliativas</b>.</p>
+
+          <p>É justamente nas Questões Avaliativas que @s cursistas são convidad@s a refletirem sobre o uso dos pilares do Pensamento Computacional, como estratégia de apoio para execução de tarefas e solução de problemas, e são sugeridas possibilidades de trabalho com habilidades conforme a BNCC.</p>
+
+
+          <Image className='highlightbox' src={QuadroUmSVG} alt='Observar que nos Micromundos serão apresentados cenários mais amplos que o exigido pelas questões propostas no texto. Os Micromundos conterão, portanto, elementos que permitirão a exploração de casos particulares e que esperamos favoreçam e inspirem, você, car@ cursista, na criação de seus próprios contextos.'/>
+
+          <p>Outro curso, “Aplicações do Pensamento Computacional para os Anos Iniciais do Ensino Fundamental”, nesta mesma plataforma, com enfoque e estrutura semelhantes a este, trata de aplicações do Pensamento Computacional para os Anos Iniciais do Ensino Fundamental, em nível de complexidade adequado a esses anos.</p>
+            
         </PrimaryText>
       </ContentBox>
     )

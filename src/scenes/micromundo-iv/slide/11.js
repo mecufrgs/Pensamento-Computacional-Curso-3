@@ -4,7 +4,7 @@ import PrimaryText from '../../../components/text/primary'
 import SubtitleBar from '../../../components/subtitle-bar'
 import EmptySpace from '../../../components/empty-space'
 import Subtitle from '../../../components/text/subtitle'
-import FamiliaSVG from '../../../images/content/micromundo-iv/SP4.svg'
+import FamiliaSVG from '../../../images/content/micromundo-iv/SP3.svg'
 import Image from '../../../components/image'
 /*Props:
     unitId: String, representa o id da unidade em que a atividade se encontra
@@ -30,7 +30,7 @@ class SlideEleven extends React.Component {
             </div>
             </div>
             <Subtitle>Questões Avaliativas</Subtitle> 
-             <p>Convidamos você a selecionar, nas Questões Avaliativas que seguem, o pilar do Pensamento Computacional <b>mais apropriado</b> para apoiar a execução de tarefas relacionadas à Situação-problema descrita.</p>
+             <p>Convidamos você, na Questão Avaliativa que segue, a selecionar a opção apropriada, considerando seus conhecimentos dos pilares do Pensamento Computacional.</p>
         </PrimaryText>
       </ContentBox>
     )

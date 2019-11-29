@@ -7,7 +7,7 @@ import Subtitle from '../../../components/text/subtitle'
 import Bold from '../../../components/text/bold'
 
 import QuadroUmSVG from '../../../images/content/micromundo-iv/micromundo4pg3.svg'
-import FamiliaSVG from '../../../images/content/micromundo-iv/SP3.svg'
+import FamiliaSVG from '../../../images/content/micromundo-iv/SP4.svg'
 import Image from '../../../components/image'
 class SlideNine extends React.Component {
   constructor(props){
@@ -27,7 +27,7 @@ class SlideNine extends React.Component {
             </div>
             
             <Subtitle>Questões Avaliativas</Subtitle>  
-            <p>Convidamos você a selecionar, na Questão Avaliativa que segue, o pilar do Pensamento Computacional <Bold>mais apropriado</Bold> para apoiar a execução da tarefa relacionada à Situação-problema descrita.</p>
+            <p>Convidamos você, na Questão Avaliativa que segue, a selecionar a opção apropriada, considerando seus conhecimentos dos pilares do Pensamento Computacional.</p>
         </PrimaryText>
       </ContentBox>
     )

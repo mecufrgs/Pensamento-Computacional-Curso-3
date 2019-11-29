@@ -40,15 +40,14 @@ class SlideOne extends React.Component {
       <ContentBox>
         <ImageSlide getSlide={this.getSlideImage} slideCount={SlideCount.INTRODUCAO_DIALOG} />
         <PrimaryText>
-          
-          <p>No curso <i>Introdução ao Pensamento Computacional</i>, foram trabalhados os quatro pilares do Pensamento Computacional (<b>Abstração</b>, <b>Decomposição</b>, <b>Reconhecimento de Padrões</b> e <b>Algoritmos</b>) e foram também apresentadas aplicações desses pilares em situações práticas.</p>
-
+          <p>Este curso assume conhecimentos prévios sobre Pensamento Computacional, em particular sobre os seus quatro pilares: <b>Abstração</b>, <b>Decomposição</b>, <b>Reconhecimento de Padrões</b> e <b>Algoritmos</b></p>   
           <EmptySpace />
           <Image src={PilaresSVG} />
           <EmptySpace />
-          
-          <Image className='highlightbox' src={QuadroUmSVG} alt='O presente curso, <b><i>Aplicações do Pensamento Computacional para os Anos Finais do Ensino Fundamental</i></b>, apresentará exemplos de como você poderá apoiar o desenvolvimento do Pensamento Computacional, para alunos nessa etapa de escolarização, e seguirá a mesma organização do curso  relativo aos Anos Iniciais.'/>
+          <p>Se você tiver dúvidas quanto a esses quatro pilares, sugerimos que, antes deste curso, realize o curso "Introdução ao Pensamento Computacional", disponível nesta mesma plataforma.</p>
+          <Image className='highlightbox' src={QuadroUmSVG} alt='O presente curso, <b><i>Aplicações do Pensamento Computacional para os Anos Finais do Ensino Fundamental</i></b>, apresentará exemplos de como você poderá apoiar o desenvolvimento do Pensamento Computacional, para alunos nessa etapa de escolarização.'/>
           <EmptySpace />
+          <p>Os conhecimentos sobre Computação e computadores exigidos para realizar este curso são somente  aqueles necessários para acessá-lo e acompanhá-lo nesta plataforma. Entretanto, a eventual aplicação dos conhecimentos aqui desenvolvidos sobre o tema Pensamento Computacional, pelo professor em sala de aula, poderá dar-se tanto de forma plugada, quanto desplugada.</p> 
         </PrimaryText> 
       </ContentBox>
     )

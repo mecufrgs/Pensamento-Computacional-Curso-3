@@ -37,18 +37,8 @@ class SlideTen extends React.Component {
 
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em:  Língua Portuguesa, Ciências, Arte e Educação Física.</TextBNCC>
 
-          <p>Nos itens a seguir apresentamos algumas atividades relacionadas com o desenvolvimento da coleção de jogos super trunfo de nossa escola.</p>
-
-          <p><b>(a)</b> Para descrever o funcionamento do jogo super trunfo, poderemos usar o conceito de Algoritmos, um dos pilares do Pensamento Computacional.</p>
- 
-<p><b>(b)</b> Definir as características relevantes e mensuráveis dos atletas de uma determinada modalidade, que possam servir para criar as cartas do jogo, usando o pilar Abstração, um dos pilares do Pensamento Computacional.</p>
- 
-<p><b>(c)</b> Para produzir as cartas de um determinado super trunfo é importante pensarmos em um trabalho de equipe. Usando o pilar Decomposição do Pensamento Computacional, podemos identificar diferentes atividades para serem distribuídas pelas equipes.</p>
- 
-<p><b>(d)</b>  Para descobrir as similaridades entre os diversos jogadores de uma modalidade esportiva e determinar o vencedor de cada jogada de uma partida de super trunfo, podemos usar o pilar Reconhecimento de Padrões.</p>
-
           
-          <p>Considerando os itens acima, identifique a alternativa que <b>não se aplica</b> à produção do super trunfo de uma modalidade esportiva específica.</p>
+          <p>Considerando os itens a seguir, identifique a alternativa que <b>não se aplica</b> à produção do super trunfo de uma modalidade esportiva específica.</p>
 
           <IntegralActivity activity={Activities.getMicromundoIVActiviryFive(this.props.unitId)} />          
         </PrimaryText>

@@ -355,39 +355,6 @@
                         ]
                     }
                 ]
-            },
-            {
-                "identificador": "atividade_6_micromundo_ii",
-                "nomeAtividade": "Uma mostra de países e seus produtos consumidos no Brasil",
-                "questoes": [
-                    {
-                        "tipoQuestaoString": "INTEGRAL",
-                        "identificador": "q1_a6_micromundo_ii",
-                        "enunciado": "Tendo em vista os itens acima, indique qual das alternativas a seguir <b>não parece adequada</b> para falar da atividade proposta:",
-                        "gabaritos": [
-                            {
-                                "alternativa": "(a) Com o resultado do Item <b>A3</b>, podemos construir um jogo de cartas do tipo <u>super trunfo</u>, sobre países, considerando as seguintes características: distância entre os pontos de embarque e desembarque dos seus produtos; população;  superfície; temperatura mínima; e PIB;",
-                                "chave": "1",
-                                "valor": "0"
-                            },
-                            {
-                                "alternativa": "(b) Poderíamos usar uma proposta similar à que consta no Item <b>A1</b>, considerando os estados brasileiros e, a seguir, aplicando a proposta do Item <b>A3</b>, elaborar um <u>super trunfo</u> sobre os estados exportadores de quem nosso supermercado adquiriu os produtos nacionais por ele comercializados;",
-                                "chave": "2",
-                                "valor": "0"
-                            },
-                            {
-                                "alternativa": "(c) detalhando mais o algoritmo <b>A2</b>, poderemos organizar os produtos por país e cidade de origem, obtendo uma lista de cidades. Supondo que desejemos conhecer todas essas cidades, podemos, baseados no pilar <b>Algoritmos</b> do Pensamento Computacional,  propor aos nossos alunos que elaborem um roteiro de viagem, para visitar todas as cidades de avião, tendo nossa cidade como ponto de partida e chegada;",
-                                "chave": "3",
-                                "valor": "1"
-                            },
-                            {
-                                "alternativa": "(d) Para que nossos alunos descubram um pouco mais da cultura brasileira, poderíamos usar uma proposta similar a do Item <b>A1</b>, considerando os estados brasileiros, e poderíamos propor um jogo, baseado no <b>Reconhecimento de Padrões</b>, usando música, comidas, literatura e sotaques (conversas gravadas), para que tentem descobrir os estados de onde se originam os produtos comercializados pelo supermercado que fez a parceria com nossa escola.",
-                                "chave": "4",
-                                "valor": "0"
-                            }
-                        ]
-                    }
-                ]
             }
         ]
     },

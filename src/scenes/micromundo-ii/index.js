@@ -14,7 +14,7 @@ import SlideSeven from './slide/7'
 import SlideEight from './slide/8'
 import SlideNine from './slide/9'
 import SlideTen from './slide/10'
-import SlideEleven from './slide/11'
+
 
 
 class Micromundo_II extends BaseScene {
@@ -51,8 +51,6 @@ class Micromundo_II extends BaseScene {
         return (<SlideNine setHeader={this.showHeader} />)
       case '10':
         return (<SlideTen setHeader={this.showHeader} />)
-      case '11':
-        return (<SlideEleven setHeader={this.showHeader} />)
       default:
         return this.errorSlideNotFound()
     }
