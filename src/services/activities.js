@@ -582,25 +582,25 @@ class Activities {
                         {
                             value: "0",
                             key: "1",
-                            text: "Primeiro Classificação, seguido de Padronização.",
+                            text: "Primeiro o pilar Classificação, seguido do pilar Padronização.",
                             tip: "Os termos \"Classificação\" e \"Padronização\" não se referem a nenhum dos pilares que estão sendo apresentados neste curso, a saber: Abstração, Decomposição, Reconhecimento de Padrões e Algoritmos."
                         },
                         {
                             value: "0",
                             key: "2",
-                            text: "Primeiro Algoritmos, seguido de Decomposição.",
+                            text: "Primeiro o pilar Algoritmos, seguido do pilar Decomposição.",
                             tip: "Embora esses dois pilares do Pensamento Computacional, Algoritmos e Decomposição, possam contribuir para elaboração de um plano de preparação, a ordem mais adequada em que devem ser usados não é a indicada. Antes de estabelecer o sequenciamento, que pode ser realizado com base no pilar Algoritmos, é necessário obter a lista de exercícios, com o apoio do pilar Decomposição."
                         },
                         {
                             value: "1",
                             key: "3",
-                            text: "Primeiro Decomposição, seguido de Algoritmos.",
+                            text: "Primeiro o pilar Decomposição, seguido do pilar Algoritmos.",
                             tip: "Usando os preceitos do pilar Decomposição podemos pegar cada grupo (flexibilidade, treinamento de força, treinamento de resistência) e definir agrupamentos menores para facilitar a construção de um plano. Após esse desdobramento, podemos, usando o pilar Algoritmos, realizar a seleção e o sequenciamento de exercício, considerando as condições atuais do atleta."
                         },
                         {
                             value: "0",
                             key: "4",
-                            text: "Primeiro Abstração, seguido de Decomposição.",
+                            text: "Primeiro o pilar Abstração, seguido do pilar Decomposição.",
                             tip: "A Abstração pode trazer várias contribuições para o planejamento de um treinamento, como na caracterização de cada grupo de atividades. Entretanto, uma vez que na situação corrente estamos partindo de um ponto onde essa caracterização já está estabelecida, a Abstração seria de pouca relevância na definição do plano pretendido. Por outro lado, com  os preceitos do pilar Decomposição, que, aliás, já está sendo usado na formulação da questão, podemos tomar cada grupo (flexibilidade, treinamento de força, treinamento de resistência) e definir agrupamentos menores, para facilitar a construção de um plano. Assim, esse não é o par de pilares mais adequado."
                         }
                     ]

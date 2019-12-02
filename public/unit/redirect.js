@@ -9,7 +9,10 @@ function startApp() {
     
     const slide = (state.slide).toString().split('"').join('')
     window.location = "../index.html?unit=".concat(state.unit).concat("&slide=").concat(slide)
-    api.registrarUltimaPaginaAcessada(state.unit, '')
+    try{
+        api.registrarUltimaPaginaAcessada(state.unit, '')
+    } catch{}
+
 }
 
 function getSavedUnitCallback(info) {
