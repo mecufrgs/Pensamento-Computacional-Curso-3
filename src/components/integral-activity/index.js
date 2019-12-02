@@ -50,6 +50,7 @@ class IntegralActivity extends BaseActivity {
             selectedOptions: this.generateDefaultOptionsData(), 
             unitState: UnitState.NOT_COMPLETED
         }
+
     }
 
     componentDidMount() {
@@ -139,6 +140,8 @@ class IntegralActivity extends BaseActivity {
 
         AvamecServices.closeGetActivity(this.getSavedAnswerCallback)
     }
+
+    
 
     saveActivityAnswer = () => {
         let apiActivity = {

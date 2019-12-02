@@ -6,16 +6,20 @@ let state = {
 const api = new window.BridgeRestApi()
 
 function startApp() {
+    
     const slide = (state.slide).toString().split('"').join('')
     window.location = "../index.html?unit=".concat(state.unit).concat("&slide=").concat(slide)
+    api.registrarUltimaPaginaAcessada(state.unit, '')
 }
 
 function getSavedUnitCallback(info) {
     window.removeEventListener('evObtemDadosGenericos', getSavedUnitCallback, false)
+
     if(info.detail.status === 200 && state.unit === info.detail.data[0].valor){
         getSavedSlide()
     } else {
         api.registrarDadosGenericos('unit', state.unit)
+        api.registrarDadosGenericos('slide', 1)
         startApp()
     }
 }
@@ -48,5 +52,6 @@ function getSavedSlide() {
         throw Error('Erro ao buscar slide salvo do AVAMEC')
     }
 }
+
 
 getSavedUnit()

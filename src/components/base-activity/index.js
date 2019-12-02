@@ -19,6 +19,8 @@ class BaseActivity extends React.Component {
         
         AvamecAPIServices.closeGetUnitConclusionDataListener(this.callbackUnitConclusionData)
     }
+
+
 }
 
 export default BaseActivity

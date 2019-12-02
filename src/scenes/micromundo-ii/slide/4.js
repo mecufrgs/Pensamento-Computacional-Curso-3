@@ -16,7 +16,7 @@ class SlideFour extends React.Component {
       <ContentBox>
         <PrimaryText>
             <SubtitleBar type={3} title='Questão Avaliativa - 1' subtitle='Formação das Equipes'/>
-            <p>As equipes de voluntários que irão trabalhar na organização da feira beneficente serão formadas de acordo com as tarefas necessárias tais como: transporte dos produtos a serem comercializados; montagem e desmontagem das barracas; atendimento dos consumidores; contabilidade; tarefas de apoio (alimentação, logística, etc.).</p>
+            <p>As equipes de voluntários que irão trabalhar na organização da feira beneficente serão formadas de acordo com as tarefas necessárias, tais como: transporte dos produtos a serem comercializados; montagem e desmontagem das barracas; atendimento dos consumidores; contabilidade; tarefas de apoio (alimentação, logística, etc.).</p>
             <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: Geografia, Matemática, Ciências e Língua Portuguesa.</TextBNCC>
             <p>Qual dos pilares do Pensamento Computacional seria <b>mais útil</b> para tratar essa questão?</p>
             <IntegralActivity activity={Activities.getMicromundoIIActiviryOne(this.props.unitId)} />

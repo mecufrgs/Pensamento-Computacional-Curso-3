@@ -118,6 +118,8 @@ class AvaMecApiServices {
         window.removeEventListener(AvamecEvent.UNIT_PROGRESS, callback, false)
     }
 
+
+
     getGenericData = (id, callback) => {
         if (id !== undefined) {
             window.addEventListener(AvamecEvent.GET_GENERIC_DATA, callback, false)

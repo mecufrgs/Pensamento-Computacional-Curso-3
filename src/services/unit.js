@@ -55,6 +55,8 @@ class UnitService {
     getCourseName = () => {
         return UnitName.COURSE_NAME
     }
+
+    
 }
 
 export default (new UnitService())

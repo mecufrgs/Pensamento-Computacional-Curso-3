@@ -27,7 +27,7 @@ class SlideFive extends React.Component {
             <p><b>A1</b>: realizar um inventário dos pontos considerados interessantes do bairro;</p>
             <p><b>A2</b>: elaborar uma mostra fotográfica desses principais pontos de interesse;</p>
             <p><b>A3</b>: elaborar texto narrando a história de cada um desses locais;</p>
-            <p>A4: promover palestras que teriam como tema um ou mais locais relacionados no levantamento realizado;</p>
+            <p><b>A4</b>: promover palestras que teriam como tema um ou mais locais relacionados no levantamento realizado;</p>
             <p><b>A5</b>: elaborar uma série de quesitos que poderiam ser considerados na avaliação desses pontos de interesse, para facilitar o processo de escolha dos que seriam incluídos no corredor ciclístico.</p>
           </blockquote>
           <TextBNCC>BNCC: Nesta situação é possível trabalhar, por exemplo, o desenvolvimento de habilidades em: Arte, História e Geografia.</TextBNCC>
