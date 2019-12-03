@@ -19,7 +19,7 @@ class SlideNine extends React.Component {
       <ContentBox>
         <PrimaryText>
             <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA 3' subtitle='Modalidades Esportivas dos Catálogos Oficiais'/>
-            <p>É importante que os estudantes conheçam e pratiquem as regras das modalidades esportivas da Olimpíada, para que tenham uma participação e um envolvimento mais qualificado nessa atividade, como atletas, público ou organizadores</p>
+            <p>É importante que os estudantes conheçam e pratiquem as regras das modalidades esportivas da Olimpíada, para que tenham uma participação e um envolvimento mais qualificado nessa atividade, como atletas, público ou organizadores.</p>
             <div style={{textAlign:"center", width:"100%"}}>
             <div style={{display:"inline-block"}}>
           <Image center width="510px" src={FamiliaSVG} />

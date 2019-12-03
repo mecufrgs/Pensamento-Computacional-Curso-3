@@ -25,7 +25,6 @@ class SlideTwo extends React.Component {
 
           <Image className='highlightbox' src={QuadroUmSVG} alt='Ao longo do Ensino Fundamental – Anos Finais, os estudantes se deparam com desafios de maior complexidade, sobretudo devido à necessidade de se apropriarem das diferentes lógicas de organização dos conhecimentos relacionados às áreas. Tendo em vista essa maior especialização, é importante, nos vários componentes curriculares, retomar e ressignificar as aprendizagens do Ensino Fundamental – Anos Iniciais no contexto das diferentes áreas, visando ao aprofundamento e à ampliação de repertórios dos estudantes.'/>
 
-        <p>Mas muito  além das indicações de possibilidades de trabalho com habilidades da BNCC, que integram os textos das Questões Avaliativas, e que podem ser exploradas nos vários contextos propostos, a concepção e o desenvolvimento do curso buscaram considerar as várias dimensões do aluno na perspectiva da BNCC. </p>
         </PrimaryText>
       </ContentBox>
     )

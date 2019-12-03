@@ -17,7 +17,7 @@ class SlideFour extends React.Component {
         <PrimaryText>
             <SubtitleBar type={3} title='Questão Avaliativa - 1' subtitle='Sobre Modalidades Esportivas'/>
             <p>As práticas esportivas na escola acontecem ao longo de todo o ano, mas, na proximidade dos jogos, precisamos avaliar de que forma a escola deseja e pode participar, para que além de nos envolvermos socialmente possamos valorizar as habilidades e competências esportivas de nossos estudantes. Isso requer uma atitude de todos, buscando conhecer melhor a situação atual de nossa instituição.</p>
-            <p>De um ano para o outro, alunos saem da escola e novos alunos ingressam. Pelo processo de escolarização, os alunos antigos atingem novos níveis de compreensão e, dentro e fora da escola, surgem novas modalidades. É sempre bom fazer novos inventários, tanto das modalidades esportivas de interesse como de potenciais alunos praticantes dessas modalidade.</p>
+            <p>De um ano para o outro, alunos saem da escola e novos alunos ingressam. Pelo processo de escolarização, os alunos antigos atingem novos níveis de compreensão e, dentro e fora da escola, surgem novas modalidades. É sempre bom fazer novos inventários, tanto das modalidades esportivas de interesse como de potenciais alunos praticantes dessas modalidades.</p>
 
             <p>Com essa finalidade, concebemos duas tarefas de preparação para os jogos:</p>
             <p><b>Tarefa A1</b>: Elaboração, pelos estudantes, de uma estrutura de classificação geral das modalidades esportivas;</p>

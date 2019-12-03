@@ -137,7 +137,7 @@ class Activities {
                             value: "1",
                             key: "3",
                             text: "Reconhecimento de Padrões",
-                            tip: "A partir do elenco de músicas conhecidas pela banda, o pilar Reconhecimento de Padrões seria o mais indicado para identificar os elementos regionais de cada música."
+                            tip: "A partir do elenco de músicas conhecidas pela banda, o pilar Reconhecimento de Padrões seria o mais indicado para identificar os elementos regionais de cada música e associá-los com os estilos musicais dos lugares onde Dona Veridiana viveu ou visitou."
                         },
                         {
                             value: "0",
@@ -295,7 +295,7 @@ class Activities {
                             value: "1",
                             key: "4",
                             text: "Reconhecimento de Padrões e Algoritmos",
-                            tip: "Conhecendo as propriedades de um produto e usando o \"Reconhecimento de Padrões\", podemos associá-lo a uma determinada categoria. Em produtos industrializados essas propriedades estão descritas em rótulos ou podem ser inferidas dos mesmos. Em produtos artesanais, nem sempre isso ocorre, e nesse caso o Pilar Abstração poderia ser um apoio. Quanto ao cálculo do preço de uma compra, precisamos elaborar um roteiro de cálculo que deve levar em conta a quantidade de itens comprados de uma determinada categoria e aplicar regras de desconto definidas a priori ou mesmo o valor específico de desconto concedido ao cliente. Assim, Reconhecimento de Padrões e Algoritmos são centrais nesse processo (com Abstração sendo uma possibilidade eventual)."
+                            tip: "Conhecendo as propriedades de um produto e usando o \"Reconhecimento de Padrões\", podemos associá-lo a uma determinada categoria. Quanto ao cálculo do preço de uma compra, precisamos elaborar um roteiro de cálculo que deve levar em conta a quantidade de itens comprados de uma determinada categoria e aplicar regras de desconto definidas a priori ou mesmo o valor específico de desconto concedido ao cliente. Assim, Reconhecimento de Padrões e Algoritmos são centrais nesse processo."
                         }
                     ]
                 }
@@ -639,7 +639,7 @@ class Activities {
                             value: "1",
                             key: "4",
                             text: "Algoritmos",
-                            tip: "Algumas atividades requerem a realização de várias competições (partidas) em pares de equipes, para chegar-se ao vencedor, por exemplo o voleibol. Outras, como muitas provas de atletismo, são praticadas envolvendo todas as equipes (ou atletas) em um único evento. A organização dos jogos esportivos precisa definir todas essas disputas e posteriormente alocar cada uma delas para realização em uma dada infraestrutura (quadra, campo, ginásio, piscina etc.). Esse procedimento consiste em alocar para cada disputa a estrutura onde deverá ser realizada, considerando uma série de critérios estabelecidos, como a distância para se chegar das escolas envolvidas até o local da realização. Esse é um problema clássico, que se aplica em várias situações e que, para ser resolvido, requer a elaboração de um algoritmo."
+                            tip: "Algumas atividades requerem a realização de várias competições (partidas) em pares de equipes, para chegar-se ao vencedor, por exemplo o voleibol. Outras, como muitas provas de atletismo, são praticadas envolvendo todas as equipes (ou atletas) em um único evento. A organização dos jogos esportivos precisa definir todas essas disputas e posteriormente alocar cada uma delas para realização em uma dada infraestrutura (quadra, campo, ginásio, piscina etc.). Esse procedimento consiste em alocar para cada disputa a estrutura onde deverá ser realizada, considerando uma série de critérios estabelecidos, como a distância para se chegar das escolas envolvidas até o local da realização. Esse é um problema clássico de alocação de recursos que, para ser resolvido, requer a elaboração de um algoritmo."
                         }
                     ]
                 }

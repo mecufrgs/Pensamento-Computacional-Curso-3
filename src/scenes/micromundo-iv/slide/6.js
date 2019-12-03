@@ -22,7 +22,7 @@ class SlideSix extends React.Component {
       <ContentBox>
         <PrimaryText>
           <SubtitleBar type={2} title='SITUAÇÃO-PROBLEMA 2' subtitle='Nas Escolas de uma Cidade'/>
-          <p>As competições são realizadas, em geral, no espaço esportivo das escolas participantes e é importante  que sejam distribuídas de forma que sejam atendidos os critérios que objetivam a qualidade das disputas, o envolvimento das torcidas e, ao mesmo tempo, prestigiem o espaço físico de todas as escolas.</p> 
+          <p>As competições são distribuídas, em geral, entre os espaços esportivos das escolas participantes. É importante que essa distribuição leve em conta critérios tais como a qualidade das disputas, o envolvimento das torcidas e, ao mesmo tempo, prestigiem o espaço físico de todas as escolas.</p> 
           <p>A habilitação de uma determinada infraestrutura passa por um apurado processo de inspeção, para garantir a integridade física dos participantes, e permite um melhor conhecimento das potencialidades e necessidades das escolas.</p>
           <p>Igualmente, a escola deve buscar exercer o seu papel de agente integrador, dado que todos os habitantes de uma determinada região circunvizinha estão de certa forma com ela implicados, seja como alunos, pais, parentes ou professores. Assim, é importante que na realização das atividades esportivas também seja buscado o apoio de outras estruturas esportivas no seu entorno.</p>
           <div style={{textAlign:"center", width:"100%"}}>
