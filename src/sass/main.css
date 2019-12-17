@@ -293,6 +293,7 @@ body {
 }
 
 .page-up .page-up-button {
+  margin-right: 50pt;
   cursor: pointer;
   color: #229383;
   font-weight: 700;
@@ -499,7 +500,7 @@ body {
   height: 45px;
   width: 700px;
   border-radius: 0px 0px 10px 10px;
-  font-size: 14pt;
+  font-size: 12pt;
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   color: #ffffff;

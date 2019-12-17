@@ -16,7 +16,25 @@ class SlideTwo extends React.Component {
       <ContentBox>
         <PrimaryText>
             <SubtitleBar type={1} title='EVENTO' subtitle='O Aniversário de Dona Veridiana'/>
-            <Image center width='750px' src={FalaMarianaSVG} alt='Para comemorarmos o aniversário de 60 anos de minha mãe, ou Dona Veridiana, como é conhecida, realizaremos uma festa em um domingo, das 9 às 17 horas,  em um clube social, próximo à casa dos meus pais, que dispõe de espaço para churrasco, uma quadra e um campo de futebol, além de uma pracinha para as crianças. Mamãe nasceu no mês de julho, então o encontro acontecerá no inverno, no estado do Rio Grande do Sul, onde meus pais, eu e mais dois irmãos residimos. Meus dois outros irmãos, um residente na região Norte e o outro na região Centro-Oeste, bem como vários outros parentes e conhecidos, já confirmaram presença.'/>
+            <div style={{textAlign:"center", width:"100%"}}>
+            <div style={{display:"inline-block"}}>
+            <Image center width='672px'  src={FalaMarianaSVG} alt='Muitas pessoas preferem comprar gêneros
+alimentícios em feiras livres. Em muitas
+cidades do Brasil, existem feiras livres
+volantes, ou seja, feiras livres que
+circulam pelos bairros, cada dia
+parando em um bairro diferente.
+Quem prefere, espera o dia em que
+uma se instala na sua vizinhança e
+vai às compras, por vezes fazendo
+estoque para vários dias. Esses
+compradores geralmente usam
+carrinhos de compra para facilitar o
+transporte dos produtos."'/>
+          </div>
+            </div>
+
+
         </PrimaryText>
       </ContentBox>
     )
